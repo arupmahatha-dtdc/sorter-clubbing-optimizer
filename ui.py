@@ -43,14 +43,23 @@ def cascade_options(df, filters, column):
     return sorted(filtered_df[column].dropna().unique())
 
 # =========================
-# TYPE Selection
+# TYPE & MODE
 # =========================
-type_values = sorted(col_headers['type'].dropna().unique())
-type_ = st.selectbox(
-    "Type", 
-    options=[""] + type_values, 
-    index=(type_values.index("volume")+1) if "volume" in type_values else 0
-)
+colA, colB = st.columns(2)
+
+with colA:
+    type_values = sorted(col_headers['type'].dropna().unique())
+    type_ = st.selectbox(
+        "Type", 
+        options=[""] + type_values, 
+        index=(type_values.index("volume")+1) if "volume" in type_values else 0
+    )
+
+with colB:
+    mode = st.selectbox(
+        "Mode (derived from product)", 
+        options=["", "Air", "Ground"]
+    )
 
 # =========================
 # ORIGIN PARAMETERS
@@ -78,17 +87,24 @@ with col4:
         )
     )
 with col5:
-    org_product = st.selectbox(
-        "Origin Product",
-        options=[""] + cascade_options(
-            row_headers, {
-                'org_zone': org_zone, 
-                'org_region': org_region, 
-                'org_city': org_city, 
-                'org_branch': org_branch
-            }, 'org_product'
-        )
+    # --- Dynamic filtering of products based on mode ---
+    all_products = cascade_options(
+        row_headers, {
+            'org_zone': org_zone, 
+            'org_region': org_region, 
+            'org_city': org_city, 
+            'org_branch': org_branch
+        }, 'org_product'
     )
+
+    if mode == "Air":
+        product_options = [p for p in all_products if p in ("EP", "BP")]
+    elif mode == "Ground":
+        product_options = [p for p in all_products if p in ("ES", "BS", "GP")]
+    else:
+        product_options = all_products
+
+    org_product = st.selectbox("Origin Product", options=[""] + product_options)
 
 # =========================
 # DESTINATION PARAMETERS
@@ -124,12 +140,13 @@ if st.button("Compute Sum"):
         return s if s and s.strip() else None
 
     result = filter_and_sum(
+        type_=none_if_empty(type_),
+        mode=none_if_empty(mode),
         org_zone=none_if_empty(org_zone),
         org_region=none_if_empty(org_region),
         org_city=none_if_empty(org_city),
         org_branch=none_if_empty(org_branch),
         org_product=none_if_empty(org_product),
-        type_=none_if_empty(type_),
         des_zone=none_if_empty(des_zone),
         des_region=none_if_empty(des_region),
         des_city=none_if_empty(des_city),
