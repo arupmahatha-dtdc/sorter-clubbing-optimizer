@@ -18,10 +18,12 @@ def load_data():
 # -------------------- Map Creation --------------------
 def create_interactive_map(offices_df, org_summary, des_summary, data_type, mode):
     """Create an interactive map with office locations and clickable markers"""
+    
+    # Default map: OpenStreetMap
     m = folium.Map(
         location=[23.5937, 78.9629],  # Center of India
         zoom_start=5,
-        tiles='OpenStreetMap',
+        tiles='OpenStreetMap',       # Start with OSM
         zoom_control=True,
         scrollWheelZoom=True,
         dragging=True,
@@ -36,13 +38,14 @@ def create_interactive_map(offices_df, org_summary, des_summary, data_type, mode
         'WEST': 'orange'
     }
 
-    # Add office markers
+    # Add office markers as simple circle points
     for idx, row in offices_df.iterrows():
         try:
             lat = float(row['lat'])
             lon = float(row['lon'])
         except (KeyError, ValueError, TypeError):
             continue
+
         if pd.notna(lat) and pd.notna(lon):
             # Filter summary data for this office
             org_data = org_summary[
@@ -90,14 +93,19 @@ def create_interactive_map(offices_df, org_summary, des_summary, data_type, mode
 
             color = zone_colors.get(str(row.get('zone', '')).upper(), 'gray')
 
-            folium.Marker(
+            # Add CircleMarker instead of regular Marker
+            folium.CircleMarker(
                 location=[lat, lon],
+                radius=6,                     # small point
+                color=color,
+                fill=True,
+                fill_color=color,
+                fill_opacity=0.8,
                 popup=folium.Popup(popup_content, max_width=300),
-                tooltip=f"{row.get('name', '')} ({row.get('office', '')}) - {row.get('city', '')}",
-                icon=folium.Icon(color=color, icon='info-sign')
+                tooltip=f"{row.get('name', '')} ({row.get('office', '')}) - {row.get('city', '')}"
             ).add_to(m)
 
-    # Extra tile layers for theme switching
+    # Add optional tile layers for theme switching
     folium.TileLayer('CartoDB positron', name='Light Theme').add_to(m)
     folium.TileLayer('CartoDB dark_matter', name='Dark Theme').add_to(m)
 
