@@ -26,7 +26,7 @@ def filter_and_sum(
     )
 
     # --- Convert entire dataframe to numeric ---
-    df = df.apply(pd.to_numeric, errors="coerce")
+    df = df.apply(pd.to_numeric, errors="coerce").fillna(0)
 
     # --- Apply row filters ---
     row_filters = [org_zone, org_region, org_city, org_branch_code, mode, org_product]
@@ -47,4 +47,4 @@ def filter_and_sum(
         df = df.loc[:, col_mask]
 
     # --- Return numeric sum ---
-    return df.to_numpy().sum()
+    return round(df.to_numpy().sum(), 3)

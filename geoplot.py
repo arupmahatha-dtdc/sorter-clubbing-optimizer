@@ -30,7 +30,7 @@ def find_office_coordinates(offices_df, office_code):
     return None
 
 # -------------------- Map Creation --------------------
-def create_interactive_map(offices_df, org_summary, des_summary, data_type, mode, selected_office=None):
+def create_interactive_map(offices_df, org_summary, des_summary, data_type=None, mode=None, selected_office=None):
     """Create an interactive map with office locations and clickable markers"""
     
     # Determine map center based on selected office or default to India center
@@ -74,22 +74,27 @@ def create_interactive_map(offices_df, org_summary, des_summary, data_type, mode
             continue
 
         if pd.notna(lat) and pd.notna(lon):
-            # Filter summary data for this office
-            org_data = org_summary[
-                (org_summary['org_branch_code'] == row['office']) &
-                (org_summary['type'] == data_type) &
-                (org_summary['mode'] == mode)
-            ]
-            des_data = des_summary[
-                (des_summary['des_branch_code'] == row['office']) &
-                (des_summary['type'] == data_type) &
-                (des_summary['mode'] == mode)
-            ]
+            # Filter summary data for this office with optional type/mode filters
+            org_filter = (org_summary['org_branch_code'] == row['office'])
+            if data_type is not None:
+                org_filter = org_filter & (org_summary['type'] == data_type)
+            if mode is not None:
+                org_filter = org_filter & (org_summary['mode'] == mode)
+            org_data = org_summary[org_filter]
+
+            des_filter = (des_summary['des_branch_code'] == row['office'])
+            if data_type is not None:
+                des_filter = des_filter & (des_summary['type'] == data_type)
+            if mode is not None:
+                des_filter = des_filter & (des_summary['mode'] == mode)
+            des_data = des_summary[des_filter]
 
             org_sum = org_data['sum'].sum() if not org_data.empty else 0
             des_sum = des_data['sum'].sum() if not des_data.empty else 0
 
             # Popup content
+            type_label = data_type if data_type is not None else "All Types"
+            mode_label = mode if mode is not None else "All Modes"
             popup_content = f"""
             <div style="font-family: Arial, sans-serif; min-width: 250px;">
                 <h3 style="color: #1f77b4; margin: 0 0 10px 0;">{row.get('name', '')}</h3>
@@ -100,7 +105,7 @@ def create_interactive_map(offices_df, org_summary, des_summary, data_type, mode
                     <tr><td><strong>Zone:</strong></td><td>{row.get('zone', '')}</td></tr>
                 </table>
                 <hr style="margin: 10px 0;">
-                <h4 style="color: #ff7f0e; margin: 10px 0;">Summary Data ({data_type} - {mode})</h4>
+                <h4 style="color: #ff7f0e; margin: 10px 0;">Summary Data ({type_label} - {mode_label})</h4>
                 <table style="width: 100%; border-collapse: collapse;">
                     <tr style="background-color: #f0f0f0;">
                         <td><strong>Origin:</strong></td>
@@ -160,27 +165,38 @@ def main():
     # Sidebar controls
     st.sidebar.title("🛠️ Controls")
 
-    data_type = st.sidebar.selectbox(
-        "Data Type:",
-        ["Volume", "Billed Wt"],
-        index=0
-    )
-
-    mode = st.sidebar.selectbox(
-        "Mode:",
-        ["Air", "Ground"],
-        index=0
-    )
-
-    # Office search functionality
-    st.sidebar.markdown("---")
-    st.sidebar.markdown("**🔍 Office Search:**")
-    
-    # Load data first to get office list
+    # Load data first to build dynamic filter options and office list
     offices_df, org_summary, des_summary = load_data()
     if offices_df is None or org_summary is None or des_summary is None:
         st.error("Failed to load data. Please check your data files.")
         return
+
+    # Build filter options dynamically with an 'All' option that maps to None
+    type_values = pd.unique(pd.concat([
+        org_summary['type'].dropna(),
+        des_summary['type'].dropna()
+    ]))
+    type_options = ["All Types"] + sorted(map(str, type_values))
+    data_type = st.sidebar.selectbox(
+        "Data Type:",
+        type_options,
+        index=0
+    )
+    if data_type == "All Types":
+        data_type = None
+
+    mode_values = pd.unique(pd.concat([
+        org_summary['mode'].dropna(),
+        des_summary['mode'].dropna()
+    ]))
+    mode_options = ["All Modes"] + sorted(map(str, mode_values))
+    mode = st.sidebar.selectbox(
+        "Mode:",
+        mode_options,
+        index=0
+    )
+    if mode == "All Modes":
+        mode = None
     
     # Create office search dropdown
     office_options = ["All Offices"] + offices_df['office'].tolist()
