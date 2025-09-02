@@ -54,8 +54,7 @@ else:
     st.subheader("Elbow Plot")
     plot_file = os.path.join(csv_folder, f"{selected_region}_elbow.png")
     if os.path.exists(plot_file):
-        from PIL import Image
         img = Image.open(plot_file)
-        st.image(img, caption=f"{selected_region} - {csv_filename}", use_column_width=True)
+        st.image(img, caption=f"{selected_region} - {csv_filename}", use_container_width=True)
     else:
         st.warning("Plot not found for this region.")
