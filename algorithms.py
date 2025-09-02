@@ -26,7 +26,7 @@ def filter_and_sum(
     )
 
     # --- Convert entire dataframe to numeric ---
-    df = df.apply(pd.to_numeric, errors="coerce").fillna(0)
+    df = df.apply(pd.to_numeric, errors="coerce")
 
     # --- Apply row filters ---
     row_filters = [org_zone, org_region, org_city, org_branch_code, mode, org_product]
