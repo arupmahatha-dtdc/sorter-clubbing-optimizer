@@ -2,7 +2,7 @@ import pandas as pd
 
 def filter_and_sum(
     type_=None,
-    mode=None,
+    service_type=None,
     org_zone=None, org_region=None, org_city=None, org_branch_code=None, org_product=None,
     des_zone=None, des_region=None, des_city=None, des_branch_code=None,
     csv_path="data.csv"
@@ -17,7 +17,7 @@ def filter_and_sum(
 
     # Name the index and columns for clarity
     df.index.set_names(
-        ["org_zone", "org_region", "org_city", "org_branch_code", "mode", "org_product"],
+        ["org_zone", "org_region", "org_city", "org_branch_code", "service_type", "org_product"],
         inplace=True
     )
     df.columns.set_names(
@@ -29,7 +29,7 @@ def filter_and_sum(
     df = df.apply(pd.to_numeric, errors="coerce").fillna(0)
 
     # --- Apply row filters ---
-    row_filters = [org_zone, org_region, org_city, org_branch_code, mode, org_product]
+    row_filters = [org_zone, org_region, org_city, org_branch_code, service_type, org_product]
     if any(val is not None for val in row_filters):
         row_mask = pd.Series(True, index=df.index)
         for level_name, value in zip(df.index.names, row_filters):

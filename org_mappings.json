@@ -14,10 +14,8 @@
                 "W14": "BHADRAK SORTING OFFICE"
             },
             "BHUBANESHWAR": {
-                "W10": "BHUBANESHWAR SURFACE APEX",
                 "W21": "RUCHIKA MARKET BRANCH",
-                "W52": "MANCHESWAR BRANCH",
-                "W53": "BHUBANESWAR AIR APEX"
+                "W52": "MANCHESWAR BRANCH"
             },
             "BOLANGIR": {
                 "W23": "BOLANGIR SORTING OFFICE"
@@ -95,9 +93,7 @@
             },
             "HOWRAH": {
                 "K08": "HOWRAH BRANCH",
-                "K72": "KONA BRANCH",
-                "K95": "KOLKATA PAKURIA APEX",
-                "K128": "EAST KOLKATA KONA STORAGE CENTER APEX"
+                "K72": "KONA BRANCH"
             },
             "KHARAGPUR": {
                 "K40": "KHARAGPUR BRANCH"
@@ -109,11 +105,8 @@
                 "K05": "RAJARHAT BRANCH",
                 "K06": "AGARPARA SUPER FRANCHISEE",
                 "K07": "TARATALA(GOPALPUR) MASTER FRANCHISEE",
-                "K16": "KOLKATA RAJARHAT APEX",
-                "K26": "KOLKATA INTERNATIONAL APEX",
                 "K28": "BY-PASS BRANCH",
                 "K39": "LAKE VIEW BRANCH",
-                "K65": "KOLKATA HP APEX",
                 "K68": "SALT LAKE BRANCH",
                 "K75": "GARIA BRANCH",
                 "K88": "CAMAC STREET BRANCH"
@@ -146,16 +139,10 @@
                 "K81": "SERAMPORE SUPER FRANCHISEE"
             },
             "SILIGURI": {
-                "K15": "SILIGURI BRANCH",
-                "K66": "SILIGURI-MATIGARA APEX",
-                "K96": "NORTH BENGAL T/S APEX"
+                "K15": "SILIGURI BRANCH"
             }
         },
         "GAU": {
-            "AGARTALA": {
-                "X03": "AGARTALA APEX",
-                "X35": "HGB ROAD APEX"
-            },
             "AIZWAL": {
                 "X07": "AIZAWLSORTING OFFICE"
             },
@@ -165,12 +152,6 @@
             },
             "DHARMANAGAR": {
                 "X30": "DHARMANAGAR BRANCH"
-            },
-            "DHUBRI": {
-                "X23": "DHUBRI BRANCH"
-            },
-            "DIBRUGARH": {
-                "X21": "DIBRUGARH APEX"
             },
             "DULIAJAN": {
                 "X14": "DULIAJAN\u00a0SORTING OFFICE"
@@ -182,7 +163,6 @@
                 "X27": "GOLAGHAT BRANCH"
             },
             "GUWAHATI": {
-                "X01": "DHARAPUR APEX",
                 "X10": "LANUNG GAON BRANCH",
                 "X22": "DISPUR BRANCH",
                 "X36": "AMINGAON BRANCH"
@@ -288,18 +268,14 @@
                 "T05": "MUZAFFARPUR BRANCH"
             },
             "PATNA": {
-                "T01": "PATNA APEX",
                 "T10": "ZERO MILE BRANCH",
-                "T17": "BIHAR T/S APEX",
                 "T32": "EXHIBITION ROAD BRANCH"
             },
             "PURNIA": {
                 "T13": "PURNEA BRANCH"
             },
             "RANCHI": {
-                "T02": "RANCHI APEX",
-                "T14": "RANCHI CITY BRANCH",
-                "T35": "JHARKHAND T/S APEX"
+                "T14": "RANCHI CITY BRANCH"
             },
             "SAHARSA": {
                 "T15": "SAHARSA SORTING OFFICE"
@@ -313,7 +289,7 @@
         }
     },
     "North": {
-        "EUP": {
+        "UPT": {
             "ALLAHABAD": {
                 "U02": "PRAYAGRAJ BRANCH"
             },
@@ -355,7 +331,6 @@
             },
             "LUCKNOW": {
                 "U01": "LUCKNOW BRANCH",
-                "U43": "LUCKNOW APEX",
                 "U48": "MAHANAGAR LUCKNOW BRANCH",
                 "U139": "LUCKNOW TRANSPORT NAGAR BRANCH",
                 "U143": "GOMTI NAGAR BRANCH"
@@ -373,8 +348,74 @@
                 "U95": "HARDOI NODAL POINT"
             },
             "VARANASI": {
-                "U04": "VARANASI APEX",
                 "U130": "VARANASI BRANCH"
+            },
+            "AGRA": {
+                "U09": "AGRA BRANCH"
+            },
+            "ALIGARH": {
+                "U16": "ALIGARH BRANCH"
+            },
+            "BAREILLY": {
+                "U15": "BAREILLY BRANCH"
+            },
+            "BIJNOR": {
+                "U31": "BIJNORE BRANCH"
+            },
+            "BULANDSHAHAR": {
+                "U145": "BULANDSHAHR BRANCH"
+            },
+            "DEHRADUN": {
+                "U10": "DEHRADUN BRANCH",
+                "U28": "SELAQUI BRANCH"
+            },
+            "GHAZIABAD": {
+                "U146": "GHAZIABAD BRANCH"
+            },
+            "GWALIOR": {
+                "U07": "GWALIOR BRANCH"
+            },
+            "HALDWANI": {
+                "U12": "HALDWANI BRANCH"
+            },
+            "HARDWAR": {
+                "U18": "HARDWAR BRANCH"
+            },
+            "JHANSI": {
+                "U24": "JHANSI BRANCH"
+            },
+            "KASHIPUR": {
+                "U27": "KASHIPUR BRANCH"
+            },
+            "MATHURA": {
+                "U25": "MATHURA BRANCH"
+            },
+            "MEERUT": {
+                "U13": "MEERUT BRANCH"
+            },
+            "MORADABAD": {
+                "U14": "MORADABAD BRANCH"
+            },
+            "MUZAFFARNAGAR": {
+                "U19": "MUZAFFARNAGAR BRANCH"
+            },
+            "RISHIKESH": {
+                "U17": "RISHIKESH BRANCH"
+            },
+            "ROORKEE": {
+                "U22": "ROORKEE BRANCH"
+            },
+            "RUDRAPUR": {
+                "U23": "RUDRAPUR BRANCH"
+            },
+            "SAHIBABAD": {
+                "U21": "SAHIBABAD BRANCH"
+            },
+            "SHAHARANPUR": {
+                "U20": "SAHARANPUR BRANCH"
+            },
+            "VAISHALI (UP)": {
+                "U30": "VAISHALI BRANCH"
             }
         },
         "GGN": {
@@ -382,7 +423,6 @@
                 "L05": "DHARUHERA BRANCH"
             },
             "GURGAON": {
-                "L01": "GURGAON DP PROCESSING CENTER APEX",
                 "L02": "GURGAON MASTER FRANCHISEE",
                 "L03": "GURGAON - HERO HONDA CHOWK BRANCH",
                 "L04": "GURGAON BRANCH",
@@ -395,8 +435,7 @@
         },
         "HHPT": {
             "AMBALA": {
-                "J06": "AMBALA BRANCH",
-                "J10": "AMBALA APEX"
+                "J06": "AMBALA BRANCH"
             },
             "AMRITSAR": {
                 "J05": "AMRITSAR BRANCH"
@@ -414,8 +453,7 @@
                 "J20": "BILASPUR SUPER FRANCHISEE"
             },
             "CHANDIGARH": {
-                "J01": "CHANDIGARH BRANCH",
-                "J29": "PANCHKULA APEX"
+                "J01": "CHANDIGARH BRANCH"
             },
             "HISSAR": {
                 "J07": "HISSAR BRANCH"
@@ -506,7 +544,6 @@
             },
             "JAIPUR": {
                 "Q01": "JAIPUR LALKOTHI BRANCH",
-                "Q05": "JAIPUR APEX",
                 "Q06": "JAIPUR VAISHALINAGAR BRANCH",
                 "Q17": "MANSAROVAR BRANCH",
                 "Q35": "JAIPUR VKI BRANCH",
@@ -539,25 +576,18 @@
             "DELHI": {
                 "N02": "TRANSYAMUNA BRANCH",
                 "N03": "NARAINA CITY BRANCH",
-                "N05": "DELHI SAMALKHA APEX",
-                "N06": "DELHI SAMALKHA INTERNATIONAL APEX",
                 "N09": "WAZIRPUR BRANCH",
                 "N10": "JHANDEWALAN BRANCH",
                 "N11": "MEERBAGH BRANCH",
                 "N12": "NARAINA MASS MAIL PROCESSING OUTSOURCED BRANCH",
                 "N15": "DURGAPURI BRANCH",
                 "N17": "ROHINI BRANCH",
-                "N20": "DELHI DP PROCESSING CENTRE APEX",
-                "N24": "DELHI ECOMMERCE PROCESSING CENTRE APEX",
-                "N33": "DARYGANJ BRANCH",
-                "N41": "DELHI SAMHALKHA SURFACE APEX",
-                "N43": "TRANSYAMUNA APEX"
+                "N33": "DARYGANJ BRANCH"
             },
             "JAMMU": {
                 "N37": "JAMMU BRANCH"
             },
             "NOIDA": {
-                "N30": "NOIDA APEX",
                 "N31": "GREATER NOIDA BRANCH",
                 "N32": "NOIDA PH3 BRANCH",
                 "N35": "PARI CHOWK BRANCH",
@@ -576,84 +606,11 @@
                 "S03": "MAHIPALPUR BRANCH",
                 "S04": "OKHLA BRANCH",
                 "S09": "DWARKA BRANCH",
-                "S13": "OKHLA APEX",
                 "S17": "ASHRAM BRANCH",
-                "S25": "SOUTH DELHI DP PROCESSING CENTER APEX",
                 "S26": "CHATTARPUR BRANCH"
             },
             "FARIDABAD": {
                 "S02": "FARIDABAD BRANCH"
-            }
-        },
-        "WUP": {
-            "AGRA": {
-                "U09": "AGRA BRANCH"
-            },
-            "ALIGARH": {
-                "U16": "ALIGARH BRANCH"
-            },
-            "BAREILLY": {
-                "U15": "BAREILLY BRANCH"
-            },
-            "BIJNOR": {
-                "U31": "BIJNORE BRANCH"
-            },
-            "BULANDSHAHAR": {
-                "U145": "BULANDSHAHR BRANCH"
-            },
-            "DEHRADUN": {
-                "U10": "DEHRADUN BRANCH",
-                "U28": "SELAQUI BRANCH"
-            },
-            "GHAZIABAD": {
-                "U11": "GHAZIABAD APEX",
-                "U137": "UPT DP PROCESSING CENTRE APEX",
-                "U146": "GHAZIABAD BRANCH"
-            },
-            "GWALIOR": {
-                "U07": "GWALIOR BRANCH"
-            },
-            "HALDWANI": {
-                "U12": "HALDWANI BRANCH"
-            },
-            "HARDWAR": {
-                "U18": "HARDWAR BRANCH"
-            },
-            "JHANSI": {
-                "U24": "JHANSI BRANCH"
-            },
-            "KASHIPUR": {
-                "U27": "KASHIPUR BRANCH"
-            },
-            "MATHURA": {
-                "U25": "MATHURA BRANCH"
-            },
-            "MEERUT": {
-                "U13": "MEERUT BRANCH"
-            },
-            "MORADABAD": {
-                "U14": "MORADABAD BRANCH"
-            },
-            "MUZAFFARNAGAR": {
-                "U19": "MUZAFFARNAGAR BRANCH"
-            },
-            "RISHIKESH": {
-                "U17": "RISHIKESH BRANCH"
-            },
-            "ROORKEE": {
-                "U22": "ROORKEE BRANCH"
-            },
-            "RUDRAPUR": {
-                "U23": "RUDRAPUR BRANCH"
-            },
-            "SAHIBABAD": {
-                "U21": "SAHIBABAD BRANCH"
-            },
-            "SHAHARANPUR": {
-                "U20": "SAHARANPUR BRANCH"
-            },
-            "VAISHALI (UP)": {
-                "U30": "VAISHALI BRANCH"
             }
         }
     },
@@ -667,19 +624,14 @@
                 "B07": "CHAMRAJPET BRANCH",
                 "B08": "PEENYA BRANCH",
                 "B09": "RAJAJINAGAR BRANCH",
-                "B10": "BANGALORE YELAHANKA APEX",
                 "B11": "HENNUR BRANCH",
                 "B14": "DEVANAHALLI SERVICE CENTER",
-                "B15": "CORPORATE OFFICE APEX",
                 "B26": "KOGILU BRANCH",
                 "B35": "WHITE FIELD BRANCH",
-                "B36": "BANGALORE NELAMANGALA APEX",
-                "B37": "BLR DP PROCESSING APEX",
                 "B58": "DOMLUR BRANCH",
                 "B59": "SARAKKI BRANCH",
                 "B61": "NERALURU BRANCH",
-                "B68": "HOSKOTE BRANCH",
-                "B113": "ATTIBELE APEX"
+                "B68": "HOSKOTE BRANCH"
             },
             "BELGAUM": {
                 "B16": "BELGAUM SUPER FRANCHISEE"
@@ -713,9 +665,6 @@
             },
             "HOSUR": {
                 "B27": "HOSUR BRANCH"
-            },
-            "HUBLI": {
-                "B03": "HUBLI BRANCH"
             },
             "MANDYA": {
                 "B95": "MANDYA NODAL POINT"
@@ -759,16 +708,13 @@
                 "C13": "GUINDY BRANCH",
                 "C14": "AMINJIKARAI BRANCH",
                 "C15": "PARRYS BRANCH",
-                "C20": "VELAPPANCHAVADI APEX",
                 "C30": "TAMBARAM MASTER FRANCHISEE",
                 "C36": "ELDAMS ROAD BRANCH",
                 "C37": "AMBATTUR BRANCH",
                 "C38": "PORUR BRANCH",
-                "C42": "GUINDY APEX",
                 "C47": "PALLIKKARANAI MASTER FRANCHISEE",
                 "C48": "MADHAVARAM BRANCH",
                 "C50": "SRM - POTHERI SUPER FRANCHISEE",
-                "C54": "CHENNAI DP PROCESSING CENTRE APEX",
                 "C73": "GUMMIDIPOONDI BRANCH",
                 "C74": "THIRUVERKADU BRANCH"
             },
@@ -793,8 +739,6 @@
         },
         "CJB": {
             "COIMBATORE": {
-                "E01": "COIMBATORE INTEGRATED APEX",
-                "E13": "COIMBATORE SCS APEX",
                 "E21": "COIMBATORE CITY BRANCH"
             },
             "DINDIGUL": {
@@ -809,14 +753,8 @@
             "KRISHNAGIRI": {
                 "E16": "KRISHNAGIRI BRANCH"
             },
-            "MADURAI": {
-                "E08": "MADURAI APEX"
-            },
             "NAGERCOIL": {
                 "E11": "NAGERCOILBRANCH"
-            },
-            "SALEM": {
-                "E04": "SALEM APEX"
             },
             "SIVAKASI": {
                 "E20": "SIVAKASI BRANCH"
@@ -857,7 +795,6 @@
                 "O14": "CHERTHALA BRANCH"
             },
             "COCHIN": {
-                "O06": "COCHIN APEX",
                 "O13": "ALWAYE BRANCH",
                 "O23": "COCHIN BRANCH"
             },
@@ -909,15 +846,13 @@
                 "H09": "BALANAGAR BRANCH",
                 "H10": "BEGUMPET BRANCH",
                 "H11": "KARMANGHAT BRANCH",
-                "H13": "HYDERABAD SHAMSHABAD APEX",
                 "H48": "ANANDBAGH BRANCH",
                 "H70": "GACHIBOWLI MASTER FRANCHISEE",
                 "H71": "MEHDIPATNAM MASTER FRANCHISEE",
                 "H74": "BOWENPALLY BRANCH",
                 "H75": "BACHUPALLY NIZAMPET ROAD BRANCH",
                 "H79": "NAGOLE PRACEL BRANCH",
-                "H80": "CHANDANAGAR BRANCH",
-                "H90": "MEDCHAL APEX"
+                "H80": "CHANDANAGAR BRANCH"
             },
             "KARIMNAGAR": {
                 "H37": "KARIMNAGAR SUPER FRANCHISEE"
@@ -936,9 +871,6 @@
             },
             "RANGAREDDY": {
                 "H96": "SHAMSHABAD BRANCH"
-            },
-            "SECUNDRABAD": {
-                "H66": "HYDERABAD SCS APEX"
             },
             "SURYAPET": {
                 "H92": "SURYAPET BRANCH"
@@ -992,11 +924,9 @@
                 "V01": "TIRUPATI BRANCH"
             },
             "VIJAYAWADA": {
-                "V06": "VIJAYAWADA APEX",
                 "V58": "VIJAYAWADA BRANCH"
             },
             "VISHAKAPATNAM": {
-                "V02": "VISHAKAPATNAM APEX",
                 "V16": "GAJUWAKA SUPER FRANCHISEE"
             },
             "VIZIANAGARAM": {
@@ -1007,7 +937,6 @@
     "West": {
         "AMD": {
             "AHMEDABAD": {
-                "A01": "AHMEDABAD APEX",
                 "A11": "KHOKHRA BRANCH",
                 "A24": "AHMEDABAD BRANCH",
                 "A36": "AHMEDABAD WEST BRANCH",
@@ -1020,8 +949,7 @@
                 "A07": "ANKLESHWAR BRANCH"
             },
             "BARODA": {
-                "A02": "BARODA BRANCH",
-                "A17": "BARODA SCS APEX"
+                "A02": "BARODA BRANCH"
             },
             "BHAVNAGAR": {
                 "A27": "BHAVNAGAR SORTING OFFICE"
@@ -1054,7 +982,6 @@
                 "A50": "SANAND SERVICE CENTER"
             },
             "SURAT": {
-                "A04": "SURAT APEX",
                 "A46": "SURAT CITY BRANCH"
             },
             "SURENDRANAGAR": {
@@ -1070,7 +997,6 @@
             },
             "BHOPAL": {
                 "I02": "BHOPAL BRANCH",
-                "I10": "BHOPAL T/S APEX",
                 "I43": "BHOPAL CITY BRANCH"
             },
             "CHINDWARA": {
@@ -1080,9 +1006,6 @@
                 "I20": "DEWAS BRANCH"
             },
             "INDORE": {
-                "I01": "INDORE APEX",
-                "I04": "INDORE T/S APEX",
-                "I24": "INDORE SURFACE APEX",
                 "I42": "INDORE CITY BRANCH",
                 "I46": "INDORE DEWASNAKA BRANCH"
             },
@@ -1123,7 +1046,6 @@
         },
         "MUM": {
             "BHIWANDI": {
-                "M33": "MUMBAI VADPE APEX",
                 "M35": "BHIWANDI BRANCH",
                 "M75": "MUMBAI VADAPE- BHIWANDI PROCESSING CENTER",
                 "M85": "BHIWANDI RKG BRANCH"
@@ -1142,8 +1064,6 @@
                 "M06": "GHATKOPAR BRANCH",
                 "M07": "THANE BRANCH",
                 "M08": "VASHI BRANCH",
-                "M10": "MUMBAI SAKINAKA APEX",
-                "M13": "MUMBAI INTERNATIONAL APEX",
                 "M45": "CHEMBUR BRANCH",
                 "M48": "ANDHERI BRANCH",
                 "M54": "MAROL BRANCH",
@@ -1151,9 +1071,7 @@
                 "M61": "DAHISAR BRANCH",
                 "M66": "MAHAPE BRANCH",
                 "M68": "BANDRA SORTING OFFICE",
-                "M69": "MUMBAI DP PROCESSING CENTRE APEX",
                 "M78": "ANDHERI WEST BRANCH",
-                "M86": "NEW MUMBAI PROCESSING CENTRE APEX",
                 "M87": "MALAD SERVICE CENTER"
             },
             "PANVEL": {
@@ -1190,18 +1108,11 @@
                 "R10": "KORBA BRANCH"
             },
             "NAGPUR": {
-                "R01": "NAGPUR AIR APEX",
-                "R05": "NAGPUR T/S APEX",
                 "R11": "NAGPUR PANDE LAYOUT BRANCH",
-                "R16": "NAGPUR SCS APEX",
                 "R32": "NAGPUR GHAT ROAD BRANCH"
             },
             "RAIGARH": {
                 "R19": "RAIGARH BRANCH"
-            },
-            "RAIPUR": {
-                "R06": "RAIPUR APEX",
-                "R17": "RAIPUR T/S APEX"
             },
             "YAVATMAL": {
                 "R13": "YAVATMAL SUPER FRANCHISEE"
@@ -1257,7 +1168,6 @@
                 "P58": "PARBHANI BRANCH"
             },
             "PUNE": {
-                "P01": "PUNE APEX",
                 "P04": "PUNE PIMPRI BRANCH",
                 "P12": "PUNE SHIVAJI NAGAR BRANCH",
                 "P15": "MARKET YARD BRANCH",

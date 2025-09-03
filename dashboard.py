@@ -13,9 +13,13 @@ This app allows you to filter the data from `data.csv` using various parameters 
 def load_data(csv_path):
     try:
         df = pd.read_csv(csv_path, header=None, low_memory=False, skiprows=1)  # Skip first row
-        # Extract row header data (origin hierarchy) - now 7 levels: zone, region, city, branch_code, branch_name, mode, product
+        # Extract row header data (origin hierarchy) - now 7 levels: zone, region, city, branch_code, branch_name, service_type, product
         row_headers = df.iloc[6:, 0:7].copy()  # Skip 6 header rows, get first 7 columns
-        row_headers.columns = ['org_zone', 'org_region', 'org_city', 'org_branch_code', 'org_branch_name', 'mode', 'org_product']
+        row_headers.columns = [
+            'org_zone', 'org_region', 'org_city', 
+            'org_branch_code', 'org_branch_name', 
+            'service_type', 'org_product'
+        ]
 
         # Extract column header data (destination hierarchy) - now 6 levels: type, zone, region, city, branch_code, branch_name
         col_headers = df.iloc[0:6, 7:].copy()  # Get 6 header rows, start from column 7 (after product column)
@@ -43,7 +47,7 @@ def cascade_options(df, filters, column):
     return sorted(filtered_df[column].dropna().unique())
 
 # =========================
-# TYPE & MODE
+# TYPE & SERVICE TYPE
 # =========================
 colA, colB = st.columns(2)
 
@@ -52,8 +56,8 @@ with colA:
     type_ = st.selectbox("Type", options=[""] + type_values)
 
 with colB:
-    mode_values = sorted(row_headers['mode'].dropna().unique())
-    mode = st.selectbox("Mode", options=[""] + mode_values)
+    service_type_values = sorted(row_headers['service_type'].dropna().unique())
+    service_type = st.selectbox("Service Type", options=[""] + service_type_values)
 
 # =========================
 # ORIGIN PARAMETERS
@@ -62,12 +66,10 @@ st.markdown("**Origin Parameters**")
 col1, col2, col3, col4, col5 = st.columns([1, 1, 1, 1.5, 1.5])
 
 with col1:
-    # --- Get zones (independent of mode, only cascading within origin hierarchy) ---
     zone_options = sorted(row_headers['org_zone'].dropna().unique())
     org_zone = st.selectbox("Origin Zone", options=[""] + zone_options)
 
 with col2:
-    # --- Get regions with cascading filtering based on zone only ---
     def get_regions_for_zone():
         filtered_df = row_headers.copy()
         if org_zone:
@@ -79,7 +81,6 @@ with col2:
     org_region = st.selectbox("Origin Region", options=[""] + region_options)
 
 with col3:
-    # --- Get cities with cascading filtering based on zone and region only ---
     def get_cities_for_selection():
         filtered_df = row_headers.copy()
         if org_zone:
@@ -93,7 +94,6 @@ with col3:
     org_city = st.selectbox("Origin City", options=[""] + city_options)
 
 with col4:
-    # --- Get branch codes with names for display, but pass only codes ---
     def get_branch_codes_for_selection():
         filtered_df = row_headers.copy()
         if org_zone:
@@ -103,9 +103,7 @@ with col4:
         if org_city:
             filtered_df = filtered_df[filtered_df['org_city'] == org_city]
         
-        # Get unique branch codes with names
         branch_data = filtered_df[['org_branch_code', 'org_branch_name']].dropna().drop_duplicates()
-        # Create display options: "code - name"
         display_options = []
         code_mapping = {}
         for _, row in branch_data.iterrows():
@@ -119,18 +117,14 @@ with col4:
     
     branch_display_options, branch_code_mapping = get_branch_codes_for_selection()
     org_branch_display = st.selectbox("Origin Branch", options=[""] + branch_display_options, key="org_branch_display")
-    
-    # Extract the actual branch code for function calls
     org_branch_code = branch_code_mapping.get(org_branch_display) if org_branch_display else None
+
 with col5:
-    # --- Get products with proper cascading filtering based on mode and origin parameters ---
     def get_products_for_selection():
-        # Start with all available products
         filtered_df = row_headers.copy()
         
-        # Apply filters based on what's selected (mode is highest in hierarchy)
-        if mode:
-            filtered_df = filtered_df[filtered_df['mode'] == mode]
+        if service_type:
+            filtered_df = filtered_df[filtered_df['service_type'] == service_type]
         if org_zone:
             filtered_df = filtered_df[filtered_df['org_zone'] == org_zone]
         if org_region:
@@ -140,7 +134,6 @@ with col5:
         if org_branch_code:
             filtered_df = filtered_df[filtered_df['org_branch_code'] == org_branch_code]
         
-        # Get unique products from filtered data
         products = filtered_df['org_product'].dropna().unique()
         return sorted([p for p in products if p])
     
@@ -166,7 +159,6 @@ with col8:
         options=[""] + cascade_options(col_headers, {'des_zone': des_zone, 'des_region': des_region}, 'des_city')
     )
 with col9:
-    # --- Get destination branch codes with names for display, but pass only codes ---
     def get_des_branch_codes_for_selection():
         filtered_df = col_headers.copy()
         if des_zone:
@@ -176,9 +168,7 @@ with col9:
         if des_city:
             filtered_df = filtered_df[filtered_df['des_city'] == des_city]
         
-        # Get unique branch codes with names
         branch_data = filtered_df[['des_branch_code', 'des_branch_name']].dropna().drop_duplicates()
-        # Create display options: "code - name"
         display_options = []
         code_mapping = {}
         for _, row in branch_data.iterrows():
@@ -192,8 +182,6 @@ with col9:
     
     des_branch_display_options, des_branch_code_mapping = get_des_branch_codes_for_selection()
     des_branch_display = st.selectbox("Destination Branch", options=[""] + des_branch_display_options, key="des_branch_display")
-    
-    # Extract the actual branch code for function calls
     des_branch_code = des_branch_code_mapping.get(des_branch_display) if des_branch_display else None
 
 # =========================
@@ -205,7 +193,7 @@ if st.button("Compute Sum"):
 
     result = filter_and_sum(
         type_=none_if_empty(type_),
-        mode=none_if_empty(mode),
+        service_type=none_if_empty(service_type),
         org_zone=none_if_empty(org_zone),
         org_region=none_if_empty(org_region),
         org_city=none_if_empty(org_city),
