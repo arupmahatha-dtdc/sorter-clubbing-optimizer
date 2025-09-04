@@ -48,16 +48,19 @@ df_sort = df_fd[(df_fd["Region"] == region_choice) & (df_fd["Type"] == type_choi
 if df_sort.empty:
     st.info("No sorting location data for this Region × Type")
 else:
-    st.dataframe(df_sort, use_container_width=True)
+    # Round numeric columns in sorting location display
+    df_sort_display = df_sort.copy()
+    for col in df_sort_display.select_dtypes(include="number").columns:
+        df_sort_display[col] = df_sort_display[col].round(2)
+    st.dataframe(df_sort_display, use_container_width=True)
 
 st.markdown("---")
 
 # ---------- Determine the column to use for total process ----------
 # You may have a mapping of Type -> column name
 type_total_column_map = {
-    "Volume": "Volume",           # example: change if actual column names differ
-    "Billed_Wt": "Billed_Wt",    # add more Type -> column mappings if needed
-    # Add more mappings here
+    "Volume": "Total",           # example: change if actual column names differ
+    "Billed Wt": "Total",        # add more Type -> column mappings if needed
 }
 total_col = type_total_column_map.get(type_choice, "Total")  # fallback to 'Total'
 
@@ -104,15 +107,15 @@ for i, stype in enumerate(service_types):
         else:
             st.warning(f"No saved plot found for {stype} ({plot_filename})")
 
-        # Display metrics
+        # Display metrics (all rounded to 2 decimals)
         st.markdown(f"""
-        - **Total {total_col}:** `{total_process}`  
-        - **Branches Passing Threshold:** `{branches_above_threshold}`  
-        - **Cumulative % Above Threshold:** `{cum_pct_above_threshold:.2f}%`  
-        - **Total Process Above Threshold:** `{total_process_above_threshold:.2f}`  
-        - **Optimal Branches:** `{optimal_branches}`  
-        - **Optimal Cumulative %:** `{optimal_cum_pct:.2f}%`  
-        - **Optimal Total Process:** `{optimal_total_process:.2f}`  
+        - **Total Units to be Processed:** `{round(total_process, 2)}`  
+        - **No. of Branches Passing Threshold:** `{branches_above_threshold}`  
+        - **% of Units Processed by Branches Passing Threshold**: `{round(cum_pct_above_threshold, 2)}%`  
+        - **Total Units Processed by Branches Passing Threshold:** `{round(total_process_above_threshold, 2)}`  
+        - **No. of Optimal Branches:** `{optimal_branches}`  
+        - **% of Units Processed by Optimal Branches:** `{round(optimal_cum_pct, 2)}%`  
+        - **Total Units Processed by Optimal Branches:** `{round(optimal_total_process, 2)}`  
         """)
 
         # Collapsible branch list
@@ -125,7 +128,7 @@ overall_optimal_pct = (sum_optimal_process / sum_total_process * 100) if sum_tot
 st.markdown("---")
 st.markdown(f"### Overall {region_choice} | {type_choice} Summary")
 st.markdown(f"""
-- **Total {total_col}:** `{sum_total_process}`  
-- **Total Process Handled by Optimal Branches:** `{sum_optimal_process:.2f}`  
-- **Overall % of Volume Handled by Optimal Branches:** `{overall_optimal_pct:.2f}%`  
+- **Total Units to be Processed:** `{round(sum_total_process, 2)}`  
+- **Total Units Processed by Optimal Branches:** `{round(sum_optimal_process, 2)}`  
+- **% of Units Processed by Optimal Branches:** `{round(overall_optimal_pct, 2)}%`  
 """)
