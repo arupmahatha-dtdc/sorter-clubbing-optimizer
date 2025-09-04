@@ -426,7 +426,7 @@
                 "U30": "VAISHALI BRANCH"
             }
         },
-        "GGN": {
+        "DDL": {
             "DHARUHERA": {
                 "L05": "DHARUHERA BRANCH"
             },
@@ -439,6 +439,40 @@
             },
             "NUH": {
                 "L28": "NUH RURAL SERVICE CENTER"
+            },
+            "DELHI": {
+                "N02": "TRANSYAMUNA BRANCH",
+                "N03": "NARAINA CITY BRANCH",
+                "N09": "WAZIRPUR BRANCH",
+                "N10": "JHANDEWALAN BRANCH",
+                "N11": "MEERBAGH BRANCH",
+                "N15": "DURGAPURI BRANCH",
+                "N17": "ROHINI BRANCH",
+                "N33": "DARYGANJ BRANCH",
+                "S01": "KHIRKI BRANCH",
+                "S03": "MAHIPALPUR BRANCH",
+                "S04": "OKHLA BRANCH",
+                "S09": "DWARKA BRANCH",
+                "S17": "ASHRAM BRANCH",
+                "S26": "CHATTARPUR BRANCH"
+            },
+            "JAMMU": {
+                "N37": "JAMMU BRANCH"
+            },
+            "NOIDA": {
+                "N31": "GREATER NOIDA BRANCH",
+                "N32": "NOIDA PH3 BRANCH",
+                "N35": "PARI CHOWK BRANCH",
+                "N42": "ECOTECH 12 NOIDA BRANCH"
+            },
+            "SRINAGAR -JK": {
+                "N38": "SRI NAGAR BRANCH"
+            },
+            "BALLABGARH": {
+                "S27": "BALLABHGARH BRANCH"
+            },
+            "FARIDABAD": {
+                "S02": "FARIDABAD BRANCH"
             }
         },
         "HHPT": {
@@ -578,46 +612,6 @@
             },
             "UDAIPUR": {
                 "Q04": "UDAIPUR BRANCH"
-            }
-        },
-        "NDL": {
-            "DELHI": {
-                "N02": "TRANSYAMUNA BRANCH",
-                "N03": "NARAINA CITY BRANCH",
-                "N09": "WAZIRPUR BRANCH",
-                "N10": "JHANDEWALAN BRANCH",
-                "N11": "MEERBAGH BRANCH",
-                "N15": "DURGAPURI BRANCH",
-                "N17": "ROHINI BRANCH",
-                "N33": "DARYGANJ BRANCH"
-            },
-            "JAMMU": {
-                "N37": "JAMMU BRANCH"
-            },
-            "NOIDA": {
-                "N31": "GREATER NOIDA BRANCH",
-                "N32": "NOIDA PH3 BRANCH",
-                "N35": "PARI CHOWK BRANCH",
-                "N42": "ECOTECH 12 NOIDA BRANCH"
-            },
-            "SRINAGAR -JK": {
-                "N38": "SRI NAGAR BRANCH"
-            }
-        },
-        "SDL": {
-            "BALLABGARH": {
-                "S27": "BALLABHGARH BRANCH"
-            },
-            "DELHI": {
-                "S01": "KHIRKI BRANCH",
-                "S03": "MAHIPALPUR BRANCH",
-                "S04": "OKHLA BRANCH",
-                "S09": "DWARKA BRANCH",
-                "S17": "ASHRAM BRANCH",
-                "S26": "CHATTARPUR BRANCH"
-            },
-            "FARIDABAD": {
-                "S02": "FARIDABAD BRANCH"
             }
         }
     },

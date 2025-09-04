@@ -1,4 +1,4 @@
-Region,Type,Sum_Optimal_Branches,Total_Branches,Sorting_Location_Needed
+Region,Type,Sorting_Locations_for_Optimal_Branches,Self_Branches,Sorting_Location_Needed
 AMD,Billed Wt,242,20,342
 AMD,Volume,130,20,230
 BBI,Billed Wt,24,18,120
@@ -13,10 +13,10 @@ CJB,Billed Wt,90,13,176
 CJB,Volume,50,13,136
 COK,Billed Wt,55,21,157
 COK,Volume,45,21,147
+DDL,Billed Wt,384,29,502
+DDL,Volume,366,29,484
 GAU,Billed Wt,9,29,127
 GAU,Volume,6,29,124
-GGN,Billed Wt,182,7,256
-GGN,Volume,128,7,202
 HHPT,Billed Wt,201,27,315
 HHPT,Volume,94,27,208
 HYD,Billed Wt,90,20,190
@@ -27,16 +27,12 @@ JAI,Billed Wt,178,22,282
 JAI,Volume,136,22,240
 MUM,Billed Wt,300,25,410
 MUM,Volume,227,25,337
-NDL,Billed Wt,306,14,394
-NDL,Volume,254,14,342
 NGP,Billed Wt,14,12,98
 NGP,Volume,17,12,101
 PAT,Billed Wt,25,25,135
 PAT,Volume,17,25,127
 PNQ,Billed Wt,175,36,307
 PNQ,Volume,85,36,217
-SDL,Billed Wt,232,8,308
-SDL,Volume,153,8,229
 UPT,Billed Wt,166,44,314
 UPT,Volume,109,44,257
 VJA,Billed Wt,46,18,142
