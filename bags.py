@@ -4,7 +4,7 @@ import os
 import json
 
 # ---------- Page setup ----------
-st.set_page_config(layout="wide", page_title="Branch Optimization Dashboard")
+st.set_page_config(layout="wide", page_title="Optimal Bagging Dashboard")
 
 # ---------- Load data ----------
 df_optimal = pd.read_csv("optimal_branches.csv")
@@ -31,7 +31,7 @@ for zone, regions in mapping.items():
 df_mapping = pd.DataFrame(rows)
 
 # ---------- Streamlit UI ----------
-st.title("📦 Branch Optimization Dashboard")
+st.title("📦 Optimal Bagging Dashboard")
 
 # Top filters
 col1, col2 = st.columns([1, 2])
