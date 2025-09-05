@@ -1,2737 +1,2709 @@
 org_branch_code,service_type,type,sum
-A02,Air Red,Volume,74.16
-A02,Air Red,Billed Wt,76.83
-A02,Air White,Volume,507.72
-A02,Air White,Billed Wt,498.166
-A02,Ground,Volume,81.0
-A02,Ground,Billed Wt,802.176
-A03,Air Red,Volume,194.84
-A03,Air Red,Billed Wt,352.282
-A03,Air White,Volume,2160.36
-A03,Air White,Billed Wt,4524.223
-A03,Ground,Volume,131.68
-A03,Ground,Billed Wt,969.974
-A05,Air Red,Volume,74.64
-A05,Air Red,Billed Wt,100.805
-A05,Air White,Volume,698.44
-A05,Air White,Billed Wt,695.112
-A05,Ground,Volume,87.24
-A05,Ground,Billed Wt,899.217
-A07,Air Red,Volume,5.56
-A07,Air Red,Billed Wt,8.117
-A07,Air White,Volume,159.88
-A07,Air White,Billed Wt,106.467
-A07,Ground,Volume,41.76
-A07,Ground,Billed Wt,346.506
-A11,Air Red,Volume,306.28
-A11,Air Red,Billed Wt,291.788
-A11,Air White,Volume,1542.04
-A11,Air White,Billed Wt,1594.68
-A11,Ground,Volume,231.92
-A11,Ground,Billed Wt,3047.094
-A16,Air Red,Volume,19.72
-A16,Air Red,Billed Wt,17.309
-A16,Air White,Volume,401.36
-A16,Air White,Billed Wt,92.681
-A16,Ground,Volume,42.96
-A16,Ground,Billed Wt,177.213
-A18,Air Red,Volume,29.04
-A18,Air Red,Billed Wt,31.368
-A18,Air White,Volume,438.16
-A18,Air White,Billed Wt,470.706
-A18,Ground,Volume,49.88
-A18,Ground,Billed Wt,568.279
-A24,Air Red,Volume,329.84
-A24,Air Red,Billed Wt,258.203
-A24,Air White,Volume,1168.56
-A24,Air White,Billed Wt,946.616
+A02,Air Red,Volume,39.04
+A02,Air Red,Billed Wt,71.2
+A02,Air White,Volume,274.32
+A02,Air White,Billed Wt,467.8
+A02,Ground,Volume,81.04
+A02,Ground,Billed Wt,802.52
+A03,Air Red,Volume,172.0
+A03,Air Red,Billed Wt,346.72
+A03,Air White,Volume,1794.88
+A03,Air White,Billed Wt,4502.72
+A03,Ground,Volume,131.72
+A03,Ground,Billed Wt,969.32
+A05,Air Red,Volume,58.84
+A05,Air Red,Billed Wt,98.32
+A05,Air White,Volume,270.28
+A05,Air White,Billed Wt,662.24
+A05,Ground,Volume,87.28
+A05,Ground,Billed Wt,900.0
+A07,Air Red,Volume,2.4
+A07,Air Red,Billed Wt,7.44
+A07,Air White,Volume,52.04
+A07,Air White,Billed Wt,92.56
+A07,Ground,Volume,41.8
+A07,Ground,Billed Wt,346.28
+A11,Air Red,Volume,273.96
+A11,Air Red,Billed Wt,287.48
+A11,Air White,Volume,877.4
+A11,Air White,Billed Wt,1546.4
+A11,Ground,Volume,232.0
+A11,Ground,Billed Wt,3048.04
+A16,Air Red,Volume,7.44
+A16,Air Red,Billed Wt,15.28
+A16,Air White,Volume,40.68
+A16,Air White,Billed Wt,68.04
+A16,Ground,Volume,42.92
+A16,Ground,Billed Wt,177.04
+A18,Air Red,Volume,19.32
+A18,Air Red,Billed Wt,29.92
+A18,Air White,Volume,279.36
+A18,Air White,Billed Wt,454.32
+A18,Ground,Volume,50.0
+A18,Ground,Billed Wt,569.08
+A24,Air Red,Volume,325.0
+A24,Air Red,Billed Wt,257.08
+A24,Air White,Volume,687.12
+A24,Air White,Billed Wt,900.68
 A24,Ground,Volume,130.92
 A24,Ground,Billed Wt,1086.48
-A27,Air Red,Volume,15.68
-A27,Air Red,Billed Wt,23.389
-A27,Air White,Volume,72.72
-A27,Air White,Billed Wt,91.514
+A27,Air Red,Volume,12.04
+A27,Air Red,Billed Wt,22.04
+A27,Air White,Volume,20.44
+A27,Air White,Billed Wt,82.08
 A27,Ground,Volume,11.84
-A27,Ground,Billed Wt,105.043
-A33,Air Red,Volume,31.36
-A33,Air Red,Billed Wt,13.914
-A33,Air White,Volume,140.8
-A33,Air White,Billed Wt,113.915
+A27,Ground,Billed Wt,105.52
+A33,Air Red,Volume,22.0
+A33,Air Red,Billed Wt,11.72
+A33,Air White,Volume,67.32
+A33,Air White,Billed Wt,103.76
 A33,Ground,Volume,6.6
-A33,Ground,Billed Wt,57.874
-A36,Air Red,Volume,246.84
-A36,Air Red,Billed Wt,418.746
-A36,Air White,Volume,1373.76
-A36,Air White,Billed Wt,1499.588
-A36,Ground,Volume,218.24
-A36,Ground,Billed Wt,2199.344
-A38,Air Red,Volume,118.44
-A38,Air Red,Billed Wt,110.626
-A38,Air White,Volume,220.32
-A38,Air White,Billed Wt,245.487
+A33,Ground,Billed Wt,58.16
+A36,Air Red,Volume,184.52
+A36,Air Red,Billed Wt,409.4
+A36,Air White,Volume,624.68
+A36,Air White,Billed Wt,1421.28
+A36,Ground,Volume,218.28
+A36,Ground,Billed Wt,2206.56
+A38,Air Red,Volume,105.68
+A38,Air Red,Billed Wt,107.6
+A38,Air White,Volume,125.44
+A38,Air White,Billed Wt,232.04
 A38,Ground,Volume,71.76
-A38,Ground,Billed Wt,710.769
-A44,Air Red,Volume,63.2
-A44,Air Red,Billed Wt,131.463
-A44,Air White,Volume,184.52
-A44,Air White,Billed Wt,235.79
+A38,Ground,Billed Wt,711.0
+A44,Air Red,Volume,54.16
+A44,Air Red,Billed Wt,129.8
+A44,Air White,Volume,140.56
+A44,Air White,Billed Wt,230.56
 A44,Ground,Volume,25.4
-A44,Ground,Billed Wt,277.152
-A45,Air Red,Volume,3.4
-A45,Air Red,Billed Wt,3.345
-A45,Air White,Volume,114.36
-A45,Air White,Billed Wt,123.553
+A44,Ground,Billed Wt,277.52
+A45,Air Red,Volume,2.64
+A45,Air Red,Billed Wt,3.36
+A45,Air White,Volume,21.68
+A45,Air White,Billed Wt,105.48
 A45,Ground,Volume,11.76
-A45,Ground,Billed Wt,60.313
-A46,Air Red,Volume,2101.52
-A46,Air Red,Billed Wt,2931.134
-A46,Air White,Volume,3761.56
-A46,Air White,Billed Wt,5944.407
-A46,Ground,Volume,153.76
-A46,Ground,Billed Wt,1534.343
-A47,Air Red,Volume,43.08
-A47,Air Red,Billed Wt,123.61
-A47,Air White,Volume,100.32
-A47,Air White,Billed Wt,74.036
+A45,Ground,Billed Wt,60.44
+A46,Air Red,Volume,2077.28
+A46,Air Red,Billed Wt,2927.52
+A46,Air White,Volume,3176.64
+A46,Air White,Billed Wt,5873.56
+A46,Ground,Volume,153.84
+A46,Ground,Billed Wt,1536.16
+A47,Air Red,Volume,40.0
+A47,Air Red,Billed Wt,123.68
+A47,Air White,Volume,68.76
+A47,Air White,Billed Wt,70.36
 A47,Ground,Volume,132.44
-A47,Ground,Billed Wt,715.07
-A48,Air Red,Volume,295.56
-A48,Air Red,Billed Wt,2205.275
-A48,Air White,Volume,590.08
-A48,Air White,Billed Wt,703.924
+A47,Ground,Billed Wt,715.28
+A48,Air Red,Volume,294.44
+A48,Air Red,Billed Wt,2205.0
+A48,Air White,Volume,412.0
+A48,Air White,Billed Wt,686.48
 A48,Ground,Volume,276.12
-A48,Ground,Billed Wt,3254.522
-A49,Air White,Volume,0.16
-A49,Air White,Billed Wt,0.093
-A50,Air Red,Volume,20.12
-A50,Air Red,Billed Wt,63.461
-A50,Air White,Volume,95.8
-A50,Air White,Billed Wt,103.344
+A48,Ground,Billed Wt,3254.52
+A49,Air White,Volume,0.12
+A49,Air White,Billed Wt,0.04
+A50,Air Red,Volume,15.92
+A50,Air Red,Billed Wt,62.72
+A50,Air White,Volume,34.72
+A50,Air White,Billed Wt,97.48
 A50,Ground,Volume,18.84
-A50,Ground,Billed Wt,151.262
+A50,Ground,Billed Wt,151.48
 A51,Air White,Volume,0.04
-A51,Air White,Billed Wt,0.096
+A51,Air White,Billed Wt,0.08
 A51,Ground,Volume,0.0
 A51,Ground,Billed Wt,0.0
-B01,Air Red,Volume,60.32
-B01,Air Red,Billed Wt,40.041
-B01,Air White,Volume,494.16
-B01,Air White,Billed Wt,314.421
-B01,Ground,Volume,47.0
-B01,Ground,Billed Wt,573.59
-B02,Air Red,Volume,112.52
-B02,Air Red,Billed Wt,112.022
-B02,Air White,Volume,1686.96
-B02,Air White,Billed Wt,1365.974
-B02,Ground,Volume,143.4
-B02,Ground,Billed Wt,2013.523
-B05,Air Red,Volume,28.12
-B05,Air Red,Billed Wt,18.54
-B05,Air White,Volume,451.96
-B05,Air White,Billed Wt,172.96
-B05,Ground,Volume,44.0
-B05,Ground,Billed Wt,382.896
-B06,Air Red,Volume,1112.44
-B06,Air Red,Billed Wt,979.774
-B06,Air White,Volume,2145.32
-B06,Air White,Billed Wt,2296.18
-B06,Ground,Volume,301.92
-B06,Ground,Billed Wt,2477.154
-B07,Air Red,Volume,514.96
-B07,Air Red,Billed Wt,473.414
-B07,Air White,Volume,3360.08
-B07,Air White,Billed Wt,3195.457
-B07,Ground,Volume,356.96
-B07,Ground,Billed Wt,3448.775
-B08,Air Red,Volume,510.16
-B08,Air Red,Billed Wt,548.616
-B08,Air White,Volume,2512.2
-B08,Air White,Billed Wt,2505.976
-B08,Ground,Volume,332.2
-B08,Ground,Billed Wt,3371.754
-B09,Air Red,Volume,276.8
-B09,Air Red,Billed Wt,394.239
-B09,Air White,Volume,2633.36
-B09,Air White,Billed Wt,1667.506
-B09,Ground,Volume,192.28
-B09,Ground,Billed Wt,1928.346
-B11,Air Red,Volume,505.88
-B11,Air Red,Billed Wt,545.299
-B11,Air White,Volume,1598.36
-B11,Air White,Billed Wt,1936.71
-B11,Ground,Volume,645.6
-B11,Ground,Billed Wt,2201.295
-B13,Air Red,Volume,6.52
-B13,Air Red,Billed Wt,2.931
-B13,Air White,Volume,295.8
-B13,Air White,Billed Wt,220.701
-B13,Ground,Volume,10.84
-B13,Ground,Billed Wt,96.125
-B14,Air Red,Volume,10.96
-B14,Air Red,Billed Wt,10.587
-B14,Air White,Volume,114.0
-B14,Air White,Billed Wt,69.822
-B14,Ground,Volume,6.72
-B14,Ground,Billed Wt,83.52
-B16,Air Red,Volume,39.2
-B16,Air Red,Billed Wt,29.186
-B16,Air White,Volume,652.88
-B16,Air White,Billed Wt,398.075
+B01,Air Red,Volume,25.4
+B01,Air Red,Billed Wt,33.16
+B01,Air White,Volume,220.36
+B01,Air White,Billed Wt,280.48
+B01,Ground,Volume,46.96
+B01,Ground,Billed Wt,573.96
+B02,Air Red,Volume,76.76
+B02,Air Red,Billed Wt,104.96
+B02,Air White,Volume,1072.04
+B02,Air White,Billed Wt,1305.76
+B02,Ground,Volume,143.48
+B02,Ground,Billed Wt,2014.08
+B05,Air Red,Volume,4.96
+B05,Air Red,Billed Wt,11.76
+B05,Air White,Volume,116.6
+B05,Air White,Billed Wt,146.28
+B05,Ground,Volume,44.08
+B05,Ground,Billed Wt,384.12
+B06,Air Red,Volume,866.2
+B06,Air Red,Billed Wt,950.12
+B06,Air White,Volume,1249.8
+B06,Air White,Billed Wt,2216.64
+B06,Ground,Volume,303.28
+B06,Ground,Billed Wt,2490.92
+B07,Air Red,Volume,250.36
+B07,Air Red,Billed Wt,430.32
+B07,Air White,Volume,1621.16
+B07,Air White,Billed Wt,2961.56
+B07,Ground,Volume,356.92
+B07,Ground,Billed Wt,3449.0
+B08,Air Red,Volume,223.0
+B08,Air Red,Billed Wt,516.72
+B08,Air White,Volume,1211.64
+B08,Air White,Billed Wt,2387.16
+B08,Ground,Volume,332.36
+B08,Ground,Billed Wt,3369.16
+B09,Air Red,Volume,173.92
+B09,Air Red,Billed Wt,380.0
+B09,Air White,Volume,1186.28
+B09,Air White,Billed Wt,1599.2
+B09,Ground,Volume,192.6
+B09,Ground,Billed Wt,1930.0
+B11,Air Red,Volume,324.52
+B11,Air Red,Billed Wt,502.72
+B11,Air White,Volume,789.64
+B11,Air White,Billed Wt,1843.56
+B11,Ground,Volume,645.72
+B11,Ground,Billed Wt,2202.28
+B13,Air Red,Volume,3.96
+B13,Air Red,Billed Wt,2.56
+B13,Air White,Volume,177.24
+B13,Air White,Billed Wt,212.2
+B13,Ground,Volume,10.88
+B13,Ground,Billed Wt,96.44
+B14,Air Red,Volume,5.08
+B14,Air Red,Billed Wt,9.96
+B14,Air White,Volume,31.88
+B14,Air White,Billed Wt,59.44
+B14,Ground,Volume,6.64
+B14,Ground,Billed Wt,83.36
+B16,Air Red,Volume,19.44
+B16,Air Red,Billed Wt,24.68
+B16,Air White,Volume,367.04
+B16,Air White,Billed Wt,362.64
 B16,Ground,Volume,56.12
-B16,Ground,Billed Wt,664.339
-B18,Air Red,Volume,21.16
-B18,Air Red,Billed Wt,17.14
-B18,Air White,Volume,855.68
-B18,Air White,Billed Wt,636.361
+B16,Ground,Billed Wt,664.88
+B18,Air Red,Volume,7.44
+B18,Air Red,Billed Wt,14.56
+B18,Air White,Volume,609.88
+B18,Air White,Billed Wt,603.36
 B18,Ground,Volume,60.44
-B18,Ground,Billed Wt,868.521
-B19,Air Red,Volume,30.84
-B19,Air Red,Billed Wt,19.932
-B19,Air White,Volume,461.08
-B19,Air White,Billed Wt,282.16
-B19,Ground,Volume,24.28
-B19,Ground,Billed Wt,240.117
-B26,Air Red,Volume,390.08
-B26,Air Red,Billed Wt,486.308
-B26,Air White,Volume,1396.12
-B26,Air White,Billed Wt,1252.905
-B26,Ground,Volume,152.32
-B26,Ground,Billed Wt,2991.635
-B27,Air Red,Volume,22.8
-B27,Air Red,Billed Wt,48.193
-B27,Air White,Volume,483.64
-B27,Air White,Billed Wt,1250.016
+B18,Ground,Billed Wt,870.6
+B19,Air Red,Volume,8.2
+B19,Air Red,Billed Wt,13.76
+B19,Air White,Volume,112.4
+B19,Air White,Billed Wt,233.68
+B19,Ground,Volume,24.24
+B19,Ground,Billed Wt,240.32
+B26,Air Red,Volume,220.6
+B26,Air Red,Billed Wt,469.52
+B26,Air White,Volume,619.0
+B26,Air White,Billed Wt,1225.28
+B26,Ground,Volume,152.4
+B26,Ground,Billed Wt,2993.44
+B27,Air Red,Volume,9.44
+B27,Air Red,Billed Wt,46.96
+B27,Air White,Volume,259.24
+B27,Air White,Billed Wt,1239.76
 B27,Ground,Volume,122.24
-B27,Ground,Billed Wt,1892.176
-B32,Air Red,Volume,40.76
-B32,Air Red,Billed Wt,76.036
-B32,Air White,Volume,207.92
-B32,Air White,Billed Wt,142.222
-B32,Ground,Volume,30.44
-B32,Ground,Billed Wt,294.095
-B35,Air Red,Volume,696.4
-B35,Air Red,Billed Wt,871.536
-B35,Air White,Volume,2383.72
-B35,Air White,Billed Wt,1757.142
-B35,Ground,Volume,502.68
-B35,Ground,Billed Wt,2407.056
-B38,Air Red,Volume,13.56
-B38,Air Red,Billed Wt,6.45
-B38,Air White,Volume,298.84
-B38,Air White,Billed Wt,175.662
-B38,Ground,Volume,17.4
-B38,Ground,Billed Wt,167.852
-B39,Air Red,Volume,3.88
-B39,Air Red,Billed Wt,6.809
-B39,Air White,Volume,257.64
-B39,Air White,Billed Wt,134.19
-B39,Ground,Volume,15.8
-B39,Ground,Billed Wt,181.771
-B41,Air Red,Volume,3.24
-B41,Air Red,Billed Wt,1.55
-B41,Air White,Volume,120.76
-B41,Air White,Billed Wt,76.346
-B41,Ground,Volume,6.2
-B41,Ground,Billed Wt,54.066
-B42,Air Red,Volume,12.12
-B42,Air Red,Billed Wt,8.604
-B42,Air White,Volume,274.12
-B42,Air White,Billed Wt,115.561
-B42,Ground,Volume,21.0
-B42,Ground,Billed Wt,188.505
-B43,Air Red,Volume,50.04
-B43,Air Red,Billed Wt,60.342
-B43,Air White,Volume,547.28
-B43,Air White,Billed Wt,423.696
-B43,Ground,Volume,97.16
-B43,Ground,Billed Wt,846.898
-B47,Air Red,Volume,8.52
-B47,Air Red,Billed Wt,3.499
-B47,Air White,Volume,317.6
-B47,Air White,Billed Wt,156.761
-B47,Ground,Volume,15.2
-B47,Ground,Billed Wt,185.094
-B50,Air Red,Volume,32.16
-B50,Air Red,Billed Wt,17.132
-B50,Air White,Volume,824.8
-B50,Air White,Billed Wt,532.388
-B50,Ground,Volume,122.68
-B50,Ground,Billed Wt,1388.242
-B51,Air Red,Volume,14.8
-B51,Air Red,Billed Wt,19.019
-B51,Air White,Volume,423.12
-B51,Air White,Billed Wt,470.61
+B27,Ground,Billed Wt,1892.24
+B32,Air Red,Volume,22.16
+B32,Air Red,Billed Wt,72.96
+B32,Air White,Volume,99.88
+B32,Air White,Billed Wt,130.04
+B32,Ground,Volume,30.48
+B32,Ground,Billed Wt,294.44
+B35,Air Red,Volume,412.08
+B35,Air Red,Billed Wt,833.04
+B35,Air White,Volume,1332.44
+B35,Air White,Billed Wt,1660.08
+B35,Ground,Volume,502.84
+B35,Ground,Billed Wt,2408.84
+B38,Air Red,Volume,3.8
+B38,Air Red,Billed Wt,4.2
+B38,Air White,Volume,117.08
+B38,Air White,Billed Wt,145.64
+B38,Ground,Volume,17.44
+B38,Ground,Billed Wt,168.0
+B39,Air Red,Volume,1.32
+B39,Air Red,Billed Wt,6.44
+B39,Air White,Volume,118.24
+B39,Air White,Billed Wt,115.2
+B39,Ground,Volume,15.84
+B39,Ground,Billed Wt,181.88
+B41,Air Red,Volume,0.72
+B41,Air Red,Billed Wt,0.72
+B41,Air White,Volume,43.6
+B41,Air White,Billed Wt,64.72
+B41,Ground,Volume,6.24
+B41,Ground,Billed Wt,55.72
+B42,Air Red,Volume,5.68
+B42,Air Red,Billed Wt,7.8
+B42,Air White,Volume,76.24
+B42,Air White,Billed Wt,100.76
+B42,Ground,Volume,21.04
+B42,Ground,Billed Wt,188.6
+B43,Air Red,Volume,11.44
+B43,Air Red,Billed Wt,45.52
+B43,Air White,Volume,295.52
+B43,Air White,Billed Wt,378.48
+B43,Ground,Volume,97.24
+B43,Ground,Billed Wt,847.96
+B47,Air Red,Volume,2.88
+B47,Air Red,Billed Wt,2.52
+B47,Air White,Volume,106.68
+B47,Air White,Billed Wt,131.2
+B47,Ground,Volume,15.24
+B47,Ground,Billed Wt,185.08
+B50,Air Red,Volume,5.6
+B50,Air Red,Billed Wt,10.88
+B50,Air White,Volume,350.24
+B50,Air White,Billed Wt,458.4
+B50,Ground,Volume,122.72
+B50,Ground,Billed Wt,1388.76
+B51,Air Red,Volume,6.4
+B51,Air Red,Billed Wt,17.76
+B51,Air White,Volume,380.68
+B51,Air White,Billed Wt,465.8
 B51,Ground,Volume,17.04
-B51,Ground,Billed Wt,173.06
-B53,Air Red,Volume,80.56
-B53,Air Red,Billed Wt,89.309
-B53,Air White,Volume,370.24
-B53,Air White,Billed Wt,235.933
-B53,Ground,Volume,97.52
-B53,Ground,Billed Wt,1425.624
-B58,Air Red,Volume,496.4
-B58,Air Red,Billed Wt,510.978
-B58,Air White,Volume,1680.08
-B58,Air White,Billed Wt,1302.517
-B58,Ground,Volume,104.56
-B58,Ground,Billed Wt,1354.462
-B59,Air Red,Volume,580.96
-B59,Air Red,Billed Wt,707.005
-B59,Air White,Volume,2637.52
-B59,Air White,Billed Wt,2824.581
-B59,Ground,Volume,217.4
-B59,Ground,Billed Wt,2236.067
-B61,Air Red,Volume,282.56
-B61,Air Red,Billed Wt,415.78
-B61,Air White,Volume,830.52
-B61,Air White,Billed Wt,715.521
-B61,Ground,Volume,207.36
-B61,Ground,Billed Wt,2497.844
-B62,Air Red,Volume,8.84
-B62,Air Red,Billed Wt,6.815
-B62,Air White,Volume,182.8
-B62,Air White,Billed Wt,58.497
+B51,Ground,Billed Wt,173.08
+B53,Air Red,Volume,30.0
+B53,Air Red,Billed Wt,78.28
+B53,Air White,Volume,170.36
+B53,Air White,Billed Wt,211.64
+B53,Ground,Volume,97.6
+B53,Ground,Billed Wt,1437.52
+B58,Air Red,Volume,215.48
+B58,Air Red,Billed Wt,473.76
+B58,Air White,Volume,690.56
+B58,Air White,Billed Wt,1215.4
+B58,Ground,Volume,104.6
+B58,Ground,Billed Wt,1356.2
+B59,Air Red,Volume,396.84
+B59,Air Red,Billed Wt,678.12
+B59,Air White,Volume,1321.56
+B59,Air White,Billed Wt,2718.44
+B59,Ground,Volume,217.6
+B59,Ground,Billed Wt,2239.4
+B61,Air Red,Volume,154.6
+B61,Air Red,Billed Wt,404.52
+B61,Air White,Volume,367.2
+B61,Air White,Billed Wt,699.88
+B61,Ground,Volume,207.4
+B61,Ground,Billed Wt,2498.72
+B62,Air Red,Volume,0.76
+B62,Air Red,Billed Wt,5.36
+B62,Air White,Volume,28.88
+B62,Air White,Billed Wt,49.92
 B62,Ground,Volume,31.0
-B62,Ground,Billed Wt,277.126
-B63,Air Red,Volume,7.12
-B63,Air Red,Billed Wt,2.954
-B63,Air White,Volume,77.44
-B63,Air White,Billed Wt,37.5
+B62,Ground,Billed Wt,277.28
+B63,Air Red,Volume,1.16
+B63,Air Red,Billed Wt,1.88
+B63,Air White,Volume,15.92
+B63,Air White,Billed Wt,29.24
 B63,Ground,Volume,5.88
-B63,Ground,Billed Wt,81.077
-B64,Air Red,Volume,8.12
-B64,Air Red,Billed Wt,13.257
-B64,Air White,Volume,152.64
-B64,Air White,Billed Wt,115.812
-B64,Ground,Volume,16.72
-B64,Ground,Billed Wt,171.801
-B65,Air Red,Volume,20.6
-B65,Air Red,Billed Wt,76.636
-B65,Air White,Volume,75.2
-B65,Air White,Billed Wt,67.759
+B63,Ground,Billed Wt,81.2
+B64,Air Red,Volume,4.32
+B64,Air Red,Billed Wt,12.4
+B64,Air White,Volume,69.12
+B64,Air White,Billed Wt,103.4
+B64,Ground,Volume,16.8
+B64,Ground,Billed Wt,172.44
+B65,Air Red,Volume,13.48
+B65,Air Red,Billed Wt,75.48
+B65,Air White,Volume,29.24
+B65,Air White,Billed Wt,61.12
 B65,Ground,Volume,34.88
-B65,Ground,Billed Wt,1183.552
-B68,Air Red,Volume,173.56
-B68,Air Red,Billed Wt,195.121
-B68,Air White,Volume,574.08
-B68,Air White,Billed Wt,347.55
-B68,Ground,Volume,49.36
-B68,Ground,Billed Wt,527.772
-B95,Air Red,Volume,6.56
-B95,Air Red,Billed Wt,5.133
-B95,Air White,Volume,115.64
-B95,Air White,Billed Wt,52.964
-B95,Ground,Volume,8.04
-B95,Ground,Billed Wt,80.839
-C02,Air Red,Volume,48.88
-C02,Air Red,Billed Wt,203.818
-C02,Air White,Volume,555.04
-C02,Air White,Billed Wt,502.746
-C02,Ground,Volume,104.92
-C02,Ground,Billed Wt,2220.821
-C08,Air Red,Volume,58.68
-C08,Air Red,Billed Wt,89.224
-C08,Air White,Volume,584.08
-C08,Air White,Billed Wt,554.688
+B65,Ground,Billed Wt,1183.8
+B68,Air Red,Volume,133.4
+B68,Air Red,Billed Wt,187.88
+B68,Air White,Volume,229.72
+B68,Air White,Billed Wt,310.44
+B68,Ground,Volume,49.4
+B68,Ground,Billed Wt,527.68
+B95,Air Red,Volume,2.64
+B95,Air Red,Billed Wt,4.24
+B95,Air White,Volume,38.2
+B95,Air White,Billed Wt,47.24
+B95,Ground,Volume,8.08
+B95,Ground,Billed Wt,81.24
+C02,Air Red,Volume,33.32
+C02,Air Red,Billed Wt,201.52
+C02,Air White,Volume,283.52
+C02,Air White,Billed Wt,469.04
+C02,Ground,Volume,105.2
+C02,Ground,Billed Wt,2232.16
+C08,Air Red,Volume,43.52
+C08,Air Red,Billed Wt,87.04
+C08,Air White,Volume,364.56
+C08,Air White,Billed Wt,536.32
 C08,Ground,Volume,141.64
-C08,Ground,Billed Wt,2330.138
-C13,Air Red,Volume,374.0
-C13,Air Red,Billed Wt,493.551
-C13,Air White,Volume,1440.36
-C13,Air White,Billed Wt,1269.627
-C13,Ground,Volume,292.2
-C13,Ground,Billed Wt,3669.074
-C14,Air Red,Volume,356.84
-C14,Air Red,Billed Wt,261.315
-C14,Air White,Volume,1469.8
-C14,Air White,Billed Wt,958.388
-C14,Ground,Volume,130.76
-C14,Ground,Billed Wt,2208.409
-C15,Air Red,Volume,185.44
-C15,Air Red,Billed Wt,167.312
-C15,Air White,Volume,1449.64
-C15,Air White,Billed Wt,692.864
+C08,Ground,Billed Wt,2330.2
+C13,Air Red,Volume,290.32
+C13,Air Red,Billed Wt,482.8
+C13,Air White,Volume,799.72
+C13,Air White,Billed Wt,1207.96
+C13,Ground,Volume,292.36
+C13,Ground,Billed Wt,3669.92
+C14,Air Red,Volume,126.76
+C14,Air Red,Billed Wt,243.16
+C14,Air White,Volume,538.36
+C14,Air White,Billed Wt,904.96
+C14,Ground,Volume,130.96
+C14,Ground,Billed Wt,2209.12
+C15,Air Red,Volume,145.52
+C15,Air Red,Billed Wt,161.32
+C15,Air White,Volume,899.08
+C15,Air White,Billed Wt,638.92
 C15,Ground,Volume,120.6
-C15,Ground,Billed Wt,931.441
-C22,Air Red,Volume,98.72
-C22,Air Red,Billed Wt,45.713
-C22,Air White,Volume,435.68
-C22,Air White,Billed Wt,253.516
-C22,Ground,Volume,36.76
-C22,Ground,Billed Wt,349.142
-C30,Air Red,Volume,117.88
-C30,Air Red,Billed Wt,122.14
-C30,Air White,Volume,974.28
-C30,Air White,Billed Wt,468.786
-C30,Ground,Volume,79.92
-C30,Ground,Billed Wt,1787.489
-C36,Air Red,Volume,176.72
-C36,Air Red,Billed Wt,211.628
-C36,Air White,Volume,875.84
-C36,Air White,Billed Wt,915.073
-C36,Ground,Volume,129.88
-C36,Ground,Billed Wt,1437.185
-C37,Air Red,Volume,130.52
-C37,Air Red,Billed Wt,254.186
-C37,Air White,Volume,914.56
-C37,Air White,Billed Wt,736.527
-C37,Ground,Volume,114.92
-C37,Ground,Billed Wt,1234.924
-C38,Air Red,Volume,144.96
-C38,Air Red,Billed Wt,167.411
-C38,Air White,Volume,619.32
-C38,Air White,Billed Wt,629.556
-C38,Ground,Volume,122.6
-C38,Ground,Billed Wt,1413.42
-C47,Air Red,Volume,111.48
-C47,Air Red,Billed Wt,145.705
-C47,Air White,Volume,915.28
-C47,Air White,Billed Wt,563.989
-C47,Ground,Volume,89.92
-C47,Ground,Billed Wt,841.751
-C48,Air Red,Volume,57.48
-C48,Air Red,Billed Wt,77.616
-C48,Air White,Volume,941.68
-C48,Air White,Billed Wt,1053.614
-C48,Ground,Volume,127.64
-C48,Ground,Billed Wt,1004.87
-C50,Air Red,Volume,35.48
-C50,Air Red,Billed Wt,45.58
-C50,Air White,Volume,340.32
-C50,Air White,Billed Wt,237.041
+C15,Ground,Billed Wt,932.04
+C22,Air Red,Volume,75.12
+C22,Air Red,Billed Wt,38.84
+C22,Air White,Volume,191.96
+C22,Air White,Billed Wt,226.24
+C22,Ground,Volume,37.4
+C22,Ground,Billed Wt,354.4
+C30,Air Red,Volume,92.84
+C30,Air Red,Billed Wt,116.92
+C30,Air White,Volume,290.16
+C30,Air White,Billed Wt,441.56
+C30,Ground,Volume,79.96
+C30,Ground,Billed Wt,1787.96
+C36,Air Red,Volume,107.56
+C36,Air Red,Billed Wt,201.4
+C36,Air White,Volume,401.44
+C36,Air White,Billed Wt,850.24
+C36,Ground,Volume,130.0
+C36,Ground,Billed Wt,1438.08
+C37,Air Red,Volume,89.72
+C37,Air Red,Billed Wt,249.84
+C37,Air White,Volume,428.96
+C37,Air White,Billed Wt,686.28
+C37,Ground,Volume,115.08
+C37,Ground,Billed Wt,1238.6
+C38,Air Red,Volume,79.96
+C38,Air Red,Billed Wt,158.52
+C38,Air White,Volume,384.4
+C38,Air White,Billed Wt,601.56
+C38,Ground,Volume,122.8
+C38,Ground,Billed Wt,1414.64
+C47,Air Red,Volume,72.0
+C47,Air Red,Billed Wt,140.72
+C47,Air White,Volume,431.08
+C47,Air White,Billed Wt,519.8
+C47,Ground,Volume,89.96
+C47,Ground,Billed Wt,842.36
+C48,Air Red,Volume,35.72
+C48,Air Red,Billed Wt,73.72
+C48,Air White,Volume,352.76
+C48,Air White,Billed Wt,986.76
+C48,Ground,Volume,127.68
+C48,Ground,Billed Wt,1004.76
+C50,Air Red,Volume,26.96
+C50,Air Red,Billed Wt,44.12
+C50,Air White,Volume,205.56
+C50,Air White,Billed Wt,219.88
 C50,Ground,Volume,26.64
-C50,Ground,Billed Wt,339.161
-C53,Air Red,Volume,82.64
-C53,Air Red,Billed Wt,206.953
-C53,Air White,Volume,549.4
-C53,Air White,Billed Wt,719.034
-C53,Ground,Volume,143.4
-C53,Ground,Billed Wt,3691.162
-C57,Air Red,Volume,22.48
-C57,Air Red,Billed Wt,55.723
-C57,Air White,Volume,134.64
-C57,Air White,Billed Wt,103.191
+C50,Ground,Billed Wt,338.96
+C53,Air Red,Volume,61.36
+C53,Air Red,Billed Wt,204.24
+C53,Air White,Volume,208.96
+C53,Air White,Billed Wt,703.28
+C53,Ground,Volume,143.52
+C53,Ground,Billed Wt,3692.8
+C57,Air Red,Volume,15.36
+C57,Air Red,Billed Wt,54.16
+C57,Air White,Volume,69.32
+C57,Air White,Billed Wt,94.4
 C57,Ground,Volume,21.28
-C57,Ground,Billed Wt,336.565
-C59,Air Red,Volume,80.16
-C59,Air Red,Billed Wt,93.152
-C59,Air White,Volume,277.48
-C59,Air White,Billed Wt,267.82
+C57,Ground,Billed Wt,336.84
+C59,Air Red,Volume,76.32
+C59,Air Red,Billed Wt,92.6
+C59,Air White,Volume,207.28
+C59,Air White,Billed Wt,259.52
 C59,Ground,Volume,46.52
-C59,Ground,Billed Wt,817.273
-C60,Air Red,Volume,8.76
-C60,Air Red,Billed Wt,23.89
-C60,Air White,Volume,84.8
-C60,Air White,Billed Wt,87.896
+C59,Ground,Billed Wt,816.84
+C60,Air Red,Volume,6.0
+C60,Air Red,Billed Wt,23.24
+C60,Air White,Volume,36.12
+C60,Air White,Billed Wt,80.68
 C60,Ground,Volume,8.52
-C60,Ground,Billed Wt,141.187
-C73,Air Red,Volume,6.6
-C73,Air Red,Billed Wt,6.437
-C73,Air White,Volume,69.68
-C73,Air White,Billed Wt,47.965
-C73,Ground,Volume,10.24
-C73,Ground,Billed Wt,153.926
-C74,Air Red,Volume,145.68
-C74,Air Red,Billed Wt,264.978
-C74,Air White,Volume,736.4
-C74,Air White,Billed Wt,495.719
-C74,Ground,Volume,156.04
-C74,Ground,Billed Wt,2282.136
-E02,Air Red,Volume,516.56
-E02,Air Red,Billed Wt,465.212
-E02,Air White,Volume,1793.04
-E02,Air White,Billed Wt,1779.148
-E02,Ground,Volume,102.92
-E02,Ground,Billed Wt,1358.559
-E03,Air Red,Volume,150.92
-E03,Air Red,Billed Wt,145.139
-E03,Air White,Volume,963.08
-E03,Air White,Billed Wt,832.001
-E03,Ground,Volume,213.48
-E03,Ground,Billed Wt,4353.684
-E05,Air Red,Volume,24.76
-E05,Air Red,Billed Wt,52.647
-E05,Air White,Volume,276.8
-E05,Air White,Billed Wt,325.683
-E05,Ground,Volume,45.2
-E05,Ground,Billed Wt,615.584
-E06,Air Red,Volume,55.16
-E06,Air Red,Billed Wt,51.587
-E06,Air White,Volume,832.8
-E06,Air White,Billed Wt,658.608
+C60,Ground,Billed Wt,141.16
+C73,Air Red,Volume,2.52
+C73,Air Red,Billed Wt,5.52
+C73,Air White,Volume,26.04
+C73,Air White,Billed Wt,43.28
+C73,Ground,Volume,10.28
+C73,Ground,Billed Wt,154.84
+C74,Air Red,Volume,121.88
+C74,Air Red,Billed Wt,262.28
+C74,Air White,Volume,372.64
+C74,Air White,Billed Wt,462.96
+C74,Ground,Volume,156.08
+C74,Ground,Billed Wt,2282.52
+E02,Air Red,Volume,499.32
+E02,Air Red,Billed Wt,464.12
+E02,Air White,Volume,1346.04
+E02,Air White,Billed Wt,1733.2
+E02,Ground,Volume,103.0
+E02,Ground,Billed Wt,1359.36
+E03,Air Red,Volume,149.28
+E03,Air Red,Billed Wt,144.8
+E03,Air White,Volume,612.48
+E03,Air White,Billed Wt,804.6
+E03,Ground,Volume,213.16
+E03,Ground,Billed Wt,4355.64
+E05,Air Red,Volume,21.4
+E05,Air Red,Billed Wt,52.4
+E05,Air White,Volume,129.56
+E05,Air White,Billed Wt,310.16
+E05,Ground,Volume,45.24
+E05,Ground,Billed Wt,616.0
+E06,Air Red,Volume,27.44
+E06,Air Red,Billed Wt,49.04
+E06,Air White,Volume,542.48
+E06,Air White,Billed Wt,636.84
 E06,Ground,Volume,120.92
-E06,Ground,Billed Wt,1443.29
-E07,Air Red,Volume,30.44
-E07,Air Red,Billed Wt,16.298
-E07,Air White,Volume,225.36
-E07,Air White,Billed Wt,187.429
+E06,Ground,Billed Wt,1444.64
+E07,Air Red,Volume,23.12
+E07,Air Red,Billed Wt,15.16
+E07,Air White,Volume,145.6
+E07,Air White,Billed Wt,182.28
 E07,Ground,Volume,22.96
-E07,Ground,Billed Wt,208.832
-E09,Air Red,Volume,11.52
-E09,Air Red,Billed Wt,13.522
-E09,Air White,Volume,166.92
-E09,Air White,Billed Wt,133.508
+E07,Ground,Billed Wt,208.92
+E09,Air Red,Volume,6.12
+E09,Air Red,Billed Wt,12.44
+E09,Air White,Volume,91.96
+E09,Air White,Billed Wt,123.76
 E09,Ground,Volume,87.08
-E09,Ground,Billed Wt,2161.204
-E10,Air Red,Volume,12.28
-E10,Air Red,Billed Wt,22.88
-E10,Air White,Volume,167.88
-E10,Air White,Billed Wt,195.227
-E10,Ground,Volume,23.28
-E10,Ground,Billed Wt,310.568
-E11,Air Red,Volume,34.24
-E11,Air Red,Billed Wt,25.928
-E11,Air White,Volume,148.36
-E11,Air White,Billed Wt,156.628
-E11,Ground,Volume,28.0
-E11,Ground,Billed Wt,247.812
-E16,Air Red,Volume,15.04
-E16,Air Red,Billed Wt,14.208
-E16,Air White,Volume,304.64
-E16,Air White,Billed Wt,185.768
-E16,Ground,Volume,30.72
-E16,Ground,Billed Wt,296.434
-E20,Air Red,Volume,8.04
-E20,Air Red,Billed Wt,7.558
-E20,Air White,Volume,129.32
-E20,Air White,Billed Wt,69.014
+E09,Ground,Billed Wt,2161.4
+E10,Air Red,Volume,9.4
+E10,Air Red,Billed Wt,22.48
+E10,Air White,Volume,102.68
+E10,Air White,Billed Wt,184.64
+E10,Ground,Volume,23.4
+E10,Ground,Billed Wt,311.52
+E11,Air Red,Volume,26.28
+E11,Air Red,Billed Wt,24.8
+E11,Air White,Volume,114.44
+E11,Air White,Billed Wt,152.12
+E11,Ground,Volume,28.04
+E11,Ground,Billed Wt,248.48
+E16,Air Red,Volume,7.04
+E16,Air Red,Billed Wt,12.24
+E16,Air White,Volume,124.12
+E16,Air White,Billed Wt,164.84
+E16,Ground,Volume,30.84
+E16,Ground,Billed Wt,297.12
+E20,Air Red,Volume,4.56
+E20,Air Red,Billed Wt,7.2
+E20,Air White,Volume,31.48
+E20,Air White,Billed Wt,63.96
 E20,Ground,Volume,20.44
-E20,Ground,Billed Wt,437.844
-E21,Air Red,Volume,592.76
-E21,Air Red,Billed Wt,547.346
-E21,Air White,Volume,3787.72
-E21,Air White,Billed Wt,2733.404
-E21,Ground,Volume,350.8
-E21,Ground,Billed Wt,4358.47
-E23,Air Red,Volume,44.68
-E23,Air Red,Billed Wt,16.132
-E23,Air White,Volume,266.64
-E23,Air White,Billed Wt,200.595
-E23,Ground,Volume,32.6
-E23,Ground,Billed Wt,384.043
-E24,Air Red,Volume,3.44
-E24,Air Red,Billed Wt,1.416
-E24,Air White,Volume,58.32
-E24,Air White,Billed Wt,46.989
+E20,Ground,Billed Wt,437.92
+E21,Air Red,Volume,524.04
+E21,Air Red,Billed Wt,537.24
+E21,Air White,Volume,2064.84
+E21,Air White,Billed Wt,2578.68
+E21,Ground,Volume,351.2
+E21,Ground,Billed Wt,4361.56
+E23,Air Red,Volume,2.36
+E23,Air Red,Billed Wt,4.2
+E23,Air White,Volume,151.36
+E23,Air White,Billed Wt,185.56
+E23,Ground,Volume,32.8
+E23,Ground,Billed Wt,385.96
+E24,Air Red,Volume,1.2
+E24,Air Red,Billed Wt,1.2
+E24,Air White,Volume,43.48
+E24,Air White,Billed Wt,45.12
 E24,Ground,Volume,4.84
-E24,Ground,Billed Wt,46.045
-H07,Air Red,Volume,248.32
-H07,Air Red,Billed Wt,252.501
-H07,Air White,Volume,2129.76
-H07,Air White,Billed Wt,1276.005
-H07,Ground,Volume,89.56
-H07,Ground,Billed Wt,882.574
-H08,Air Red,Volume,432.72
-H08,Air Red,Billed Wt,450.233
-H08,Air White,Volume,1642.92
-H08,Air White,Billed Wt,1239.475
-H08,Ground,Volume,472.96
-H08,Ground,Billed Wt,6940.073
-H09,Air Red,Volume,234.12
-H09,Air Red,Billed Wt,158.194
-H09,Air White,Volume,2381.64
-H09,Air White,Billed Wt,1397.151
-H09,Ground,Volume,233.76
-H09,Ground,Billed Wt,2584.929
-H10,Air Red,Volume,276.08
-H10,Air Red,Billed Wt,316.755
-H10,Air White,Volume,3134.12
-H10,Air White,Billed Wt,1498.07
-H10,Ground,Volume,538.96
-H10,Ground,Billed Wt,5225.047
-H11,Air Red,Volume,308.76
-H11,Air Red,Billed Wt,122.381
-H11,Air White,Volume,1233.2
-H11,Air White,Billed Wt,819.712
-H11,Ground,Volume,51.04
-H11,Ground,Billed Wt,396.46
-H17,Air Red,Volume,53.8
-H17,Air Red,Billed Wt,35.546
-H17,Air White,Volume,949.76
-H17,Air White,Billed Wt,495.524
-H17,Ground,Volume,57.08
-H17,Ground,Billed Wt,505.021
-H37,Air Red,Volume,218.28
-H37,Air Red,Billed Wt,66.408
-H37,Air White,Volume,450.28
-H37,Air White,Billed Wt,181.47
+E24,Ground,Billed Wt,46.2
+H07,Air Red,Volume,169.52
+H07,Air Red,Billed Wt,242.52
+H07,Air White,Volume,1269.64
+H07,Air White,Billed Wt,1192.24
+H07,Ground,Volume,90.12
+H07,Ground,Billed Wt,885.72
+H08,Air Red,Volume,266.56
+H08,Air Red,Billed Wt,434.36
+H08,Air White,Volume,850.08
+H08,Air White,Billed Wt,1172.24
+H08,Ground,Volume,473.2
+H08,Ground,Billed Wt,6940.56
+H09,Air Red,Volume,148.84
+H09,Air Red,Billed Wt,148.52
+H09,Air White,Volume,1303.52
+H09,Air White,Billed Wt,1292.88
+H09,Ground,Volume,233.96
+H09,Ground,Billed Wt,2586.8
+H10,Air Red,Volume,86.56
+H10,Air Red,Billed Wt,283.6
+H10,Air White,Volume,1180.92
+H10,Air White,Billed Wt,1386.44
+H10,Ground,Volume,539.84
+H10,Ground,Billed Wt,5238.32
+H11,Air Red,Volume,252.88
+H11,Air Red,Billed Wt,115.8
+H11,Air White,Volume,826.6
+H11,Air White,Billed Wt,797.52
+H11,Ground,Volume,51.16
+H11,Ground,Billed Wt,397.56
+H17,Air Red,Volume,21.16
+H17,Air Red,Billed Wt,33.04
+H17,Air White,Volume,464.84
+H17,Air White,Billed Wt,472.76
+H17,Ground,Volume,57.2
+H17,Ground,Billed Wt,505.64
+H37,Air Red,Volume,182.48
+H37,Air Red,Billed Wt,61.76
+H37,Air White,Volume,159.04
+H37,Air White,Billed Wt,153.6
 H37,Ground,Volume,41.56
-H37,Ground,Billed Wt,278.117
-H42,Air Red,Volume,23.4
-H42,Air Red,Billed Wt,22.498
-H42,Air White,Volume,444.24
-H42,Air White,Billed Wt,224.28
-H42,Ground,Volume,34.92
-H42,Ground,Billed Wt,278.138
-H48,Air Red,Volume,430.84
-H48,Air Red,Billed Wt,313.83
-H48,Air White,Volume,1379.12
-H48,Air White,Billed Wt,901.824
-H48,Ground,Volume,234.48
-H48,Ground,Billed Wt,3036.06
-H53,Air Red,Volume,39.04
-H53,Air Red,Billed Wt,17.095
-H53,Air White,Volume,367.88
-H53,Air White,Billed Wt,145.057
-H53,Ground,Volume,26.6
-H53,Ground,Billed Wt,140.456
-H70,Air Red,Volume,666.24
-H70,Air Red,Billed Wt,470.582
-H70,Air White,Volume,1662.52
-H70,Air White,Billed Wt,1314.647
-H70,Ground,Volume,204.24
-H70,Ground,Billed Wt,2153.854
-H71,Air Red,Volume,174.4
-H71,Air Red,Billed Wt,148.01
-H71,Air White,Volume,755.8
-H71,Air White,Billed Wt,694.446
-H71,Ground,Volume,122.32
-H71,Ground,Billed Wt,1125.317
-H74,Air Red,Volume,233.92
-H74,Air Red,Billed Wt,168.364
-H74,Air White,Volume,2134.48
-H74,Air White,Billed Wt,1129.996
-H74,Ground,Volume,268.92
-H74,Ground,Billed Wt,2709.822
-H75,Air White,Volume,0.2
-H75,Air White,Billed Wt,0.167
-H79,Air Red,Volume,243.44
-H79,Air Red,Billed Wt,345.494
-H79,Air White,Volume,2781.64
-H79,Air White,Billed Wt,1716.46
-H79,Ground,Volume,378.52
-H79,Ground,Billed Wt,3035.62
-H80,Air Red,Volume,202.68
-H80,Air Red,Billed Wt,154.601
-H80,Air White,Volume,1765.04
-H80,Air White,Billed Wt,953.711
-H80,Ground,Volume,210.16
-H80,Ground,Billed Wt,1408.732
-H91,Air Red,Volume,39.2
-H91,Air Red,Billed Wt,17.84
-H91,Air White,Volume,880.92
-H91,Air White,Billed Wt,314.963
+H37,Ground,Billed Wt,278.44
+H42,Air Red,Volume,9.16
+H42,Air Red,Billed Wt,20.28
+H42,Air White,Volume,154.08
+H42,Air White,Billed Wt,190.76
+H42,Ground,Volume,34.88
+H42,Ground,Billed Wt,278.44
+H48,Air Red,Volume,146.16
+H48,Air Red,Billed Wt,298.32
+H48,Air White,Volume,546.84
+H48,Air White,Billed Wt,830.0
+H48,Ground,Volume,234.56
+H48,Ground,Billed Wt,3037.52
+H53,Air Red,Volume,7.88
+H53,Air Red,Billed Wt,13.64
+H53,Air White,Volume,112.52
+H53,Air White,Billed Wt,121.84
+H53,Ground,Volume,26.64
+H53,Ground,Billed Wt,140.68
+H70,Air Red,Volume,251.04
+H70,Air Red,Billed Wt,455.52
+H70,Air White,Volume,1083.64
+H70,Air White,Billed Wt,1291.72
+H70,Ground,Volume,204.52
+H70,Ground,Billed Wt,2155.0
+H71,Air Red,Volume,96.0
+H71,Air Red,Billed Wt,132.32
+H71,Air White,Volume,414.48
+H71,Air White,Billed Wt,672.0
+H71,Ground,Volume,122.36
+H71,Ground,Billed Wt,1125.24
+H74,Air Red,Volume,137.44
+H74,Air Red,Billed Wt,153.8
+H74,Air White,Volume,1006.08
+H74,Air White,Billed Wt,1070.12
+H74,Ground,Volume,269.52
+H74,Ground,Billed Wt,2715.76
+H75,Air White,Volume,0.08
+H75,Air White,Billed Wt,0.12
+H79,Air Red,Volume,129.08
+H79,Air Red,Billed Wt,333.48
+H79,Air White,Volume,1772.72
+H79,Air White,Billed Wt,1615.08
+H79,Ground,Volume,378.64
+H79,Ground,Billed Wt,3037.4
+H80,Air Red,Volume,95.52
+H80,Air Red,Billed Wt,138.88
+H80,Air White,Volume,976.0
+H80,Air White,Billed Wt,900.76
+H80,Ground,Volume,210.24
+H80,Ground,Billed Wt,1409.48
+H91,Air Red,Volume,13.08
+H91,Air Red,Billed Wt,16.2
+H91,Air White,Volume,379.08
+H91,Air White,Billed Wt,295.08
 H91,Ground,Volume,40.84
-H91,Ground,Billed Wt,249.412
-H92,Air Red,Volume,25.08
-H92,Air Red,Billed Wt,10.568
-H92,Air White,Volume,594.44
-H92,Air White,Billed Wt,191.436
-H92,Ground,Volume,25.72
-H92,Ground,Billed Wt,186.828
-H96,Air Red,Volume,108.2
-H96,Air Red,Billed Wt,208.102
-H96,Air White,Volume,679.0
-H96,Air White,Billed Wt,636.438
-H96,Ground,Volume,30.12
-H96,Ground,Billed Wt,565.576
-H98,Air Red,Volume,14.56
-H98,Air Red,Billed Wt,5.111
-H98,Air White,Volume,321.88
-H98,Air White,Billed Wt,192.997
+H91,Ground,Billed Wt,249.28
+H92,Air Red,Volume,5.44
+H92,Air Red,Billed Wt,8.2
+H92,Air White,Volume,217.76
+H92,Air White,Billed Wt,173.68
+H92,Ground,Volume,25.84
+H92,Ground,Billed Wt,187.64
+H96,Air Red,Volume,89.72
+H96,Air Red,Billed Wt,206.08
+H96,Air White,Volume,275.28
+H96,Air White,Billed Wt,593.32
+H96,Ground,Volume,30.2
+H96,Ground,Billed Wt,566.2
+H98,Air Red,Volume,2.28
+H98,Air Red,Billed Wt,4.08
+H98,Air White,Volume,147.36
+H98,Air White,Billed Wt,187.28
 H98,Ground,Volume,14.72
-H98,Ground,Billed Wt,102.397
-I02,Air Red,Volume,108.68
-I02,Air Red,Billed Wt,156.063
-I02,Air White,Volume,815.52
-I02,Air White,Billed Wt,897.822
+H98,Ground,Billed Wt,102.52
+I02,Air Red,Volume,79.88
+I02,Air Red,Billed Wt,150.52
+I02,Air White,Volume,435.28
+I02,Air White,Billed Wt,856.4
 I02,Ground,Volume,145.44
-I02,Ground,Billed Wt,2034.455
-I03,Air Red,Volume,28.0
-I03,Air Red,Billed Wt,23.455
-I03,Air White,Volume,204.28
-I03,Air White,Billed Wt,177.401
+I02,Ground,Billed Wt,2034.28
+I03,Air Red,Volume,11.4
+I03,Air Red,Billed Wt,19.84
+I03,Air White,Volume,49.68
+I03,Air White,Billed Wt,157.56
 I03,Ground,Volume,34.32
-I03,Ground,Billed Wt,434.818
-I07,Air Red,Volume,9.16
-I07,Air Red,Billed Wt,7.601
-I07,Air White,Volume,138.88
-I07,Air White,Billed Wt,67.064
+I03,Ground,Billed Wt,435.08
+I07,Air Red,Volume,7.56
+I07,Air Red,Billed Wt,7.4
+I07,Air White,Volume,51.16
+I07,Air White,Billed Wt,55.68
 I07,Ground,Volume,16.52
-I07,Ground,Billed Wt,119.652
-I08,Air Red,Volume,44.64
-I08,Air Red,Billed Wt,37.067
-I08,Air White,Volume,448.36
-I08,Air White,Billed Wt,169.632
-I08,Ground,Volume,52.96
-I08,Ground,Billed Wt,412.472
-I11,Air Red,Volume,7.0
-I11,Air Red,Billed Wt,3.539
-I11,Air White,Volume,78.36
-I11,Air White,Billed Wt,27.129
-I11,Ground,Volume,6.96
-I11,Ground,Billed Wt,55.443
-I16,Air Red,Volume,36.8
-I16,Air Red,Billed Wt,31.668
-I16,Air White,Volume,55.04
-I16,Air White,Billed Wt,24.552
+I07,Ground,Billed Wt,119.44
+I08,Air Red,Volume,23.2
+I08,Air Red,Billed Wt,31.68
+I08,Air White,Volume,152.28
+I08,Air White,Billed Wt,128.12
+I08,Ground,Volume,53.0
+I08,Ground,Billed Wt,412.68
+I11,Air Red,Volume,3.12
+I11,Air Red,Billed Wt,2.96
+I11,Air White,Volume,19.4
+I11,Air White,Billed Wt,19.56
+I11,Ground,Volume,6.92
+I11,Ground,Billed Wt,55.32
+I16,Air Red,Volume,29.4
+I16,Air Red,Billed Wt,28.28
+I16,Air White,Volume,18.12
+I16,Air White,Billed Wt,19.16
 I16,Ground,Volume,5.8
-I16,Ground,Billed Wt,54.066
-I19,Air Red,Volume,10.48
-I19,Air Red,Billed Wt,6.782
-I19,Air White,Volume,112.12
-I19,Air White,Billed Wt,38.983
+I16,Ground,Billed Wt,54.2
+I19,Air Red,Volume,2.12
+I19,Air Red,Billed Wt,4.84
+I19,Air White,Volume,23.96
+I19,Air White,Billed Wt,24.52
 I19,Ground,Volume,14.24
-I19,Ground,Billed Wt,151.83
-I20,Air Red,Volume,3.68
-I20,Air Red,Billed Wt,1.809
-I20,Air White,Volume,66.72
-I20,Air White,Billed Wt,20.833
-I20,Ground,Volume,11.52
-I20,Ground,Billed Wt,111.154
-I29,Air Red,Volume,9.6
-I29,Air Red,Billed Wt,5.803
-I29,Air White,Volume,54.8
-I29,Air White,Billed Wt,27.866
+I19,Ground,Billed Wt,152.0
+I20,Air Red,Volume,1.32
+I20,Air Red,Billed Wt,1.4
+I20,Air White,Volume,18.48
+I20,Air White,Billed Wt,14.96
+I20,Ground,Volume,11.56
+I20,Ground,Billed Wt,111.64
+I29,Air Red,Volume,5.28
+I29,Air Red,Billed Wt,3.92
+I29,Air White,Volume,22.6
+I29,Air White,Billed Wt,23.68
 I29,Ground,Volume,5.04
-I29,Ground,Billed Wt,49.605
-I30,Air Red,Volume,1.48
-I30,Air Red,Billed Wt,0.814
-I30,Air White,Volume,15.4
-I30,Air White,Billed Wt,4.141
-I30,Ground,Volume,1.92
-I30,Ground,Billed Wt,18.086
-I34,Air Red,Volume,5.24
-I34,Air Red,Billed Wt,3.763
-I34,Air White,Volume,58.96
-I34,Air White,Billed Wt,20.021
-I34,Ground,Volume,8.28
-I34,Ground,Billed Wt,73.103
-I39,Air Red,Volume,3.96
-I39,Air Red,Billed Wt,1.87
-I39,Air White,Volume,51.28
-I39,Air White,Billed Wt,18.665
+I29,Ground,Billed Wt,49.6
+I30,Air Red,Volume,1.0
+I30,Air Red,Billed Wt,0.72
+I30,Air White,Volume,3.52
+I30,Air White,Billed Wt,2.72
+I30,Ground,Volume,2.04
+I30,Ground,Billed Wt,18.28
+I34,Air Red,Volume,3.4
+I34,Air Red,Billed Wt,3.36
+I34,Air White,Volume,14.72
+I34,Air White,Billed Wt,14.48
+I34,Ground,Volume,8.32
+I34,Ground,Billed Wt,73.28
+I39,Air Red,Volume,1.8
+I39,Air Red,Billed Wt,1.16
+I39,Air White,Volume,14.84
+I39,Air White,Billed Wt,13.84
 I39,Ground,Volume,4.28
-I39,Ground,Billed Wt,115.774
-I40,Air White,Volume,0.24
-I40,Air White,Billed Wt,0.024
-I41,Air Red,Volume,0.24
-I41,Air Red,Billed Wt,0.036
-I41,Air White,Volume,1.52
-I41,Air White,Billed Wt,5.585
+I39,Ground,Billed Wt,116.0
+I41,Air White,Volume,0.16
+I41,Air White,Billed Wt,5.44
 I41,Ground,Volume,0.08
-I41,Ground,Billed Wt,0.174
-I42,Air Red,Volume,96.28
-I42,Air Red,Billed Wt,78.668
-I42,Air White,Volume,974.2
-I42,Air White,Billed Wt,597.752
-I42,Ground,Volume,148.16
-I42,Ground,Billed Wt,1116.559
-I43,Air Red,Volume,194.12
-I43,Air Red,Billed Wt,153.867
-I43,Air White,Volume,779.68
-I43,Air White,Billed Wt,514.312
+I41,Ground,Billed Wt,0.2
+I42,Air Red,Volume,66.2
+I42,Air Red,Billed Wt,74.52
+I42,Air White,Volume,552.6
+I42,Air White,Billed Wt,553.84
+I42,Ground,Volume,148.2
+I42,Ground,Billed Wt,1116.8
+I43,Air Red,Volume,148.08
+I43,Air Red,Billed Wt,147.56
+I43,Air White,Volume,387.24
+I43,Air White,Billed Wt,471.56
 I43,Ground,Volume,101.4
-I43,Ground,Billed Wt,1008.122
+I43,Ground,Billed Wt,1008.32
 I44,Air Red,Volume,0.0
 I44,Air Red,Billed Wt,0.0
-I44,Air White,Volume,0.56
-I44,Air White,Billed Wt,0.168
+I44,Air White,Volume,0.08
+I44,Air White,Billed Wt,0.12
 I44,Ground,Volume,0.08
-I44,Ground,Billed Wt,0.378
+I44,Ground,Billed Wt,0.36
 I45,Air Red,Volume,0.04
-I45,Air Red,Billed Wt,0.004
-I45,Air White,Volume,1.2
-I45,Air White,Billed Wt,0.414
+I45,Air Red,Billed Wt,0.0
+I45,Air White,Volume,0.32
+I45,Air White,Billed Wt,0.28
 I45,Ground,Volume,0.12
-I45,Ground,Billed Wt,1.166
-I46,Air Red,Volume,168.48
-I46,Air Red,Billed Wt,210.684
-I46,Air White,Volume,1203.0
-I46,Air White,Billed Wt,978.348
-I46,Ground,Volume,330.12
-I46,Ground,Billed Wt,3190.255
-J01,Air Red,Volume,401.88
-J01,Air Red,Billed Wt,772.236
-J01,Air White,Volume,2319.4
-J01,Air White,Billed Wt,1735.912
-J01,Ground,Volume,346.44
-J01,Ground,Billed Wt,3626.668
-J02,Air Red,Volume,139.32
-J02,Air Red,Billed Wt,170.168
-J02,Air White,Volume,1194.2
-J02,Air White,Billed Wt,962.818
+I45,Ground,Billed Wt,1.16
+I46,Air Red,Volume,130.48
+I46,Air Red,Billed Wt,205.64
+I46,Air White,Volume,731.52
+I46,Air White,Billed Wt,923.36
+I46,Ground,Volume,330.16
+I46,Ground,Billed Wt,3191.04
+J01,Air Red,Volume,294.92
+J01,Air Red,Billed Wt,749.0
+J01,Air White,Volume,1130.0
+J01,Air White,Billed Wt,1530.12
+J01,Ground,Volume,346.52
+J01,Ground,Billed Wt,3627.56
+J02,Air Red,Volume,106.16
+J02,Air Red,Billed Wt,163.52
+J02,Air White,Volume,623.84
+J02,Air White,Billed Wt,886.04
 J02,Ground,Volume,138.08
-J02,Ground,Billed Wt,1118.866
-J03,Air Red,Volume,610.08
-J03,Air Red,Billed Wt,810.875
-J03,Air White,Volume,4542.04
-J03,Air White,Billed Wt,3715.559
-J03,Ground,Volume,556.28
-J03,Ground,Billed Wt,3285.391
-J04,Air Red,Volume,85.56
-J04,Air Red,Billed Wt,99.684
-J04,Air White,Volume,1346.64
-J04,Air White,Billed Wt,1259.654
-J04,Ground,Volume,324.28
-J04,Ground,Billed Wt,1442.661
-J05,Air Red,Volume,178.64
-J05,Air Red,Billed Wt,281.281
-J05,Air White,Volume,1615.84
-J05,Air White,Billed Wt,1498.928
-J05,Ground,Volume,217.32
-J05,Ground,Billed Wt,1377.384
-J06,Air Red,Volume,52.04
-J06,Air Red,Billed Wt,49.513
-J06,Air White,Volume,82.6
-J06,Air White,Billed Wt,150.317
+J02,Ground,Billed Wt,1118.8
+J03,Air Red,Volume,539.24
+J03,Air Red,Billed Wt,800.48
+J03,Air White,Volume,2643.36
+J03,Air White,Billed Wt,3589.76
+J03,Ground,Volume,556.6
+J03,Ground,Billed Wt,3288.32
+J04,Air Red,Volume,58.0
+J04,Air Red,Billed Wt,94.76
+J04,Air White,Volume,729.4
+J04,Air White,Billed Wt,1199.64
+J04,Ground,Volume,324.36
+J04,Ground,Billed Wt,1443.16
+J05,Air Red,Volume,137.12
+J05,Air Red,Billed Wt,274.48
+J05,Air White,Volume,1067.4
+J05,Air White,Billed Wt,1433.52
+J05,Ground,Volume,217.36
+J05,Ground,Billed Wt,1377.92
+J06,Air Red,Volume,24.12
+J06,Air Red,Billed Wt,44.2
+J06,Air White,Volume,72.64
+J06,Air White,Billed Wt,147.12
 J06,Ground,Volume,48.6
-J06,Ground,Billed Wt,234.499
-J07,Air Red,Volume,133.32
-J07,Air Red,Billed Wt,79.637
-J07,Air White,Volume,1011.88
-J07,Air White,Billed Wt,684.146
+J06,Ground,Billed Wt,234.68
+J07,Air Red,Volume,37.2
+J07,Air Red,Billed Wt,34.76
+J07,Air White,Volume,593.76
+J07,Air White,Billed Wt,634.64
 J07,Ground,Volume,142.32
-J07,Ground,Billed Wt,850.591
-J08,Air Red,Volume,84.8
-J08,Air Red,Billed Wt,45.414
-J08,Air White,Volume,859.2
-J08,Air White,Billed Wt,468.156
-J08,Ground,Volume,39.92
-J08,Ground,Billed Wt,322.789
-J11,Air Red,Volume,17.84
-J11,Air Red,Billed Wt,33.939
-J11,Air White,Volume,258.04
-J11,Air White,Billed Wt,164.204
-J11,Ground,Volume,24.84
-J11,Ground,Billed Wt,299.286
-J12,Air Red,Volume,53.32
-J12,Air Red,Billed Wt,89.955
-J12,Air White,Volume,452.08
-J12,Air White,Billed Wt,405.593
+J07,Ground,Billed Wt,850.88
+J08,Air Red,Volume,61.08
+J08,Air Red,Billed Wt,40.32
+J08,Air White,Volume,441.8
+J08,Air White,Billed Wt,412.32
+J08,Ground,Volume,39.96
+J08,Ground,Billed Wt,323.44
+J11,Air Red,Volume,8.44
+J11,Air Red,Billed Wt,32.08
+J11,Air White,Volume,104.84
+J11,Air White,Billed Wt,140.6
+J11,Ground,Volume,24.88
+J11,Ground,Billed Wt,299.28
+J12,Air Red,Volume,25.4
+J12,Air Red,Billed Wt,84.8
+J12,Air White,Volume,145.96
+J12,Air White,Billed Wt,374.12
 J12,Ground,Volume,162.16
-J12,Ground,Billed Wt,1546.702
-J13,Air Red,Volume,404.24
-J13,Air Red,Billed Wt,322.373
-J13,Air White,Volume,2413.44
-J13,Air White,Billed Wt,2420.207
-J13,Ground,Volume,1453.32
-J13,Ground,Billed Wt,10886.234
-J14,Air Red,Volume,6.92
-J14,Air Red,Billed Wt,3.341
-J14,Air White,Volume,23.52
-J14,Air White,Billed Wt,18.233
+J12,Ground,Billed Wt,1546.48
+J13,Air Red,Volume,361.6
+J13,Air Red,Billed Wt,315.12
+J13,Air White,Volume,1416.4
+J13,Air White,Billed Wt,2265.76
+J13,Ground,Volume,1453.48
+J13,Ground,Billed Wt,10888.88
+J14,Air Red,Volume,2.2
+J14,Air Red,Billed Wt,2.44
+J14,Air White,Volume,10.72
+J14,Air White,Billed Wt,16.44
 J14,Ground,Volume,5.72
-J14,Ground,Billed Wt,55.309
-J15,Air Red,Volume,184.88
-J15,Air Red,Billed Wt,1121.6
-J15,Air White,Volume,733.68
-J15,Air White,Billed Wt,631.877
-J15,Ground,Volume,134.2
-J15,Ground,Billed Wt,1096.437
-J16,Air Red,Volume,46.16
-J16,Air Red,Billed Wt,34.218
-J16,Air White,Volume,571.16
-J16,Air White,Billed Wt,308.788
-J16,Ground,Volume,90.68
-J16,Ground,Billed Wt,441.06
-J17,Air Red,Volume,11.0
-J17,Air Red,Billed Wt,11.1
-J17,Air White,Volume,253.24
-J17,Air White,Billed Wt,137.615
-J17,Ground,Volume,43.84
-J17,Ground,Billed Wt,436.043
-J18,Air Red,Volume,50.84
-J18,Air Red,Billed Wt,69.255
-J18,Air White,Volume,793.68
-J18,Air White,Billed Wt,513.33
-J18,Ground,Volume,67.4
-J18,Ground,Billed Wt,547.652
-J19,Air Red,Volume,23.08
-J19,Air Red,Billed Wt,23.406
-J19,Air White,Volume,287.96
-J19,Air White,Billed Wt,128.245
-J19,Ground,Volume,44.04
-J19,Ground,Billed Wt,348.003
-J20,Air Red,Volume,17.04
-J20,Air Red,Billed Wt,11.914
-J20,Air White,Volume,187.64
-J20,Air White,Billed Wt,125.16
-J20,Ground,Volume,24.84
-J20,Ground,Billed Wt,376.409
-J21,Air Red,Volume,121.84
-J21,Air Red,Billed Wt,98.708
-J21,Air White,Volume,1185.72
-J21,Air White,Billed Wt,732.707
-J21,Ground,Volume,169.48
-J21,Ground,Billed Wt,1503.065
-J25,Air Red,Volume,64.96
-J25,Air Red,Billed Wt,105.147
-J25,Air White,Volume,1429.24
-J25,Air White,Billed Wt,1066.573
-J25,Ground,Volume,159.28
-J25,Ground,Billed Wt,1458.564
-J26,Air Red,Volume,222.68
-J26,Air Red,Billed Wt,625.956
-J26,Air White,Volume,2164.36
-J26,Air White,Billed Wt,1819.733
-J26,Ground,Volume,480.32
-J26,Ground,Billed Wt,4809.729
-J36,Air Red,Volume,18.16
-J36,Air Red,Billed Wt,10.344
-J36,Air White,Volume,308.4
-J36,Air White,Billed Wt,208.802
+J14,Ground,Billed Wt,55.32
+J15,Air Red,Volume,153.72
+J15,Air Red,Billed Wt,1110.56
+J15,Air White,Volume,347.6
+J15,Air White,Billed Wt,570.16
+J15,Ground,Volume,134.16
+J15,Ground,Billed Wt,1096.88
+J16,Air Red,Volume,19.48
+J16,Air Red,Billed Wt,28.52
+J16,Air White,Volume,217.52
+J16,Air White,Billed Wt,273.12
+J16,Ground,Volume,90.56
+J16,Ground,Billed Wt,441.04
+J17,Air Red,Volume,5.4
+J17,Air Red,Billed Wt,10.12
+J17,Air White,Volume,119.64
+J17,Air White,Billed Wt,126.68
+J17,Ground,Volume,43.88
+J17,Ground,Billed Wt,436.44
+J18,Air Red,Volume,31.88
+J18,Air Red,Billed Wt,65.96
+J18,Air White,Volume,475.0
+J18,Air White,Billed Wt,478.04
+J18,Ground,Volume,67.52
+J18,Ground,Billed Wt,548.52
+J19,Air Red,Volume,5.76
+J19,Air Red,Billed Wt,18.76
+J19,Air White,Volume,103.48
+J19,Air White,Billed Wt,113.96
+J19,Ground,Volume,44.0
+J19,Ground,Billed Wt,347.84
+J20,Air Red,Volume,7.68
+J20,Air Red,Billed Wt,9.68
+J20,Air White,Volume,73.2
+J20,Air White,Billed Wt,101.08
+J20,Ground,Volume,24.92
+J20,Ground,Billed Wt,378.28
+J21,Air Red,Volume,73.44
+J21,Air Red,Billed Wt,92.28
+J21,Air White,Volume,601.2
+J21,Air White,Billed Wt,669.32
+J21,Ground,Volume,169.56
+J21,Ground,Billed Wt,1503.68
+J25,Air Red,Volume,40.4
+J25,Air Red,Billed Wt,100.32
+J25,Air White,Volume,794.24
+J25,Air White,Billed Wt,1014.64
+J25,Ground,Volume,159.4
+J25,Ground,Billed Wt,1459.32
+J26,Air Red,Volume,133.52
+J26,Air Red,Billed Wt,581.24
+J26,Air White,Volume,1254.92
+J26,Air White,Billed Wt,1751.76
+J26,Ground,Volume,480.28
+J26,Ground,Billed Wt,4810.36
+J36,Air Red,Volume,3.4
+J36,Air Red,Billed Wt,5.52
+J36,Air White,Volume,148.8
+J36,Air White,Billed Wt,187.4
 J36,Ground,Volume,31.8
-J36,Ground,Billed Wt,245.829
-J37,Air Red,Volume,56.48
-J37,Air Red,Billed Wt,102.837
-J37,Air White,Volume,983.48
-J37,Air White,Billed Wt,577.847
-J37,Ground,Volume,122.56
-J37,Ground,Billed Wt,1180.198
-J39,Air Red,Volume,9.16
-J39,Air Red,Billed Wt,10.304
-J39,Air White,Volume,95.36
-J39,Air White,Billed Wt,97.297
+J36,Ground,Billed Wt,245.76
+J37,Air Red,Volume,41.52
+J37,Air Red,Billed Wt,100.96
+J37,Air White,Volume,420.72
+J37,Air White,Billed Wt,537.6
+J37,Ground,Volume,122.6
+J37,Ground,Billed Wt,1181.56
+J39,Air Red,Volume,4.4
+J39,Air Red,Billed Wt,9.56
+J39,Air White,Volume,49.72
+J39,Air White,Billed Wt,92.8
 J39,Ground,Volume,31.12
-J39,Ground,Billed Wt,347.73
-J48,Air Red,Volume,28.56
-J48,Air Red,Billed Wt,17.502
-J48,Air White,Volume,269.24
-J48,Air White,Billed Wt,162.858
-J48,Ground,Volume,16.76
-J48,Ground,Billed Wt,130.136
-J50,Air Red,Volume,85.68
-J50,Air Red,Billed Wt,78.462
-J50,Air White,Volume,469.88
-J50,Air White,Billed Wt,287.809
-J50,Ground,Volume,114.76
-J50,Ground,Billed Wt,1043.989
-J54,Air Red,Volume,19.88
-J54,Air Red,Billed Wt,73.442
-J54,Air White,Volume,140.16
-J54,Air White,Billed Wt,151.1
+J39,Ground,Billed Wt,347.8
+J48,Air Red,Volume,20.72
+J48,Air Red,Billed Wt,15.28
+J48,Air White,Volume,157.8
+J48,Air White,Billed Wt,150.52
+J48,Ground,Volume,16.8
+J48,Ground,Billed Wt,130.44
+J50,Air Red,Volume,30.28
+J50,Air Red,Billed Wt,54.04
+J50,Air White,Volume,238.88
+J50,Air White,Billed Wt,265.04
+J50,Ground,Volume,114.84
+J50,Ground,Billed Wt,1044.48
+J54,Air Red,Volume,15.56
+J54,Air Red,Billed Wt,72.4
+J54,Air White,Volume,108.56
+J54,Air White,Billed Wt,146.44
 J54,Ground,Volume,12.0
-J54,Ground,Billed Wt,280.221
-K01,Air Red,Volume,453.72
-K01,Air Red,Billed Wt,580.588
-K01,Air White,Volume,2035.0
-K01,Air White,Billed Wt,799.332
+J54,Ground,Billed Wt,280.28
+K01,Air Red,Volume,336.24
+K01,Air Red,Billed Wt,567.08
+K01,Air White,Volume,810.88
+K01,Air White,Billed Wt,699.2
 K01,Ground,Volume,63.72
-K01,Ground,Billed Wt,139.215
-K02,Air Red,Volume,0.28
-K02,Air Red,Billed Wt,0.018
-K02,Air White,Volume,7.96
-K02,Air White,Billed Wt,21.935
+K01,Ground,Billed Wt,139.32
+K02,Air White,Volume,1.12
+K02,Air White,Billed Wt,19.24
 K02,Ground,Volume,0.16
-K02,Ground,Billed Wt,13.219
-K03,Air Red,Volume,22.88
-K03,Air Red,Billed Wt,27.49
-K03,Air White,Volume,186.68
-K03,Air White,Billed Wt,140.302
+K02,Ground,Billed Wt,13.2
+K03,Air Red,Volume,18.0
+K03,Air Red,Billed Wt,26.44
+K03,Air White,Volume,115.4
+K03,Air White,Billed Wt,133.64
 K03,Ground,Volume,10.8
-K03,Ground,Billed Wt,163.989
-K04,Air Red,Volume,410.84
-K04,Air Red,Billed Wt,450.674
-K04,Air White,Volume,696.2
-K04,Air White,Billed Wt,745.952
+K03,Ground,Billed Wt,163.96
+K04,Air Red,Volume,387.52
+K04,Air Red,Billed Wt,447.56
+K04,Air White,Volume,485.88
+K04,Air White,Billed Wt,733.2
 K04,Ground,Volume,128.32
-K04,Ground,Billed Wt,1433.091
-K05,Air Red,Volume,326.6
-K05,Air Red,Billed Wt,448.406
-K05,Air White,Volume,1438.04
-K05,Air White,Billed Wt,1251.604
+K04,Ground,Billed Wt,1433.32
+K05,Air Red,Volume,232.88
+K05,Air Red,Billed Wt,433.76
+K05,Air White,Volume,906.72
+K05,Air White,Billed Wt,1198.44
 K05,Ground,Volume,178.4
-K05,Ground,Billed Wt,2945.902
-K06,Air Red,Volume,190.08
-K06,Air Red,Billed Wt,127.538
-K06,Air White,Volume,930.8
-K06,Air White,Billed Wt,653.074
-K06,Ground,Volume,102.4
-K06,Ground,Billed Wt,1132.908
-K07,Air Red,Volume,217.2
-K07,Air Red,Billed Wt,387.974
-K07,Air White,Volume,763.76
-K07,Air White,Billed Wt,583.973
+K05,Ground,Billed Wt,2946.04
+K06,Air Red,Volume,113.24
+K06,Air Red,Billed Wt,114.08
+K06,Air White,Volume,547.96
+K06,Air White,Billed Wt,608.08
+K06,Ground,Volume,104.64
+K06,Ground,Billed Wt,1138.04
+K07,Air Red,Volume,173.04
+K07,Air Red,Billed Wt,382.56
+K07,Air White,Volume,354.12
+K07,Air White,Billed Wt,558.92
 K07,Ground,Volume,149.04
-K07,Ground,Billed Wt,3302.892
-K08,Air Red,Volume,137.88
-K08,Air Red,Billed Wt,109.917
-K08,Air White,Volume,1152.2
-K08,Air White,Billed Wt,1003.994
+K07,Ground,Billed Wt,3302.64
+K08,Air Red,Volume,114.04
+K08,Air Red,Billed Wt,105.8
+K08,Air White,Volume,895.48
+K08,Air White,Billed Wt,981.6
 K08,Ground,Volume,78.4
-K08,Ground,Billed Wt,1084.693
+K08,Ground,Billed Wt,1084.88
 K104,Air Red,Volume,0.08
-K104,Air Red,Billed Wt,0.499
+K104,Air Red,Billed Wt,0.48
 K104,Ground,Volume,0.28
-K104,Ground,Billed Wt,3.614
-K119,Air Red,Volume,6.36
-K119,Air Red,Billed Wt,3.452
-K119,Air White,Volume,37.84
-K119,Air White,Billed Wt,26.893
+K104,Ground,Billed Wt,3.6
+K119,Air Red,Volume,0.32
+K119,Air Red,Billed Wt,1.52
+K119,Air White,Volume,10.44
+K119,Air White,Billed Wt,20.36
 K119,Ground,Volume,6.44
-K119,Ground,Billed Wt,115.175
-K129,Air Red,Volume,65.44
-K129,Air Red,Billed Wt,62.951
-K129,Air White,Volume,193.76
-K129,Air White,Billed Wt,126.648
-K129,Ground,Volume,56.32
-K129,Ground,Billed Wt,556.87
-K14,Air Red,Volume,97.44
-K14,Air Red,Billed Wt,91.14
-K14,Air White,Volume,370.6
-K14,Air White,Billed Wt,182.803
+K119,Ground,Billed Wt,115.24
+K129,Air Red,Volume,36.24
+K129,Air Red,Billed Wt,58.04
+K129,Air White,Volume,82.0
+K129,Air White,Billed Wt,109.84
+K129,Ground,Volume,56.24
+K129,Ground,Billed Wt,551.84
+K14,Air Red,Volume,38.04
+K14,Air Red,Billed Wt,71.4
+K14,Air White,Volume,99.76
+K14,Air White,Billed Wt,142.0
 K14,Ground,Volume,37.8
-K14,Ground,Billed Wt,545.127
-K15,Air Red,Volume,197.24
-K15,Air Red,Billed Wt,188.501
-K15,Air White,Volume,436.2
-K15,Air White,Billed Wt,346.002
-K15,Ground,Volume,78.0
-K15,Ground,Billed Wt,1399.794
-K22,Air Red,Volume,38.12
-K22,Air Red,Billed Wt,28.465
-K22,Air White,Volume,402.36
-K22,Air White,Billed Wt,167.487
+K14,Ground,Billed Wt,545.36
+K15,Air Red,Volume,113.96
+K15,Air Red,Billed Wt,173.64
+K15,Air White,Volume,173.8
+K15,Air White,Billed Wt,306.88
+K15,Ground,Volume,78.04
+K15,Ground,Billed Wt,1400.12
+K22,Air Red,Volume,9.88
+K22,Air Red,Billed Wt,22.04
+K22,Air White,Volume,159.68
+K22,Air White,Billed Wt,132.88
 K22,Ground,Volume,44.96
-K22,Ground,Billed Wt,743.0
-K23,Air Red,Volume,66.84
-K23,Air Red,Billed Wt,35.976
-K23,Air White,Volume,357.44
-K23,Air White,Billed Wt,124.609
+K22,Ground,Billed Wt,743.08
+K23,Air Red,Volume,13.84
+K23,Air Red,Billed Wt,27.6
+K23,Air White,Volume,84.56
+K23,Air White,Billed Wt,96.0
 K23,Ground,Volume,40.88
-K23,Ground,Billed Wt,796.928
-K27,Air Red,Volume,11.24
-K27,Air Red,Billed Wt,8.66
-K27,Air White,Volume,45.52
-K27,Air White,Billed Wt,18.536
+K23,Ground,Billed Wt,796.48
+K27,Air Red,Volume,6.48
+K27,Air Red,Billed Wt,7.04
+K27,Air White,Volume,10.0
+K27,Air White,Billed Wt,12.6
 K27,Ground,Volume,6.12
-K27,Ground,Billed Wt,140.958
-K28,Air Red,Volume,81.68
-K28,Air Red,Billed Wt,233.011
-K28,Air White,Volume,108.88
-K28,Air White,Billed Wt,1021.172
-K28,Ground,Volume,588.96
-K28,Ground,Billed Wt,7798.385
-K29,Air Red,Volume,1.08
-K29,Air Red,Billed Wt,2.414
-K29,Air White,Volume,18.72
-K29,Air White,Billed Wt,8.598
+K27,Ground,Billed Wt,141.04
+K28,Air Red,Volume,79.08
+K28,Air Red,Billed Wt,232.32
+K28,Air White,Volume,108.2
+K28,Air White,Billed Wt,1020.76
+K28,Ground,Volume,589.08
+K28,Ground,Billed Wt,7800.24
+K29,Air Red,Volume,0.48
+K29,Air Red,Billed Wt,2.36
+K29,Air White,Volume,3.68
+K29,Air White,Billed Wt,6.56
 K29,Ground,Volume,3.52
-K29,Ground,Billed Wt,79.536
-K32,Air Red,Volume,32.72
-K32,Air Red,Billed Wt,24.464
-K32,Air White,Volume,175.6
-K32,Air White,Billed Wt,94.413
-K32,Ground,Volume,47.0
-K32,Ground,Billed Wt,633.464
-K37,Air Red,Volume,50.88
-K37,Air Red,Billed Wt,38.729
-K37,Air White,Volume,286.32
-K37,Air White,Billed Wt,245.207
+K29,Ground,Billed Wt,79.56
+K32,Air Red,Volume,11.84
+K32,Air Red,Billed Wt,20.56
+K32,Air White,Volume,51.24
+K32,Air White,Billed Wt,75.84
+K32,Ground,Volume,46.96
+K32,Ground,Billed Wt,633.44
+K37,Air Red,Volume,34.64
+K37,Air Red,Billed Wt,35.96
+K37,Air White,Volume,208.44
+K37,Air White,Billed Wt,235.64
 K37,Ground,Volume,43.44
-K37,Ground,Billed Wt,491.367
-K39,Air Red,Volume,556.68
-K39,Air Red,Billed Wt,722.481
-K39,Air White,Volume,1460.44
-K39,Air White,Billed Wt,659.398
+K37,Ground,Billed Wt,491.4
+K39,Air Red,Volume,394.4
+K39,Air Red,Billed Wt,706.0
+K39,Air White,Volume,695.68
+K39,Air White,Billed Wt,594.0
 K39,Ground,Volume,80.16
-K39,Ground,Billed Wt,242.707
-K40,Air Red,Volume,55.08
-K40,Air Red,Billed Wt,45.211
-K40,Air White,Volume,492.2
-K40,Air White,Billed Wt,233.793
+K39,Ground,Billed Wt,242.76
+K40,Air Red,Volume,22.08
+K40,Air Red,Billed Wt,38.64
+K40,Air White,Volume,244.36
+K40,Air White,Billed Wt,202.84
 K40,Ground,Volume,44.08
-K40,Ground,Billed Wt,1348.27
-K45,Air Red,Volume,57.8
-K45,Air Red,Billed Wt,58.665
-K45,Air White,Volume,448.6
-K45,Air White,Billed Wt,234.113
+K40,Ground,Billed Wt,1348.6
+K45,Air Red,Volume,37.52
+K45,Air Red,Billed Wt,55.88
+K45,Air White,Volume,234.0
+K45,Air White,Billed Wt,210.72
 K45,Ground,Volume,73.64
-K45,Ground,Billed Wt,849.756
-K51,Air Red,Volume,3.88
-K51,Air Red,Billed Wt,7.078
-K51,Air White,Volume,13.32
-K51,Air White,Billed Wt,10.232
+K45,Ground,Billed Wt,850.0
+K51,Air Red,Volume,1.28
+K51,Air Red,Billed Wt,6.8
+K51,Air White,Volume,5.96
+K51,Air White,Billed Wt,9.16
 K51,Ground,Volume,2.56
-K51,Ground,Billed Wt,43.922
-K54,Air Red,Volume,91.6
-K54,Air Red,Billed Wt,200.917
-K54,Air White,Volume,1401.96
-K54,Air White,Billed Wt,1820.083
+K51,Ground,Billed Wt,44.04
+K54,Air Red,Volume,91.08
+K54,Air Red,Billed Wt,200.72
+K54,Air White,Volume,1383.04
+K54,Air White,Billed Wt,1818.2
 K54,Ground,Volume,63.04
-K54,Ground,Billed Wt,2142.231
-K56,Air Red,Volume,0.4
-K56,Air Red,Billed Wt,0.61
-K56,Air White,Volume,11.44
-K56,Air White,Billed Wt,14.951
-K63,Air Red,Volume,49.64
-K63,Air Red,Billed Wt,40.658
-K63,Air White,Volume,170.88
-K63,Air White,Billed Wt,95.973
-K63,Ground,Volume,21.8
-K63,Ground,Billed Wt,416.667
-K68,Air Red,Volume,367.48
-K68,Air Red,Billed Wt,445.374
-K68,Air White,Volume,924.48
-K68,Air White,Billed Wt,500.934
-K68,Ground,Volume,85.08
-K68,Ground,Billed Wt,726.588
-K72,Air Red,Volume,514.96
-K72,Air Red,Billed Wt,1338.445
-K72,Air White,Volume,569.4
-K72,Air White,Billed Wt,682.436
-K72,Ground,Volume,496.32
-K72,Ground,Billed Wt,13460.914
-K74,Air Red,Volume,118.96
-K74,Air Red,Billed Wt,129.391
-K74,Air White,Volume,776.68
-K74,Air White,Billed Wt,588.084
+K54,Ground,Billed Wt,2142.16
+K56,Air Red,Volume,0.36
+K56,Air Red,Billed Wt,0.6
+K56,Air White,Volume,4.2
+K56,Air White,Billed Wt,14.0
+K63,Air Red,Volume,35.8
+K63,Air Red,Billed Wt,36.8
+K63,Air White,Volume,93.88
+K63,Air White,Billed Wt,83.04
+K63,Ground,Volume,21.84
+K63,Ground,Billed Wt,417.0
+K68,Air Red,Volume,206.28
+K68,Air Red,Billed Wt,428.4
+K68,Air White,Volume,390.0
+K68,Air White,Billed Wt,453.44
+K68,Ground,Volume,86.64
+K68,Ground,Billed Wt,740.92
+K72,Air Red,Volume,456.4
+K72,Air Red,Billed Wt,1331.36
+K72,Air White,Volume,298.0
+K72,Air White,Billed Wt,652.44
+K72,Ground,Volume,496.64
+K72,Ground,Billed Wt,13468.48
+K74,Air Red,Volume,83.24
+K74,Air Red,Billed Wt,123.52
+K74,Air White,Volume,496.88
+K74,Air White,Billed Wt,559.28
 K74,Ground,Volume,165.88
-K74,Ground,Billed Wt,2136.438
-K75,Air Red,Volume,655.8
-K75,Air Red,Billed Wt,397.049
-K75,Air White,Volume,1197.68
-K75,Air White,Billed Wt,966.063
+K74,Ground,Billed Wt,2136.8
+K75,Air Red,Volume,359.88
+K75,Air Red,Billed Wt,371.48
+K75,Air White,Volume,849.76
+K75,Air White,Billed Wt,934.32
 K75,Ground,Volume,81.4
-K75,Ground,Billed Wt,1274.018
-K79,Air Red,Volume,51.28
-K79,Air Red,Billed Wt,33.964
-K79,Air White,Volume,249.8
-K79,Air White,Billed Wt,169.477
+K75,Ground,Billed Wt,1274.2
+K79,Air Red,Volume,33.04
+K79,Air Red,Billed Wt,30.12
+K79,Air White,Volume,61.36
+K79,Air White,Billed Wt,147.48
 K79,Ground,Volume,23.84
-K79,Ground,Billed Wt,319.0
-K81,Air Red,Volume,259.44
-K81,Air Red,Billed Wt,289.406
-K81,Air White,Volume,1032.48
-K81,Air White,Billed Wt,636.528
-K81,Ground,Volume,172.44
-K81,Ground,Billed Wt,2442.353
-K82,Air Red,Volume,0.68
-K82,Air Red,Billed Wt,2.275
-K82,Air White,Volume,24.68
-K82,Air White,Billed Wt,8.842
+K79,Ground,Billed Wt,318.92
+K81,Air Red,Volume,221.44
+K81,Air Red,Billed Wt,283.52
+K81,Air White,Volume,460.52
+K81,Air White,Billed Wt,600.16
+K81,Ground,Volume,172.48
+K81,Ground,Billed Wt,2443.32
+K82,Air Red,Volume,0.36
+K82,Air Red,Billed Wt,2.24
+K82,Air White,Volume,4.56
+K82,Air White,Billed Wt,6.12
 K82,Ground,Volume,2.04
-K82,Ground,Billed Wt,23.918
-K84,Air Red,Volume,0.36
-K84,Air Red,Billed Wt,0.337
-K84,Air White,Volume,1.48
-K84,Air White,Billed Wt,1.256
-K84,Ground,Volume,2.08
-K84,Ground,Billed Wt,10.203
-K85,Air Red,Volume,57.88
-K85,Air Red,Billed Wt,77.627
-K85,Air White,Volume,537.6
-K85,Air White,Billed Wt,385.554
+K82,Ground,Billed Wt,24.0
+K84,Air Red,Volume,0.24
+K84,Air Red,Billed Wt,0.36
+K84,Air White,Volume,0.72
+K84,Air White,Billed Wt,1.2
+K84,Ground,Volume,2.04
+K84,Ground,Billed Wt,10.24
+K85,Air Red,Volume,47.04
+K85,Air Red,Billed Wt,75.68
+K85,Air White,Volume,408.36
+K85,Air White,Billed Wt,367.28
 K85,Ground,Volume,98.16
-K85,Ground,Billed Wt,1348.876
-K88,Air Red,Volume,488.6
-K88,Air Red,Billed Wt,519.294
-K88,Air White,Volume,1043.08
-K88,Air White,Billed Wt,639.964
-K88,Ground,Volume,61.76
-K88,Ground,Billed Wt,85.559
-K89,Air Red,Volume,38.4
-K89,Air Red,Billed Wt,21.713
-K89,Air White,Volume,250.4
-K89,Air White,Billed Wt,94.191
-K89,Ground,Volume,19.48
-K89,Ground,Billed Wt,205.591
-L02,Air Red,Volume,472.8
-L02,Air Red,Billed Wt,593.045
-L02,Air White,Volume,1281.72
-L02,Air White,Billed Wt,824.477
-L02,Ground,Volume,277.64
-L02,Ground,Billed Wt,1509.841
-L03,Air Red,Volume,512.56
-L03,Air Red,Billed Wt,636.822
-L03,Air White,Volume,1544.88
-L03,Air White,Billed Wt,1174.236
-L03,Ground,Volume,302.24
-L03,Ground,Billed Wt,3257.461
-L04,Air Red,Volume,2967.2
-L04,Air Red,Billed Wt,3821.792
-L04,Air White,Volume,6673.04
-L04,Air White,Billed Wt,3912.833
-L04,Ground,Volume,1007.16
-L04,Ground,Billed Wt,9116.951
-L05,Air Red,Volume,125.4
-L05,Air Red,Billed Wt,265.351
-L05,Air White,Volume,654.48
-L05,Air White,Billed Wt,369.414
+K85,Ground,Billed Wt,1348.96
+K88,Air Red,Volume,296.84
+K88,Air Red,Billed Wt,501.8
+K88,Air White,Volume,466.52
+K88,Air White,Billed Wt,587.8
+K88,Ground,Volume,61.72
+K88,Ground,Billed Wt,85.52
+K89,Air Red,Volume,10.6
+K89,Air Red,Billed Wt,17.24
+K89,Air White,Volume,62.28
+K89,Air White,Billed Wt,68.6
+K89,Ground,Volume,19.44
+K89,Ground,Billed Wt,205.8
+L02,Air Red,Volume,289.72
+L02,Air Red,Billed Wt,560.16
+L02,Air White,Volume,411.0
+L02,Air White,Billed Wt,719.56
+L02,Ground,Volume,277.72
+L02,Ground,Billed Wt,1510.28
+L03,Air Red,Volume,371.36
+L03,Air Red,Billed Wt,630.28
+L03,Air White,Volume,741.52
+L03,Air White,Billed Wt,1151.96
+L03,Ground,Volume,302.4
+L03,Ground,Billed Wt,3263.04
+L04,Air Red,Volume,2394.96
+L04,Air Red,Billed Wt,3741.36
+L04,Air White,Volume,1931.8
+L04,Air White,Billed Wt,3404.12
+L04,Ground,Volume,1007.2
+L04,Ground,Billed Wt,9117.4
+L05,Air Red,Volume,114.96
+L05,Air Red,Billed Wt,264.28
+L05,Air White,Volume,214.56
+L05,Air White,Billed Wt,325.6
 L05,Ground,Volume,98.56
-L05,Ground,Billed Wt,1249.274
-L23,Air Red,Volume,488.72
-L23,Air Red,Billed Wt,1023.808
-L23,Air White,Volume,869.76
-L23,Air White,Billed Wt,842.486
-L23,Ground,Volume,198.56
-L23,Ground,Billed Wt,2011.257
-L27,Air Red,Volume,545.76
-L27,Air Red,Billed Wt,597.36
-L27,Air White,Volume,1697.32
-L27,Air White,Billed Wt,2462.859
-L27,Ground,Volume,204.16
-L27,Ground,Billed Wt,2302.53
-L28,Air Red,Volume,1.24
-L28,Air Red,Billed Wt,1.462
-L28,Air White,Volume,228.24
-L28,Air White,Billed Wt,32.61
+L05,Ground,Billed Wt,1249.64
+L23,Air Red,Volume,408.6
+L23,Air Red,Billed Wt,1013.32
+L23,Air White,Volume,565.88
+L23,Air White,Billed Wt,815.4
+L23,Ground,Volume,198.52
+L23,Ground,Billed Wt,2011.0
+L27,Air Red,Volume,317.28
+L27,Air Red,Billed Wt,575.28
+L27,Air White,Volume,955.92
+L27,Air White,Billed Wt,2409.88
+L27,Ground,Volume,204.28
+L27,Ground,Billed Wt,2302.84
+L28,Air Red,Volume,0.2
+L28,Air Red,Billed Wt,1.44
+L28,Air White,Volume,15.08
+L28,Air White,Billed Wt,21.12
 L28,Ground,Volume,1.88
-L28,Ground,Billed Wt,35.758
-M01,Air Red,Volume,847.8
-M01,Air Red,Billed Wt,1102.012
-M01,Air White,Volume,3736.84
-M01,Air White,Billed Wt,3644.527
-M01,Ground,Volume,449.12
-M01,Ground,Billed Wt,2515.893
-M02,Air Red,Volume,505.24
-M02,Air Red,Billed Wt,348.321
-M02,Air White,Volume,1691.16
-M02,Air White,Billed Wt,1501.544
-M02,Ground,Volume,205.12
-M02,Ground,Billed Wt,1231.099
-M04,Air Red,Volume,335.88
-M04,Air Red,Billed Wt,370.681
-M04,Air White,Volume,1741.4
-M04,Air White,Billed Wt,1081.699
-M04,Ground,Volume,355.44
-M04,Ground,Billed Wt,2462.292
-M05,Air Red,Volume,603.0
-M05,Air Red,Billed Wt,561.951
-M05,Air White,Volume,1821.88
-M05,Air White,Billed Wt,1500.394
-M05,Ground,Volume,450.76
-M05,Ground,Billed Wt,2480.61
-M06,Air Red,Volume,421.6
-M06,Air Red,Billed Wt,418.864
-M06,Air White,Volume,1157.36
-M06,Air White,Billed Wt,1071.539
-M06,Ground,Volume,123.2
-M06,Ground,Billed Wt,1042.864
-M07,Air Red,Volume,369.28
-M07,Air Red,Billed Wt,469.126
-M07,Air White,Volume,2064.0
-M07,Air White,Billed Wt,1449.592
-M07,Ground,Volume,166.44
-M07,Ground,Billed Wt,1146.237
-M08,Air Red,Volume,812.56
-M08,Air Red,Billed Wt,715.668
-M08,Air White,Volume,2184.64
-M08,Air White,Billed Wt,1479.144
-M08,Ground,Volume,304.48
-M08,Ground,Billed Wt,2364.307
-M35,Air Red,Volume,762.92
-M35,Air Red,Billed Wt,1163.45
-M35,Air White,Volume,1607.36
-M35,Air White,Billed Wt,1765.602
-M35,Ground,Volume,881.76
-M35,Ground,Billed Wt,11333.173
-M39,Air Red,Volume,123.12
-M39,Air Red,Billed Wt,158.797
-M39,Air White,Volume,994.28
-M39,Air White,Billed Wt,756.59
-M39,Ground,Volume,132.8
-M39,Ground,Billed Wt,1139.574
-M45,Air Red,Volume,266.52
-M45,Air Red,Billed Wt,242.353
-M45,Air White,Volume,1164.76
-M45,Air White,Billed Wt,814.681
-M45,Ground,Volume,95.32
-M45,Ground,Billed Wt,1275.922
-M46,Air Red,Volume,322.16
-M46,Air Red,Billed Wt,942.424
-M46,Air White,Volume,1269.36
-M46,Air White,Billed Wt,1711.011
+L28,Ground,Billed Wt,35.76
+M01,Air Red,Volume,660.04
+M01,Air Red,Billed Wt,1077.76
+M01,Air White,Volume,2114.12
+M01,Air White,Billed Wt,3491.8
+M01,Ground,Volume,449.28
+M01,Ground,Billed Wt,2516.12
+M02,Air Red,Volume,438.68
+M02,Air Red,Billed Wt,339.08
+M02,Air White,Volume,868.36
+M02,Air White,Billed Wt,1418.76
+M02,Ground,Volume,204.44
+M02,Ground,Billed Wt,1231.12
+M04,Air Red,Volume,144.08
+M04,Air Red,Billed Wt,343.2
+M04,Air White,Volume,513.52
+M04,Air White,Billed Wt,960.52
+M04,Ground,Volume,355.56
+M04,Ground,Billed Wt,2462.84
+M05,Air Red,Volume,479.4
+M05,Air Red,Billed Wt,545.28
+M05,Air White,Volume,943.56
+M05,Air White,Billed Wt,1429.44
+M05,Ground,Volume,450.84
+M05,Ground,Billed Wt,2481.76
+M06,Air Red,Volume,335.24
+M06,Air Red,Billed Wt,404.72
+M06,Air White,Volume,565.8
+M06,Air White,Billed Wt,999.08
+M06,Ground,Volume,123.24
+M06,Ground,Billed Wt,1042.96
+M07,Air Red,Volume,227.28
+M07,Air Red,Billed Wt,455.52
+M07,Air White,Volume,739.84
+M07,Air White,Billed Wt,1355.6
+M07,Ground,Volume,166.56
+M07,Ground,Billed Wt,1146.92
+M08,Air Red,Volume,695.4
+M08,Air Red,Billed Wt,699.44
+M08,Air White,Volume,861.36
+M08,Air White,Billed Wt,1389.76
+M08,Ground,Volume,304.64
+M08,Ground,Billed Wt,2365.76
+M35,Air Red,Volume,747.2
+M35,Air Red,Billed Wt,1160.68
+M35,Air White,Volume,1255.72
+M35,Air White,Billed Wt,1721.36
+M35,Ground,Volume,883.84
+M35,Ground,Billed Wt,11346.0
+M39,Air Red,Volume,79.56
+M39,Air Red,Billed Wt,152.44
+M39,Air White,Volume,318.76
+M39,Air White,Billed Wt,690.76
+M39,Ground,Volume,133.0
+M39,Ground,Billed Wt,1141.12
+M45,Air Red,Volume,213.36
+M45,Air Red,Billed Wt,237.08
+M45,Air White,Volume,484.52
+M45,Air White,Billed Wt,716.64
+M45,Ground,Volume,95.4
+M45,Ground,Billed Wt,1278.68
+M46,Air Red,Volume,296.36
+M46,Air Red,Billed Wt,937.84
+M46,Air White,Volume,851.2
+M46,Air White,Billed Wt,1679.24
 M46,Ground,Volume,203.76
-M46,Ground,Billed Wt,3054.515
-M47,Air Red,Volume,247.28
-M47,Air Red,Billed Wt,231.751
-M47,Air White,Volume,1098.68
-M47,Air White,Billed Wt,725.452
-M47,Ground,Volume,143.88
-M47,Ground,Billed Wt,1111.141
-M48,Air Red,Volume,601.52
-M48,Air Red,Billed Wt,576.492
-M48,Air White,Volume,1624.32
-M48,Air White,Billed Wt,2090.476
-M48,Ground,Volume,294.52
-M48,Ground,Billed Wt,2161.012
-M54,Air Red,Volume,419.64
-M54,Air Red,Billed Wt,508.705
-M54,Air White,Volume,1655.92
-M54,Air White,Billed Wt,1216.375
-M54,Ground,Volume,1298.52
-M54,Ground,Billed Wt,4406.102
-M57,Air Red,Volume,19.92
-M57,Air Red,Billed Wt,62.671
-M57,Air White,Volume,278.16
-M57,Air White,Billed Wt,555.541
+M46,Ground,Billed Wt,3054.84
+M47,Air Red,Volume,183.92
+M47,Air Red,Billed Wt,223.0
+M47,Air White,Volume,521.56
+M47,Air White,Billed Wt,672.0
+M47,Ground,Volume,144.0
+M47,Ground,Billed Wt,1113.12
+M48,Air Red,Volume,392.96
+M48,Air Red,Billed Wt,540.16
+M48,Air White,Volume,742.56
+M48,Air White,Billed Wt,1976.4
+M48,Ground,Volume,294.76
+M48,Ground,Billed Wt,2163.12
+M54,Air Red,Volume,298.36
+M54,Air Red,Billed Wt,491.52
+M54,Air White,Volume,786.24
+M54,Air White,Billed Wt,1144.4
+M54,Ground,Volume,1298.6
+M54,Ground,Billed Wt,4406.56
+M57,Air Red,Volume,11.96
+M57,Air Red,Billed Wt,61.96
+M57,Air White,Volume,147.24
+M57,Air White,Billed Wt,550.04
 M57,Ground,Volume,101.0
-M57,Ground,Billed Wt,1152.672
-M59,Air Red,Volume,216.56
-M59,Air Red,Billed Wt,246.39
-M59,Air White,Volume,718.44
-M59,Air White,Billed Wt,386.028
+M57,Ground,Billed Wt,1152.92
+M59,Air Red,Volume,157.2
+M59,Air Red,Billed Wt,239.48
+M59,Air White,Volume,308.56
+M59,Air White,Billed Wt,347.32
 M59,Ground,Volume,166.4
-M59,Ground,Billed Wt,751.95
-M61,Air Red,Volume,265.68
-M61,Air Red,Billed Wt,390.335
-M61,Air White,Volume,781.32
-M61,Air White,Billed Wt,723.426
-M61,Ground,Volume,81.24
-M61,Ground,Billed Wt,743.234
-M63,Air Red,Volume,0.36
-M63,Air Red,Billed Wt,1.9
-M63,Air White,Volume,0.72
-M63,Air White,Billed Wt,1.335
+M59,Ground,Billed Wt,752.52
+M61,Air Red,Volume,234.4
+M61,Air Red,Billed Wt,386.56
+M61,Air White,Volume,499.4
+M61,Air White,Billed Wt,687.52
+M61,Ground,Volume,81.28
+M61,Ground,Billed Wt,743.84
+M63,Air Red,Volume,0.2
+M63,Air Red,Billed Wt,0.28
+M63,Air White,Volume,0.32
+M63,Air White,Billed Wt,1.28
 M63,Ground,Volume,0.76
-M63,Ground,Billed Wt,2.154
-M66,Air Red,Volume,275.48
-M66,Air Red,Billed Wt,521.414
-M66,Air White,Volume,1158.4
-M66,Air White,Billed Wt,743.694
-M66,Ground,Volume,259.88
-M66,Ground,Billed Wt,2120.628
-M68,Air White,Volume,0.16
-M68,Air White,Billed Wt,0.021
-M75,Air Red,Volume,899.68
-M75,Air Red,Billed Wt,1161.752
-M75,Air White,Volume,2202.28
-M75,Air White,Billed Wt,2833.458
-M75,Ground,Volume,538.6
-M75,Ground,Billed Wt,4853.041
-M78,Air Red,Volume,256.88
-M78,Air Red,Billed Wt,239.616
-M78,Air White,Volume,960.12
-M78,Air White,Billed Wt,661.905
-M78,Ground,Volume,88.12
-M78,Ground,Billed Wt,727.057
-M85,Air Red,Volume,21.36
-M85,Air Red,Billed Wt,27.146
-M85,Air White,Volume,479.6
-M85,Air White,Billed Wt,287.896
-M85,Ground,Volume,46.96
-M85,Ground,Billed Wt,266.004
-M87,Air Red,Volume,43.4
-M87,Air Red,Billed Wt,45.154
-M87,Air White,Volume,121.08
-M87,Air White,Billed Wt,122.588
-M87,Ground,Volume,11.32
-M87,Ground,Billed Wt,95.664
-N02,Air Red,Volume,357.28
-N02,Air Red,Billed Wt,362.275
-N02,Air White,Volume,3724.92
-N02,Air White,Billed Wt,2536.463
-N02,Ground,Volume,1493.8
-N02,Ground,Billed Wt,7935.09
-N03,Air Red,Volume,523.88
-N03,Air Red,Billed Wt,853.652
-N03,Air White,Volume,2996.08
-N03,Air White,Billed Wt,2616.495
+M63,Ground,Billed Wt,2.12
+M66,Air Red,Volume,177.92
+M66,Air Red,Billed Wt,507.44
+M66,Air White,Volume,425.96
+M66,Air White,Billed Wt,667.04
+M66,Ground,Volume,259.96
+M66,Ground,Billed Wt,2123.24
+M75,Air Red,Volume,899.64
+M75,Air Red,Billed Wt,1161.8
+M75,Air White,Volume,2202.16
+M75,Air White,Billed Wt,2833.56
+M75,Ground,Volume,539.32
+M75,Ground,Billed Wt,4857.36
+M78,Air Red,Volume,179.72
+M78,Air Red,Billed Wt,230.0
+M78,Air White,Volume,498.56
+M78,Air White,Billed Wt,619.52
+M78,Ground,Volume,88.2
+M78,Ground,Billed Wt,727.6
+M85,Air Red,Volume,9.88
+M85,Air Red,Billed Wt,25.84
+M85,Air White,Volume,284.92
+M85,Air White,Billed Wt,274.0
+M85,Ground,Volume,47.04
+M85,Ground,Billed Wt,266.32
+M87,Air Red,Volume,31.12
+M87,Air Red,Billed Wt,42.76
+M87,Air White,Volume,111.72
+M87,Air White,Billed Wt,120.72
+M87,Ground,Volume,11.4
+M87,Ground,Billed Wt,102.28
+N02,Air Red,Volume,279.68
+N02,Air Red,Billed Wt,352.16
+N02,Air White,Volume,1904.52
+N02,Air White,Billed Wt,2366.6
+N02,Ground,Volume,1493.96
+N02,Ground,Billed Wt,7935.96
+N03,Air Red,Volume,379.56
+N03,Air Red,Billed Wt,834.6
+N03,Air White,Volume,1576.56
+N03,Air White,Billed Wt,2514.52
 N03,Ground,Volume,858.04
-N03,Ground,Billed Wt,8019.296
-N09,Air Red,Volume,651.8
-N09,Air Red,Billed Wt,755.075
-N09,Air White,Volume,2752.48
-N09,Air White,Billed Wt,2598.561
+N03,Ground,Billed Wt,8020.0
+N09,Air Red,Volume,460.84
+N09,Air Red,Billed Wt,683.68
+N09,Air White,Volume,1473.44
+N09,Air White,Billed Wt,2448.4
 N09,Ground,Volume,645.88
-N09,Ground,Billed Wt,4647.552
-N10,Air Red,Volume,556.4
-N10,Air Red,Billed Wt,421.248
-N10,Air White,Volume,3836.56
-N10,Air White,Billed Wt,3058.978
-N10,Ground,Volume,754.6
-N10,Ground,Billed Wt,6194.367
-N11,Air Red,Volume,550.72
-N11,Air Red,Billed Wt,518.756
-N11,Air White,Volume,4187.4
-N11,Air White,Billed Wt,4400.623
-N11,Ground,Volume,1775.12
-N11,Ground,Billed Wt,6236.435
-N12,Air White,Volume,538.6
-N12,Air White,Billed Wt,15.046
-N15,Air Red,Volume,318.8
-N15,Air Red,Billed Wt,260.103
-N15,Air White,Volume,1064.84
-N15,Air White,Billed Wt,1149.549
-N15,Ground,Volume,240.0
-N15,Ground,Billed Wt,1401.893
-N17,Air Red,Volume,848.32
-N17,Air Red,Billed Wt,734.675
-N17,Air White,Volume,4831.0
-N17,Air White,Billed Wt,4752.765
-N17,Ground,Volume,1376.4
-N17,Ground,Billed Wt,7560.588
-N31,Air Red,Volume,656.68
-N31,Air Red,Billed Wt,1069.114
-N31,Air White,Volume,886.28
-N31,Air White,Billed Wt,1207.247
-N31,Ground,Volume,197.44
-N31,Ground,Billed Wt,2794.081
-N32,Air Red,Volume,622.56
-N32,Air Red,Billed Wt,1062.475
-N32,Air White,Volume,2651.48
-N32,Air White,Billed Wt,2521.524
-N32,Ground,Volume,619.36
-N32,Ground,Billed Wt,5107.414
-N33,Air Red,Volume,350.12
-N33,Air Red,Billed Wt,366.647
-N33,Air White,Volume,3288.48
-N33,Air White,Billed Wt,3052.965
-N33,Ground,Volume,1249.92
-N33,Ground,Billed Wt,7805.22
-N35,Air Red,Volume,236.24
-N35,Air Red,Billed Wt,410.782
-N35,Air White,Volume,819.2
-N35,Air White,Billed Wt,1333.488
-N35,Ground,Volume,263.76
-N35,Ground,Billed Wt,2211.695
-N37,Air Red,Volume,166.96
-N37,Air Red,Billed Wt,134.262
-N37,Air White,Volume,683.16
-N37,Air White,Billed Wt,463.596
+N09,Ground,Billed Wt,4647.36
+N10,Air Red,Volume,389.92
+N10,Air Red,Billed Wt,394.6
+N10,Air White,Volume,1658.84
+N10,Air White,Billed Wt,2892.16
+N10,Ground,Volume,754.92
+N10,Ground,Billed Wt,6197.12
+N11,Air Red,Volume,461.04
+N11,Air Red,Billed Wt,504.24
+N11,Air White,Volume,3020.72
+N11,Air White,Billed Wt,4257.76
+N11,Ground,Volume,1775.16
+N11,Ground,Billed Wt,6237.48
+N15,Air Red,Volume,307.88
+N15,Air Red,Billed Wt,258.52
+N15,Air White,Volume,789.4
+N15,Air White,Billed Wt,1126.76
+N15,Ground,Volume,240.08
+N15,Ground,Billed Wt,1402.0
+N17,Air Red,Volume,702.04
+N17,Air Red,Billed Wt,712.72
+N17,Air White,Volume,3129.52
+N17,Air White,Billed Wt,4580.12
+N17,Ground,Volume,1377.4
+N17,Ground,Billed Wt,7564.48
+N31,Air Red,Volume,565.16
+N31,Air Red,Billed Wt,1059.68
+N31,Air White,Volume,436.0
+N31,Air White,Billed Wt,1175.6
+N31,Ground,Volume,197.52
+N31,Ground,Billed Wt,2794.6
+N32,Air Red,Volume,345.52
+N32,Air Red,Billed Wt,1018.44
+N32,Air White,Volume,1315.2
+N32,Air White,Billed Wt,2412.44
+N32,Ground,Volume,619.88
+N32,Ground,Billed Wt,5108.88
+N33,Air Red,Volume,140.28
+N33,Air Red,Billed Wt,302.08
+N33,Air White,Volume,2353.04
+N33,Air White,Billed Wt,2984.8
+N33,Ground,Volume,1250.24
+N33,Ground,Billed Wt,7807.44
+N35,Air Red,Volume,199.08
+N35,Air Red,Billed Wt,405.56
+N35,Air White,Volume,416.88
+N35,Air White,Billed Wt,1281.72
+N35,Ground,Volume,263.8
+N35,Ground,Billed Wt,2211.56
+N37,Air Red,Volume,125.52
+N37,Air Red,Billed Wt,126.96
+N37,Air White,Volume,353.12
+N37,Air White,Billed Wt,418.68
 N37,Ground,Volume,162.8
-N37,Ground,Billed Wt,1324.835
-N38,Air Red,Volume,89.44
-N38,Air Red,Billed Wt,223.03
-N38,Air White,Volume,468.56
-N38,Air White,Billed Wt,974.432
-N38,Ground,Volume,31.88
-N38,Ground,Billed Wt,318.493
-N42,Air Red,Volume,81.08
-N42,Air Red,Billed Wt,71.007
-N42,Air White,Volume,449.08
-N42,Air White,Billed Wt,306.687
+N37,Ground,Billed Wt,1324.2
+N38,Air Red,Volume,77.96
+N38,Air Red,Billed Wt,221.16
+N38,Air White,Volume,334.56
+N38,Air White,Billed Wt,954.16
+N38,Ground,Volume,40.24
+N38,Ground,Billed Wt,396.64
+N42,Air Red,Volume,53.48
+N42,Air Red,Billed Wt,65.6
+N42,Air White,Volume,220.56
+N42,Air White,Billed Wt,283.2
 N42,Ground,Volume,90.24
-N42,Ground,Billed Wt,469.896
-O01,Air Red,Volume,1856.32
-O01,Air Red,Billed Wt,1213.249
-O01,Air White,Volume,1065.92
-O01,Air White,Billed Wt,726.506
+N42,Ground,Billed Wt,470.04
+O01,Air Red,Volume,1827.72
+O01,Air Red,Billed Wt,1210.48
+O01,Air White,Volume,895.52
+O01,Air White,Billed Wt,712.32
 O01,Ground,Volume,85.64
-O01,Ground,Billed Wt,682.147
-O02,Air Red,Volume,569.28
-O02,Air Red,Billed Wt,411.053
-O02,Air White,Volume,3517.84
-O02,Air White,Billed Wt,2116.525
-O02,Ground,Volume,278.4
-O02,Ground,Billed Wt,2928.386
-O03,Air Red,Volume,198.64
-O03,Air Red,Billed Wt,212.827
-O03,Air White,Volume,2272.88
-O03,Air White,Billed Wt,1500.342
-O03,Ground,Volume,138.68
-O03,Ground,Billed Wt,1897.539
-O04,Air Red,Volume,294.44
-O04,Air Red,Billed Wt,198.436
-O04,Air White,Volume,3788.4
-O04,Air White,Billed Wt,2744.846
-O04,Ground,Volume,364.04
-O04,Ground,Billed Wt,3396.035
-O05,Air Red,Volume,261.24
-O05,Air Red,Billed Wt,295.662
-O05,Air White,Volume,1280.84
-O05,Air White,Billed Wt,977.689
-O05,Ground,Volume,133.32
-O05,Ground,Billed Wt,1593.74
-O07,Air Red,Volume,146.96
-O07,Air Red,Billed Wt,126.639
-O07,Air White,Volume,1642.36
-O07,Air White,Billed Wt,1302.42
-O07,Ground,Volume,233.4
-O07,Ground,Billed Wt,2715.092
-O08,Air Red,Volume,103.64
-O08,Air Red,Billed Wt,80.552
-O08,Air White,Volume,1230.28
-O08,Air White,Billed Wt,911.449
-O08,Ground,Volume,124.28
-O08,Ground,Billed Wt,1139.328
-O09,Air Red,Volume,109.96
-O09,Air Red,Billed Wt,98.111
-O09,Air White,Volume,1438.08
-O09,Air White,Billed Wt,1103.401
-O09,Ground,Volume,116.84
-O09,Ground,Billed Wt,1043.753
-O11,Air Red,Volume,317.76
-O11,Air Red,Billed Wt,157.418
-O11,Air White,Volume,862.96
-O11,Air White,Billed Wt,638.972
-O11,Ground,Volume,115.4
-O11,Ground,Billed Wt,1115.656
-O12,Air Red,Volume,347.36
-O12,Air Red,Billed Wt,196.113
-O12,Air White,Volume,4526.16
-O12,Air White,Billed Wt,2870.238
-O12,Ground,Volume,224.44
-O12,Ground,Billed Wt,2254.529
-O13,Air Red,Volume,159.44
-O13,Air Red,Billed Wt,174.494
-O13,Air White,Volume,2177.2
-O13,Air White,Billed Wt,1529.208
+O01,Ground,Billed Wt,682.16
+O02,Air Red,Volume,474.96
+O02,Air Red,Billed Wt,396.68
+O02,Air White,Volume,1955.56
+O02,Air White,Billed Wt,1887.44
+O02,Ground,Volume,278.44
+O02,Ground,Billed Wt,2929.92
+O03,Air Red,Volume,168.32
+O03,Air Red,Billed Wt,209.08
+O03,Air White,Volume,1882.6
+O03,Air White,Billed Wt,1466.8
+O03,Ground,Volume,138.76
+O03,Ground,Billed Wt,1863.24
+O04,Air Red,Volume,187.32
+O04,Air Red,Billed Wt,186.12
+O04,Air White,Volume,2701.44
+O04,Air White,Billed Wt,2630.2
+O04,Ground,Volume,364.08
+O04,Ground,Billed Wt,3397.12
+O05,Air Red,Volume,210.64
+O05,Air Red,Billed Wt,290.36
+O05,Air White,Volume,890.44
+O05,Air White,Billed Wt,941.04
+O05,Ground,Volume,133.48
+O05,Ground,Billed Wt,1595.04
+O07,Air Red,Volume,97.68
+O07,Air Red,Billed Wt,120.56
+O07,Air White,Volume,1117.64
+O07,Air White,Billed Wt,1254.72
+O07,Ground,Volume,233.52
+O07,Ground,Billed Wt,2716.92
+O08,Air Red,Volume,65.72
+O08,Air Red,Billed Wt,76.48
+O08,Air White,Volume,996.12
+O08,Air White,Billed Wt,887.28
+O08,Ground,Volume,124.24
+O08,Ground,Billed Wt,1144.64
+O09,Air Red,Volume,81.36
+O09,Air Red,Billed Wt,94.6
+O09,Air White,Volume,1180.88
+O09,Air White,Billed Wt,1084.72
+O09,Ground,Volume,116.88
+O09,Ground,Billed Wt,1044.28
+O11,Air Red,Volume,273.08
+O11,Air Red,Billed Wt,154.92
+O11,Air White,Volume,618.52
+O11,Air White,Billed Wt,628.92
+O11,Ground,Volume,115.44
+O11,Ground,Billed Wt,1115.6
+O12,Air Red,Volume,274.76
+O12,Air Red,Billed Wt,188.08
+O12,Air White,Volume,3800.4
+O12,Air White,Billed Wt,2807.6
+O12,Ground,Volume,224.76
+O12,Ground,Billed Wt,2257.2
+O13,Air Red,Volume,109.08
+O13,Air Red,Billed Wt,166.16
+O13,Air White,Volume,1708.52
+O13,Air White,Billed Wt,1470.76
 O13,Ground,Volume,188.8
-O13,Ground,Billed Wt,1877.438
-O14,Air Red,Volume,190.6
-O14,Air Red,Billed Wt,164.596
-O14,Air White,Volume,276.0
-O14,Air White,Billed Wt,192.172
+O13,Ground,Billed Wt,1878.24
+O14,Air Red,Volume,181.8
+O14,Air Red,Billed Wt,163.96
+O14,Air White,Volume,187.96
+O14,Air White,Billed Wt,185.84
 O14,Ground,Volume,22.2
-O14,Ground,Billed Wt,221.896
-O17,Air Red,Volume,1.64
-O17,Air Red,Billed Wt,2.686
-O17,Air White,Volume,1.92
-O17,Air White,Billed Wt,2.858
+O14,Ground,Billed Wt,221.96
+O17,Air Red,Volume,0.88
+O17,Air Red,Billed Wt,2.56
+O17,Air White,Volume,1.12
+O17,Air White,Billed Wt,2.88
 O17,Ground,Volume,0.08
-O17,Ground,Billed Wt,1.33
-O21,Air Red,Volume,18.6
-O21,Air Red,Billed Wt,11.296
-O21,Air White,Volume,1005.12
-O21,Air White,Billed Wt,786.051
+O17,Ground,Billed Wt,1.32
+O21,Air Red,Volume,6.08
+O21,Air Red,Billed Wt,9.8
+O21,Air White,Volume,920.2
+O21,Air White,Billed Wt,776.32
 O21,Ground,Volume,84.4
-O21,Ground,Billed Wt,589.83
-O23,Air Red,Volume,11.0
-O23,Air Red,Billed Wt,15.546
-O23,Air White,Volume,22.0
-O23,Air White,Billed Wt,20.042
-O23,Ground,Volume,4.84
-O23,Ground,Billed Wt,30.152
-O25,Air Red,Volume,77.76
-O25,Air Red,Billed Wt,46.842
-O25,Air White,Volume,810.56
-O25,Air White,Billed Wt,672.085
+O21,Ground,Billed Wt,589.68
+O23,Air Red,Volume,6.88
+O23,Air Red,Billed Wt,14.4
+O23,Air White,Volume,12.12
+O23,Air White,Billed Wt,18.16
+O23,Ground,Volume,4.68
+O23,Ground,Billed Wt,30.2
+O25,Air Red,Volume,65.84
+O25,Air Red,Billed Wt,45.24
+O25,Air White,Volume,719.32
+O25,Air White,Billed Wt,659.32
 O25,Ground,Volume,56.4
-O25,Ground,Billed Wt,474.817
-O60,Air Red,Volume,71.64
-O60,Air Red,Billed Wt,73.441
-O60,Air White,Volume,833.44
-O60,Air White,Billed Wt,553.748
+O25,Ground,Billed Wt,475.04
+O60,Air Red,Volume,58.76
+O60,Air Red,Billed Wt,71.48
+O60,Air White,Volume,758.36
+O60,Air White,Billed Wt,545.4
 O60,Ground,Volume,88.68
-O60,Ground,Billed Wt,714.365
-O88,Air Red,Volume,44.16
-O88,Air Red,Billed Wt,37.255
-O88,Air White,Volume,823.92
-O88,Air White,Billed Wt,532.427
-O88,Ground,Volume,77.6
-O88,Ground,Billed Wt,578.134
-O89,Air Red,Volume,395.8
-O89,Air Red,Billed Wt,387.402
-O89,Air White,Volume,540.0
-O89,Air White,Billed Wt,357.043
-O89,Ground,Volume,40.88
-O89,Ground,Billed Wt,297.291
-O90,Air Red,Volume,26.76
-O90,Air Red,Billed Wt,29.835
-O90,Air White,Volume,502.52
-O90,Air White,Billed Wt,367.98
+O60,Ground,Billed Wt,714.12
+O88,Air Red,Volume,27.44
+O88,Air Red,Billed Wt,35.6
+O88,Air White,Volume,590.8
+O88,Air White,Billed Wt,517.6
+O88,Ground,Volume,77.68
+O88,Ground,Billed Wt,578.72
+O89,Air Red,Volume,385.28
+O89,Air Red,Billed Wt,386.76
+O89,Air White,Volume,483.8
+O89,Air White,Billed Wt,353.88
+O89,Ground,Volume,40.96
+O89,Ground,Billed Wt,297.52
+O90,Air Red,Volume,12.36
+O90,Air Red,Billed Wt,28.2
+O90,Air White,Volume,360.72
+O90,Air White,Billed Wt,354.12
 O90,Ground,Volume,65.68
-O90,Ground,Billed Wt,569.422
-O93,Air Red,Volume,36.72
-O93,Air Red,Billed Wt,16.329
-O93,Air White,Volume,146.52
-O93,Air White,Billed Wt,95.041
-O93,Ground,Volume,6.52
-O93,Ground,Billed Wt,55.492
-P04,Air Red,Volume,385.0
-P04,Air Red,Billed Wt,346.0
-P04,Air White,Volume,3338.2
-P04,Air White,Billed Wt,1755.873
-P04,Ground,Volume,469.12
-P04,Ground,Billed Wt,3129.472
-P06,Air Red,Volume,22.2
-P06,Air Red,Billed Wt,14.575
-P06,Air White,Volume,481.36
-P06,Air White,Billed Wt,183.883
-P06,Ground,Volume,39.84
-P06,Ground,Billed Wt,292.292
-P08,Air Red,Volume,19.52
-P08,Air Red,Billed Wt,10.86
-P08,Air White,Volume,447.48
-P08,Air White,Billed Wt,188.973
+O90,Ground,Billed Wt,569.52
+O93,Air Red,Volume,25.84
+O93,Air Red,Billed Wt,15.08
+O93,Air White,Volume,121.64
+O93,Air White,Billed Wt,92.72
+O93,Ground,Volume,6.6
+O93,Ground,Billed Wt,56.28
+P04,Air Red,Volume,186.28
+P04,Air Red,Billed Wt,313.72
+P04,Air White,Volume,797.84
+P04,Air White,Billed Wt,1497.36
+P04,Ground,Volume,469.32
+P04,Ground,Billed Wt,3130.6
+P06,Air Red,Volume,5.12
+P06,Air Red,Billed Wt,10.16
+P06,Air White,Volume,78.2
+P06,Air White,Billed Wt,119.68
+P06,Ground,Volume,39.88
+P06,Ground,Billed Wt,293.6
+P08,Air Red,Volume,5.28
+P08,Air Red,Billed Wt,6.24
+P08,Air White,Volume,92.0
+P08,Air White,Billed Wt,139.12
 P08,Ground,Volume,46.32
-P08,Ground,Billed Wt,261.964
-P09,Air Red,Volume,68.44
-P09,Air Red,Billed Wt,46.474
-P09,Air White,Volume,750.56
-P09,Air White,Billed Wt,454.88
-P09,Ground,Volume,128.32
-P09,Ground,Billed Wt,2120.716
-P10,Air Red,Volume,25.96
-P10,Air Red,Billed Wt,17.371
-P10,Air White,Volume,408.12
-P10,Air White,Billed Wt,273.471
-P10,Ground,Volume,56.0
-P10,Ground,Billed Wt,445.101
-P11,Air Red,Volume,94.64
-P11,Air Red,Billed Wt,146.43
-P11,Air White,Volume,918.56
-P11,Air White,Billed Wt,590.343
-P11,Ground,Volume,85.32
-P11,Ground,Billed Wt,810.017
-P12,Air Red,Volume,312.04
-P12,Air Red,Billed Wt,374.061
-P12,Air White,Volume,2376.72
-P12,Air White,Billed Wt,991.26
-P12,Ground,Volume,804.72
-P12,Ground,Billed Wt,2176.458
-P13,Air Red,Volume,36.56
-P13,Air Red,Billed Wt,26.662
-P13,Air White,Volume,164.4
-P13,Air White,Billed Wt,117.895
+P08,Ground,Billed Wt,262.4
+P09,Air Red,Volume,31.48
+P09,Air Red,Billed Wt,39.4
+P09,Air White,Volume,230.04
+P09,Air White,Billed Wt,390.84
+P09,Ground,Volume,128.36
+P09,Ground,Billed Wt,2121.24
+P10,Air Red,Volume,9.04
+P10,Air Red,Billed Wt,13.92
+P10,Air White,Volume,158.24
+P10,Air White,Billed Wt,238.2
+P10,Ground,Volume,56.12
+P10,Ground,Billed Wt,445.8
+P11,Air Red,Volume,69.08
+P11,Air Red,Billed Wt,140.36
+P11,Air White,Volume,537.6
+P11,Air White,Billed Wt,530.28
+P11,Ground,Volume,85.28
+P11,Ground,Billed Wt,807.8
+P12,Air Red,Volume,154.56
+P12,Air Red,Billed Wt,342.88
+P12,Air White,Volume,520.24
+P12,Air White,Billed Wt,793.64
+P12,Ground,Volume,803.36
+P12,Ground,Billed Wt,2177.16
+P13,Air Red,Volume,30.16
+P13,Air Red,Billed Wt,25.4
+P13,Air White,Volume,63.48
+P13,Air White,Billed Wt,102.68
 P13,Ground,Volume,46.52
-P13,Ground,Billed Wt,266.963
-P15,Air Red,Volume,836.4
-P15,Air Red,Billed Wt,1131.199
-P15,Air White,Volume,1469.2
-P15,Air White,Billed Wt,1139.705
-P15,Ground,Volume,186.56
-P15,Ground,Billed Wt,1846.52
-P16,Air Red,Volume,13.28
-P16,Air Red,Billed Wt,10.455
-P16,Air White,Volume,170.24
-P16,Air White,Billed Wt,58.635
-P16,Ground,Volume,20.6
-P16,Ground,Billed Wt,142.892
-P17,Air Red,Volume,7.08
-P17,Air Red,Billed Wt,2.78
-P17,Air White,Volume,242.12
-P17,Air White,Billed Wt,67.893
-P17,Ground,Volume,26.04
-P17,Ground,Billed Wt,211.751
-P19,Air Red,Volume,238.96
-P19,Air Red,Billed Wt,358.061
-P19,Air White,Volume,1520.92
-P19,Air White,Billed Wt,1150.252
-P19,Ground,Volume,175.76
-P19,Ground,Billed Wt,1720.676
-P20,Air Red,Volume,12.2
-P20,Air Red,Billed Wt,9.312
-P20,Air White,Volume,228.4
-P20,Air White,Billed Wt,89.189
+P13,Ground,Billed Wt,267.16
+P15,Air Red,Volume,787.6
+P15,Air Red,Billed Wt,1121.72
+P15,Air White,Volume,819.0
+P15,Air White,Billed Wt,1048.72
+P15,Ground,Volume,186.72
+P15,Ground,Billed Wt,1848.12
+P16,Air Red,Volume,5.44
+P16,Air Red,Billed Wt,9.04
+P16,Air White,Volume,37.0
+P16,Air White,Billed Wt,44.8
+P16,Ground,Volume,20.64
+P16,Ground,Billed Wt,143.16
+P17,Air Red,Volume,1.6
+P17,Air Red,Billed Wt,1.04
+P17,Air White,Volume,37.8
+P17,Air White,Billed Wt,34.2
+P17,Ground,Volume,26.0
+P17,Ground,Billed Wt,212.04
+P19,Air Red,Volume,197.28
+P19,Air Red,Billed Wt,350.56
+P19,Air White,Volume,523.92
+P19,Air White,Billed Wt,1012.04
+P19,Ground,Volume,176.36
+P19,Ground,Billed Wt,1724.04
+P20,Air Red,Volume,3.8
+P20,Air Red,Billed Wt,6.2
+P20,Air White,Volume,45.84
+P20,Air White,Billed Wt,63.72
 P20,Ground,Volume,21.36
-P20,Ground,Billed Wt,150.899
-P21,Air Red,Volume,3.04
-P21,Air Red,Billed Wt,2.231
-P21,Air White,Volume,12.32
-P21,Air White,Billed Wt,10.722
+P20,Ground,Billed Wt,151.28
+P21,Air Red,Volume,1.4
+P21,Air Red,Billed Wt,1.88
+P21,Air White,Volume,2.04
+P21,Air White,Billed Wt,5.8
 P21,Ground,Volume,2.56
-P21,Ground,Billed Wt,19.15
-P22,Air Red,Volume,142.76
-P22,Air Red,Billed Wt,151.914
-P22,Air White,Volume,1194.84
-P22,Air White,Billed Wt,707.121
-P22,Ground,Volume,218.28
-P22,Ground,Billed Wt,1889.776
-P24,Air Red,Volume,201.48
-P24,Air Red,Billed Wt,250.278
-P24,Air White,Volume,934.72
-P24,Air White,Billed Wt,771.948
+P21,Ground,Billed Wt,19.24
+P22,Air Red,Volume,90.36
+P22,Air Red,Billed Wt,143.44
+P22,Air White,Volume,537.92
+P22,Air White,Billed Wt,639.88
+P22,Ground,Volume,218.64
+P22,Ground,Billed Wt,1890.36
+P24,Air Red,Volume,115.56
+P24,Air Red,Billed Wt,238.36
+P24,Air White,Volume,461.6
+P24,Air White,Billed Wt,718.44
 P24,Ground,Volume,141.6
-P24,Ground,Billed Wt,967.364
-P25,Air Red,Volume,19.64
-P25,Air Red,Billed Wt,14.924
-P25,Air White,Volume,284.28
-P25,Air White,Billed Wt,170.062
+P24,Ground,Billed Wt,967.4
+P25,Air Red,Volume,4.12
+P25,Air Red,Billed Wt,11.72
+P25,Air White,Volume,63.84
+P25,Air White,Billed Wt,135.68
 P25,Ground,Volume,32.48
-P25,Ground,Billed Wt,381.252
-P26,Air Red,Volume,0.92
-P26,Air Red,Billed Wt,0.312
-P26,Air White,Volume,22.08
-P26,Air White,Billed Wt,12.384
-P26,Ground,Volume,3.24
-P26,Ground,Billed Wt,22.444
-P27,Air Red,Volume,435.44
-P27,Air Red,Billed Wt,367.353
-P27,Air White,Volume,1172.2
-P27,Air White,Billed Wt,763.96
+P25,Ground,Billed Wt,381.44
+P26,Air Red,Volume,0.6
+P26,Air Red,Billed Wt,0.24
+P26,Air White,Volume,6.56
+P26,Air White,Billed Wt,11.0
+P26,Ground,Volume,3.28
+P26,Ground,Billed Wt,22.56
+P27,Air Red,Volume,382.4
+P27,Air Red,Billed Wt,360.2
+P27,Air White,Volume,544.76
+P27,Air White,Billed Wt,718.56
 P27,Ground,Volume,182.76
-P27,Ground,Billed Wt,1030.679
-P28,Air Red,Volume,1.96
-P28,Air Red,Billed Wt,1.44
-P28,Air White,Volume,83.16
-P28,Air White,Billed Wt,22.308
-P29,Air Red,Volume,1.64
-P29,Air Red,Billed Wt,0.98
-P29,Air White,Volume,98.24
-P29,Air White,Billed Wt,23.822
-P29,Ground,Volume,3.68
-P29,Ground,Billed Wt,26.427
-P32,Air Red,Volume,5.36
-P32,Air Red,Billed Wt,4.656
-P32,Air White,Volume,80.12
-P32,Air White,Billed Wt,40.191
+P27,Ground,Billed Wt,1030.88
+P28,Air Red,Volume,0.6
+P28,Air Red,Billed Wt,1.04
+P28,Air White,Volume,17.72
+P28,Air White,Billed Wt,16.32
+P29,Air Red,Volume,0.72
+P29,Air Red,Billed Wt,0.72
+P29,Air White,Volume,5.12
+P29,Air White,Billed Wt,12.48
+P29,Ground,Volume,3.88
+P29,Ground,Billed Wt,27.68
+P32,Air Red,Volume,1.0
+P32,Air Red,Billed Wt,2.92
+P32,Air White,Volume,11.36
+P32,Air White,Billed Wt,21.08
 P32,Ground,Volume,18.88
-P32,Ground,Billed Wt,84.274
-P38,Air Red,Volume,7.12
-P38,Air Red,Billed Wt,5.41
-P38,Air White,Volume,586.8
-P38,Air White,Billed Wt,892.142
+P32,Ground,Billed Wt,84.24
+P38,Air Red,Volume,3.0
+P38,Air Red,Billed Wt,4.08
+P38,Air White,Volume,541.6
+P38,Air White,Billed Wt,884.68
 P38,Ground,Volume,6.44
-P38,Ground,Billed Wt,70.811
+P38,Ground,Billed Wt,70.84
 P44,Air Red,Volume,11.0
-P44,Air Red,Billed Wt,116.357
-P44,Air White,Volume,266.32
-P44,Air White,Billed Wt,871.585
+P44,Air Red,Billed Wt,116.16
+P44,Air White,Volume,152.6
+P44,Air White,Billed Wt,860.52
 P44,Ground,Volume,379.76
-P44,Ground,Billed Wt,3162.84
-P50,Air Red,Volume,257.48
-P50,Air Red,Billed Wt,528.996
-P50,Air White,Volume,780.04
-P50,Air White,Billed Wt,776.351
-P50,Ground,Volume,177.2
-P50,Ground,Billed Wt,2020.155
-P56,Air Red,Volume,9.36
-P56,Air Red,Billed Wt,78.676
-P56,Air White,Volume,214.16
-P56,Air White,Billed Wt,361.777
+P44,Ground,Billed Wt,3162.64
+P50,Air Red,Volume,182.44
+P50,Air Red,Billed Wt,519.24
+P50,Air White,Volume,268.6
+P50,Air White,Billed Wt,727.4
+P50,Ground,Volume,177.28
+P50,Ground,Billed Wt,2023.72
+P56,Air Red,Volume,2.4
+P56,Air Red,Billed Wt,77.4
+P56,Air White,Volume,128.04
+P56,Air White,Billed Wt,354.92
 P56,Ground,Volume,53.68
-P56,Ground,Billed Wt,521.504
-P57,Air Red,Volume,12.0
-P57,Air Red,Billed Wt,23.415
-P57,Air White,Volume,126.76
-P57,Air White,Billed Wt,125.013
-P57,Ground,Volume,29.88
-P57,Ground,Billed Wt,500.191
-P58,Air Red,Volume,3.8
-P58,Air Red,Billed Wt,2.821
-P58,Air White,Volume,55.8
-P58,Air White,Billed Wt,20.854
+P56,Ground,Billed Wt,521.04
+P57,Air Red,Volume,3.6
+P57,Air Red,Billed Wt,22.52
+P57,Air White,Volume,59.6
+P57,Air White,Billed Wt,116.68
+P57,Ground,Volume,29.96
+P57,Ground,Billed Wt,503.48
+P58,Air Red,Volume,0.68
+P58,Air Red,Billed Wt,1.0
+P58,Air White,Volume,12.28
+P58,Air White,Billed Wt,15.84
 P58,Ground,Volume,5.36
-P58,Ground,Billed Wt,31.058
-P60,Air Red,Volume,11.8
-P60,Air Red,Billed Wt,9.252
-P60,Air White,Volume,42.0
-P60,Air White,Billed Wt,22.746
-P60,Ground,Volume,5.08
-P60,Ground,Billed Wt,40.188
+P58,Ground,Billed Wt,31.08
+P60,Air Red,Volume,4.48
+P60,Air Red,Billed Wt,6.32
+P60,Air White,Volume,2.2
+P60,Air White,Billed Wt,4.8
+P60,Ground,Volume,5.04
+P60,Ground,Billed Wt,40.36
 P61,Air Red,Volume,1.8
-P61,Air Red,Billed Wt,1.045
-P61,Air White,Volume,63.92
-P61,Air White,Billed Wt,43.817
+P61,Air Red,Billed Wt,1.04
+P61,Air White,Volume,12.16
+P61,Air White,Billed Wt,33.92
 P61,Ground,Volume,9.16
-P61,Ground,Billed Wt,67.449
-P62,Air Red,Volume,6.12
-P62,Air Red,Billed Wt,4.379
-P62,Air White,Volume,92.28
-P62,Air White,Billed Wt,85.829
+P61,Ground,Billed Wt,67.68
+P62,Air Red,Volume,2.08
+P62,Air Red,Billed Wt,3.96
+P62,Air White,Volume,51.32
+P62,Air White,Billed Wt,83.0
 P62,Ground,Volume,13.0
-P62,Ground,Billed Wt,122.15
-P65,Air Red,Volume,49.04
-P65,Air Red,Billed Wt,130.476
-P65,Air White,Volume,246.2
-P65,Air White,Billed Wt,137.336
+P62,Ground,Billed Wt,122.64
+P65,Air Red,Volume,38.2
+P65,Air Red,Billed Wt,129.56
+P65,Air White,Volume,57.04
+P65,Air White,Billed Wt,118.24
 P65,Ground,Volume,27.6
-P65,Ground,Billed Wt,228.035
-P71,Air Red,Volume,0.32
-P71,Air Red,Billed Wt,0.785
-P71,Air White,Volume,6.6
-P71,Air White,Billed Wt,12.73
+P65,Ground,Billed Wt,228.0
+P71,Air Red,Volume,0.2
+P71,Air Red,Billed Wt,0.76
+P71,Air White,Volume,4.56
+P71,Air White,Billed Wt,12.44
 P71,Ground,Volume,0.36
-P71,Ground,Billed Wt,1.494
-P72,Air Red,Volume,4.96
-P72,Air Red,Billed Wt,11.248
-P72,Air White,Volume,52.72
-P72,Air White,Billed Wt,9.424
+P71,Ground,Billed Wt,1.48
+P72,Air Red,Volume,1.52
+P72,Air Red,Billed Wt,10.52
+P72,Air White,Volume,2.6
+P72,Air White,Billed Wt,3.52
 P72,Ground,Volume,4.8
-P72,Ground,Billed Wt,38.492
-P73,Air Red,Volume,60.2
-P73,Air Red,Billed Wt,39.943
-P73,Air White,Volume,228.76
-P73,Air White,Billed Wt,249.474
-P73,Ground,Volume,58.84
-P73,Ground,Billed Wt,4188.534
-P74,Air Red,Volume,68.48
-P74,Air Red,Billed Wt,85.841
-P74,Air White,Volume,164.88
-P74,Air White,Billed Wt,146.714
+P72,Ground,Billed Wt,38.6
+P73,Air Red,Volume,41.52
+P73,Air Red,Billed Wt,37.8
+P73,Air White,Volume,97.36
+P73,Air White,Billed Wt,236.08
+P73,Ground,Volume,58.88
+P73,Ground,Billed Wt,4189.56
+P74,Air Red,Volume,64.68
+P74,Air Red,Billed Wt,85.4
+P74,Air White,Volume,99.36
+P74,Air White,Billed Wt,135.64
 P74,Ground,Volume,6.56
-P74,Ground,Billed Wt,51.916
-Q01,Air Red,Volume,672.52
-Q01,Air Red,Billed Wt,590.205
-Q01,Air White,Volume,3233.96
-Q01,Air White,Billed Wt,2273.747
-Q01,Ground,Volume,1174.44
-Q01,Ground,Billed Wt,3252.946
-Q02,Air Red,Volume,80.08
-Q02,Air Red,Billed Wt,65.39
-Q02,Air White,Volume,657.04
-Q02,Air White,Billed Wt,862.412
+P74,Ground,Billed Wt,51.88
+Q01,Air Red,Volume,666.96
+Q01,Air Red,Billed Wt,589.2
+Q01,Air White,Volume,1901.4
+Q01,Air White,Billed Wt,2164.92
+Q01,Ground,Volume,1174.72
+Q01,Ground,Billed Wt,3253.84
+Q02,Air Red,Volume,41.12
+Q02,Air Red,Billed Wt,57.72
+Q02,Air White,Volume,289.72
+Q02,Air White,Billed Wt,814.76
 Q02,Ground,Volume,182.2
-Q02,Ground,Billed Wt,694.924
-Q03,Air Red,Volume,87.92
-Q03,Air Red,Billed Wt,113.389
-Q03,Air White,Volume,457.92
-Q03,Air White,Billed Wt,371.3
-Q03,Ground,Volume,431.6
-Q03,Ground,Billed Wt,1633.984
-Q04,Air Red,Volume,85.72
-Q04,Air Red,Billed Wt,77.796
-Q04,Air White,Volume,453.32
-Q04,Air White,Billed Wt,350.846
-Q04,Ground,Volume,223.76
-Q04,Ground,Billed Wt,954.388
-Q06,Air Red,Volume,156.88
-Q06,Air Red,Billed Wt,208.17
-Q06,Air White,Volume,841.64
-Q06,Air White,Billed Wt,876.558
-Q06,Ground,Volume,748.36
-Q06,Ground,Billed Wt,1748.857
-Q07,Air Red,Volume,36.8
-Q07,Air Red,Billed Wt,22.911
-Q07,Air White,Volume,343.08
-Q07,Air White,Billed Wt,134.246
+Q02,Ground,Billed Wt,695.08
+Q03,Air Red,Volume,76.4
+Q03,Air Red,Billed Wt,111.52
+Q03,Air White,Volume,245.68
+Q03,Air White,Billed Wt,349.76
+Q03,Ground,Volume,431.56
+Q03,Ground,Billed Wt,1633.2
+Q04,Air Red,Volume,70.6
+Q04,Air Red,Billed Wt,75.6
+Q04,Air White,Volume,188.44
+Q04,Air White,Billed Wt,324.12
+Q04,Ground,Volume,223.68
+Q04,Ground,Billed Wt,954.72
+Q06,Air Red,Volume,153.36
+Q06,Air Red,Billed Wt,207.28
+Q06,Air White,Volume,629.04
+Q06,Air White,Billed Wt,863.08
+Q06,Ground,Volume,748.64
+Q06,Ground,Billed Wt,1750.6
+Q07,Air Red,Volume,29.8
+Q07,Air Red,Billed Wt,20.28
+Q07,Air White,Volume,112.04
+Q07,Air White,Billed Wt,107.24
 Q07,Ground,Volume,23.8
-Q07,Ground,Billed Wt,218.727
-Q09,Air Red,Volume,41.04
-Q09,Air Red,Billed Wt,48.343
-Q09,Air White,Volume,774.36
-Q09,Air White,Billed Wt,332.766
-Q09,Ground,Volume,339.6
-Q09,Ground,Billed Wt,1359.031
-Q10,Air Red,Volume,6.52
-Q10,Air Red,Billed Wt,6.998
-Q10,Air White,Volume,30.0
-Q10,Air White,Billed Wt,28.29
+Q07,Ground,Billed Wt,218.44
+Q09,Air Red,Volume,40.88
+Q09,Air Red,Billed Wt,48.0
+Q09,Air White,Volume,261.64
+Q09,Air White,Billed Wt,279.76
+Q09,Ground,Volume,339.44
+Q09,Ground,Billed Wt,1359.4
+Q10,Air Red,Volume,6.44
+Q10,Air Red,Billed Wt,6.92
+Q10,Air White,Volume,25.04
+Q10,Air White,Billed Wt,28.28
 Q10,Ground,Volume,6.56
-Q10,Ground,Billed Wt,60.342
-Q11,Air Red,Volume,86.12
-Q11,Air Red,Billed Wt,211.372
-Q11,Air White,Volume,649.36
-Q11,Air White,Billed Wt,381.826
-Q11,Ground,Volume,83.8
-Q11,Ground,Billed Wt,933.227
-Q12,Air Red,Volume,12.24
-Q12,Air Red,Billed Wt,9.881
-Q12,Air White,Volume,201.72
-Q12,Air White,Billed Wt,110.926
+Q10,Ground,Billed Wt,60.44
+Q11,Air Red,Volume,65.88
+Q11,Air Red,Billed Wt,207.44
+Q11,Air White,Volume,174.2
+Q11,Air White,Billed Wt,322.0
+Q11,Ground,Volume,83.84
+Q11,Ground,Billed Wt,933.88
+Q12,Air Red,Volume,12.2
+Q12,Air Red,Billed Wt,9.84
+Q12,Air White,Volume,62.4
+Q12,Air White,Billed Wt,94.12
 Q12,Ground,Volume,11.08
-Q12,Ground,Billed Wt,125.184
-Q13,Air Red,Volume,16.0
-Q13,Air Red,Billed Wt,11.301
-Q13,Air White,Volume,172.84
-Q13,Air White,Billed Wt,300.003
-Q13,Ground,Volume,33.88
-Q13,Ground,Billed Wt,230.25
-Q14,Air Red,Volume,33.32
-Q14,Air Red,Billed Wt,50.882
-Q14,Air White,Volume,216.68
-Q14,Air White,Billed Wt,80.39
+Q12,Ground,Billed Wt,125.24
+Q13,Air Red,Volume,12.44
+Q13,Air Red,Billed Wt,10.36
+Q13,Air White,Volume,110.2
+Q13,Air White,Billed Wt,293.56
+Q13,Ground,Volume,33.96
+Q13,Ground,Billed Wt,230.56
+Q14,Air Red,Volume,24.64
+Q14,Air Red,Billed Wt,50.68
+Q14,Air White,Volume,96.32
+Q14,Air White,Billed Wt,75.12
 Q14,Ground,Volume,83.36
-Q14,Ground,Billed Wt,275.721
-Q16,Air Red,Volume,17.4
-Q16,Air Red,Billed Wt,20.075
-Q16,Air White,Volume,251.28
-Q16,Air White,Billed Wt,141.653
-Q16,Ground,Volume,342.0
-Q16,Ground,Billed Wt,625.406
-Q17,Air Red,Volume,536.88
-Q17,Air Red,Billed Wt,558.368
-Q17,Air White,Volume,1139.04
-Q17,Air White,Billed Wt,1127.426
-Q17,Ground,Volume,1999.48
-Q17,Ground,Billed Wt,4118.28
-Q18,Air Red,Volume,7.64
-Q18,Air Red,Billed Wt,7.826
-Q18,Air White,Volume,127.16
-Q18,Air White,Billed Wt,75.485
+Q14,Ground,Billed Wt,275.56
+Q16,Air Red,Volume,15.08
+Q16,Air Red,Billed Wt,19.08
+Q16,Air White,Volume,125.12
+Q16,Air White,Billed Wt,126.88
+Q16,Ground,Volume,342.08
+Q16,Ground,Billed Wt,627.12
+Q17,Air Red,Volume,464.88
+Q17,Air Red,Billed Wt,552.2
+Q17,Air White,Volume,874.52
+Q17,Air White,Billed Wt,1105.88
+Q17,Ground,Volume,2000.44
+Q17,Ground,Billed Wt,4119.44
+Q18,Air Red,Volume,2.44
+Q18,Air Red,Billed Wt,6.88
+Q18,Air White,Volume,32.6
+Q18,Air White,Billed Wt,66.92
 Q18,Ground,Volume,10.52
-Q18,Ground,Billed Wt,138.423
-Q34,Air Red,Volume,12.56
-Q34,Air Red,Billed Wt,14.328
-Q34,Air White,Volume,503.24
-Q34,Air White,Billed Wt,241.85
-Q34,Ground,Volume,34.24
-Q34,Ground,Billed Wt,300.342
-Q35,Air Red,Volume,242.88
-Q35,Air Red,Billed Wt,252.204
-Q35,Air White,Volume,971.72
-Q35,Air White,Billed Wt,845.782
-Q35,Ground,Volume,462.08
-Q35,Ground,Billed Wt,1568.985
-Q40,Air Red,Volume,7.2
-Q40,Air Red,Billed Wt,12.43
-Q40,Air White,Volume,93.64
-Q40,Air White,Billed Wt,30.354
+Q18,Ground,Billed Wt,138.52
+Q34,Air Red,Volume,6.32
+Q34,Air Red,Billed Wt,13.52
+Q34,Air White,Volume,167.24
+Q34,Air White,Billed Wt,211.04
+Q34,Ground,Volume,34.32
+Q34,Ground,Billed Wt,300.96
+Q35,Air Red,Volume,242.8
+Q35,Air Red,Billed Wt,251.96
+Q35,Air White,Volume,559.2
+Q35,Air White,Billed Wt,806.24
+Q35,Ground,Volume,462.36
+Q35,Ground,Billed Wt,1571.28
+Q40,Air Red,Volume,5.32
+Q40,Air Red,Billed Wt,12.16
+Q40,Air White,Volume,30.52
+Q40,Air White,Billed Wt,22.6
 Q40,Ground,Volume,7.6
-Q40,Ground,Billed Wt,63.543
-Q41,Air Red,Volume,76.2
-Q41,Air Red,Billed Wt,301.942
-Q41,Air White,Volume,41.28
-Q41,Air White,Billed Wt,31.39
-Q41,Ground,Volume,333.92
-Q41,Ground,Billed Wt,1444.806
-Q43,Air Red,Volume,2.8
-Q43,Air Red,Billed Wt,0.97
-Q43,Air White,Volume,36.88
-Q43,Air White,Billed Wt,10.159
+Q40,Ground,Billed Wt,63.56
+Q41,Air Red,Volume,73.52
+Q41,Air Red,Billed Wt,302.28
+Q41,Air White,Volume,18.08
+Q41,Air White,Billed Wt,28.24
+Q41,Ground,Volume,334.0
+Q41,Ground,Billed Wt,1445.04
+Q43,Air Red,Volume,2.68
+Q43,Air Red,Billed Wt,0.72
+Q43,Air White,Volume,5.16
+Q43,Air White,Billed Wt,6.24
 Q43,Ground,Volume,1.08
-Q43,Ground,Billed Wt,6.053
-Q44,Air Red,Volume,2.76
-Q44,Air Red,Billed Wt,2.278
-Q44,Air White,Volume,92.12
-Q44,Air White,Billed Wt,30.092
+Q43,Ground,Billed Wt,6.08
+Q44,Air Red,Volume,0.52
+Q44,Air Red,Billed Wt,1.68
+Q44,Air White,Volume,17.16
+Q44,Air White,Billed Wt,23.8
 Q44,Ground,Volume,18.44
-Q44,Ground,Billed Wt,160.457
-Q48,Air White,Volume,0.04
-Q48,Air White,Billed Wt,0.02
-R02,Air Red,Volume,11.84
-R02,Air Red,Billed Wt,7.384
-R02,Air White,Volume,109.76
-R02,Air White,Billed Wt,30.209
+Q44,Ground,Billed Wt,160.6
+R02,Air Red,Volume,2.76
+R02,Air Red,Billed Wt,3.64
+R02,Air White,Volume,18.24
+R02,Air White,Billed Wt,18.64
 R02,Ground,Volume,8.84
-R02,Ground,Billed Wt,81.73
-R04,Air Red,Volume,9.88
-R04,Air Red,Billed Wt,5.194
-R04,Air White,Volume,96.44
-R04,Air White,Billed Wt,35.484
+R02,Ground,Billed Wt,81.84
+R04,Air Red,Volume,4.04
+R04,Air Red,Billed Wt,3.72
+R04,Air White,Volume,16.92
+R04,Air White,Billed Wt,23.28
 R04,Ground,Volume,9.84
-R04,Ground,Billed Wt,60.651
-R07,Air Red,Volume,18.84
-R07,Air Red,Billed Wt,15.6
-R07,Air White,Volume,142.0
-R07,Air White,Billed Wt,85.135
+R04,Ground,Billed Wt,60.56
+R07,Air Red,Volume,12.68
+R07,Air Red,Billed Wt,13.92
+R07,Air White,Volume,54.88
+R07,Air White,Billed Wt,69.36
 R07,Ground,Volume,25.64
-R07,Ground,Billed Wt,243.944
-R08,Air Red,Volume,14.0
-R08,Air Red,Billed Wt,9.387
-R08,Air White,Volume,274.6
-R08,Air White,Billed Wt,125.822
+R07,Ground,Billed Wt,243.92
+R08,Air Red,Volume,7.52
+R08,Air Red,Billed Wt,7.8
+R08,Air White,Volume,109.52
+R08,Air White,Billed Wt,105.24
 R08,Ground,Volume,22.68
-R08,Ground,Billed Wt,161.89
-R10,Air Red,Volume,1.76
-R10,Air Red,Billed Wt,2.147
-R10,Air White,Volume,39.4
-R10,Air White,Billed Wt,26.089
-R10,Ground,Volume,5.24
-R10,Ground,Billed Wt,37.933
-R11,Air Red,Volume,185.04
-R11,Air Red,Billed Wt,308.672
-R11,Air White,Volume,885.56
-R11,Air White,Billed Wt,480.531
+R08,Ground,Billed Wt,161.88
+R10,Air Red,Volume,0.56
+R10,Air Red,Billed Wt,1.68
+R10,Air White,Volume,9.0
+R10,Air White,Billed Wt,18.96
+R10,Ground,Volume,5.12
+R10,Ground,Billed Wt,37.76
+R11,Air Red,Volume,113.48
+R11,Air Red,Billed Wt,290.56
+R11,Air White,Volume,201.56
+R11,Air White,Billed Wt,370.44
 R11,Ground,Volume,149.16
-R11,Ground,Billed Wt,967.929
-R12,Air Red,Volume,25.72
-R12,Air Red,Billed Wt,23.529
-R12,Air White,Volume,151.2
-R12,Air White,Billed Wt,69.954
+R11,Ground,Billed Wt,968.16
+R12,Air Red,Volume,17.88
+R12,Air Red,Billed Wt,21.12
+R12,Air White,Volume,66.44
+R12,Air White,Billed Wt,56.24
 R12,Ground,Volume,15.04
-R12,Ground,Billed Wt,113.706
-R13,Air Red,Volume,20.92
-R13,Air Red,Billed Wt,8.962
-R13,Air White,Volume,144.32
-R13,Air White,Billed Wt,88.872
-R13,Ground,Volume,6.84
-R13,Ground,Billed Wt,46.024
-R19,Air Red,Volume,4.88
-R19,Air Red,Billed Wt,3.586
-R19,Air White,Volume,80.36
-R19,Air White,Billed Wt,36.702
+R12,Ground,Billed Wt,113.8
+R13,Air Red,Volume,4.88
+R13,Air Red,Billed Wt,6.68
+R13,Air White,Volume,48.6
+R13,Air White,Billed Wt,77.4
+R13,Ground,Volume,6.88
+R13,Ground,Billed Wt,46.32
+R19,Air Red,Volume,1.48
+R19,Air Red,Billed Wt,2.56
+R19,Air White,Volume,10.48
+R19,Air White,Billed Wt,22.36
 R19,Ground,Volume,7.92
-R19,Ground,Billed Wt,54.815
-R28,Air Red,Volume,2.2
-R28,Air Red,Billed Wt,1.488
-R28,Air White,Volume,60.28
-R28,Air White,Billed Wt,22.588
+R19,Ground,Billed Wt,54.88
+R28,Air Red,Volume,1.44
+R28,Air Red,Billed Wt,1.4
+R28,Air White,Volume,25.12
+R28,Air White,Billed Wt,17.96
 R28,Ground,Volume,8.32
-R28,Ground,Billed Wt,42.178
-R29,Air Red,Volume,2.72
-R29,Air Red,Billed Wt,0.614
-R29,Air White,Volume,31.8
-R29,Air White,Billed Wt,12.443
+R28,Ground,Billed Wt,42.32
+R29,Air Red,Volume,0.36
+R29,Air Red,Billed Wt,0.32
+R29,Air White,Volume,8.72
+R29,Air White,Billed Wt,9.64
 R29,Ground,Volume,4.52
-R29,Ground,Billed Wt,59.486
-R32,Air Red,Volume,223.04
-R32,Air Red,Billed Wt,391.668
-R32,Air White,Volume,1319.88
-R32,Air White,Billed Wt,666.567
-R32,Ground,Volume,84.24
-R32,Ground,Billed Wt,593.551
-S01,Air Red,Volume,589.8
-S01,Air Red,Billed Wt,598.131
-S01,Air White,Volume,2581.68
-S01,Air White,Billed Wt,1595.808
-S01,Ground,Volume,444.44
-S01,Ground,Billed Wt,2891.534
-S02,Air Red,Volume,549.44
-S02,Air Red,Billed Wt,803.006
-S02,Air White,Volume,2656.4
-S02,Air White,Billed Wt,2241.245
+R29,Ground,Billed Wt,59.52
+R32,Air Red,Volume,151.64
+R32,Air Red,Billed Wt,372.96
+R32,Air White,Volume,392.24
+R32,Air White,Billed Wt,538.68
+R32,Ground,Volume,84.28
+R32,Ground,Billed Wt,594.0
+S01,Air Red,Volume,369.16
+S01,Air Red,Billed Wt,566.4
+S01,Air White,Volume,1069.8
+S01,Air White,Billed Wt,1450.8
+S01,Ground,Volume,444.6
+S01,Ground,Billed Wt,2895.92
+S02,Air Red,Volume,411.76
+S02,Air Red,Billed Wt,758.52
+S02,Air White,Volume,1090.84
+S02,Air White,Billed Wt,2131.12
 S02,Ground,Volume,385.68
-S02,Ground,Billed Wt,4746.48
-S03,Air Red,Volume,476.28
-S03,Air Red,Billed Wt,567.11
-S03,Air White,Volume,1299.2
-S03,Air White,Billed Wt,743.229
-S03,Ground,Volume,162.96
-S03,Ground,Billed Wt,1447.231
-S04,Air Red,Volume,2091.76
-S04,Air Red,Billed Wt,2441.187
-S04,Air White,Volume,6205.96
-S04,Air White,Billed Wt,4840.078
-S04,Ground,Volume,1418.36
-S04,Ground,Billed Wt,11720.907
-S09,Air Red,Volume,539.92
-S09,Air Red,Billed Wt,407.96
-S09,Air White,Volume,1951.08
-S09,Air White,Billed Wt,1483.092
-S09,Ground,Volume,254.04
-S09,Ground,Billed Wt,2150.827
-S17,Air Red,Volume,562.08
-S17,Air Red,Billed Wt,512.082
-S17,Air White,Volume,2159.48
-S17,Air White,Billed Wt,1732.314
-S17,Ground,Volume,314.6
-S17,Ground,Billed Wt,1459.17
-S26,Air Red,Volume,229.16
-S26,Air Red,Billed Wt,356.28
-S26,Air White,Volume,825.44
-S26,Air White,Billed Wt,1204.56
+S02,Ground,Billed Wt,4745.96
+S03,Air Red,Volume,355.52
+S03,Air Red,Billed Wt,546.8
+S03,Air White,Volume,511.4
+S03,Air White,Billed Wt,650.0
+S03,Ground,Volume,163.2
+S03,Ground,Billed Wt,1447.92
+S04,Air Red,Volume,1236.64
+S04,Air Red,Billed Wt,2364.28
+S04,Air White,Volume,3121.28
+S04,Air White,Billed Wt,4483.72
+S04,Ground,Volume,1420.64
+S04,Ground,Billed Wt,11732.28
+S09,Air Red,Volume,386.04
+S09,Air Red,Billed Wt,387.08
+S09,Air White,Volume,1221.6
+S09,Air White,Billed Wt,1402.48
+S09,Ground,Volume,254.12
+S09,Ground,Billed Wt,2152.92
+S17,Air Red,Volume,243.2
+S17,Air Red,Billed Wt,444.64
+S17,Air White,Volume,1241.2
+S17,Air White,Billed Wt,1589.56
+S17,Ground,Volume,314.64
+S17,Ground,Billed Wt,1459.88
+S26,Air Red,Volume,180.68
+S26,Air Red,Billed Wt,350.48
+S26,Air White,Volume,582.12
+S26,Air White,Billed Wt,1185.8
 S26,Ground,Volume,259.08
-S26,Ground,Billed Wt,2299.765
-S27,Air Red,Volume,362.84
-S27,Air Red,Billed Wt,587.15
-S27,Air White,Volume,1210.52
-S27,Air White,Billed Wt,1430.305
-S27,Ground,Volume,176.08
-S27,Ground,Billed Wt,1392.566
-T03,Air Red,Volume,114.64
-T03,Air Red,Billed Wt,108.145
-T03,Air White,Volume,613.0
-T03,Air White,Billed Wt,351.301
+S26,Ground,Billed Wt,2298.72
+S27,Air Red,Volume,320.68
+S27,Air Red,Billed Wt,581.04
+S27,Air White,Volume,457.16
+S27,Air White,Billed Wt,1360.92
+S27,Ground,Volume,176.24
+S27,Ground,Billed Wt,1393.68
+T03,Air Red,Volume,48.24
+T03,Air Red,Billed Wt,96.72
+T03,Air White,Volume,190.52
+T03,Air White,Billed Wt,304.52
 T03,Ground,Volume,77.12
-T03,Ground,Billed Wt,714.933
-T04,Air Red,Volume,51.4
-T04,Air Red,Billed Wt,32.014
-T04,Air White,Volume,356.08
-T04,Air White,Billed Wt,174.411
-T04,Ground,Volume,65.52
-T04,Ground,Billed Wt,1288.032
-T05,Air Red,Volume,13.6
-T05,Air Red,Billed Wt,27.586
-T05,Air White,Volume,133.68
-T05,Air White,Billed Wt,63.778
+T03,Ground,Billed Wt,715.36
+T04,Air Red,Volume,50.52
+T04,Air Red,Billed Wt,31.04
+T04,Air White,Volume,193.96
+T04,Air White,Billed Wt,167.88
+T04,Ground,Volume,65.56
+T04,Ground,Billed Wt,1289.92
+T05,Air Red,Volume,6.4
+T05,Air Red,Billed Wt,25.76
+T05,Air White,Volume,40.76
+T05,Air White,Billed Wt,50.2
 T05,Ground,Volume,19.52
-T05,Ground,Billed Wt,188.775
-T06,Air Red,Volume,97.76
-T06,Air Red,Billed Wt,140.104
-T06,Air White,Volume,90.0
-T06,Air White,Billed Wt,73.818
+T05,Ground,Billed Wt,189.16
+T06,Air Red,Volume,95.6
+T06,Air Red,Billed Wt,140.16
+T06,Air White,Volume,47.0
+T06,Air White,Billed Wt,69.32
 T06,Ground,Volume,12.12
-T06,Ground,Billed Wt,162.242
-T07,Air Red,Volume,19.0
-T07,Air Red,Billed Wt,15.219
-T07,Air White,Volume,96.64
-T07,Air White,Billed Wt,54.701
+T06,Ground,Billed Wt,162.56
+T07,Air Red,Volume,15.0
+T07,Air Red,Billed Wt,14.16
+T07,Air White,Volume,35.08
+T07,Air White,Billed Wt,48.92
 T07,Ground,Volume,13.64
-T07,Ground,Billed Wt,113.736
-T09,Air Red,Volume,23.68
-T09,Air Red,Billed Wt,11.434
-T09,Air White,Volume,121.12
-T09,Air White,Billed Wt,56.716
+T07,Ground,Billed Wt,113.64
+T09,Air Red,Volume,14.76
+T09,Air Red,Billed Wt,8.48
+T09,Air White,Volume,39.84
+T09,Air White,Billed Wt,44.88
 T09,Ground,Volume,18.8
-T09,Ground,Billed Wt,174.974
-T10,Air Red,Volume,0.04
-T10,Air Red,Billed Wt,0.001
+T09,Ground,Billed Wt,174.84
 T10,Air White,Volume,0.04
-T10,Air White,Billed Wt,0.024
-T13,Air Red,Volume,14.88
-T13,Air Red,Billed Wt,21.488
-T13,Air White,Volume,119.16
-T13,Air White,Billed Wt,53.521
+T10,Air White,Billed Wt,0.04
+T13,Air Red,Volume,13.28
+T13,Air Red,Billed Wt,21.0
+T13,Air White,Volume,43.72
+T13,Air White,Billed Wt,45.52
 T13,Ground,Volume,23.16
-T13,Ground,Billed Wt,313.02
-T14,Air White,Volume,0.12
-T14,Air White,Billed Wt,0.388
+T13,Ground,Billed Wt,313.12
+T14,Air White,Volume,0.08
+T14,Air White,Billed Wt,0.36
 T14,Ground,Volume,0.04
 T14,Ground,Billed Wt,0.12
-T15,Air Red,Volume,6.04
-T15,Air Red,Billed Wt,2.588
-T15,Air White,Volume,15.28
-T15,Air White,Billed Wt,5.97
+T15,Air Red,Volume,3.24
+T15,Air Red,Billed Wt,2.08
+T15,Air White,Volume,3.16
+T15,Air White,Billed Wt,4.84
 T15,Ground,Volume,5.08
-T15,Ground,Billed Wt,121.542
-T16,Air Red,Volume,3.36
-T16,Air Red,Billed Wt,1.247
-T16,Air White,Volume,37.44
-T16,Air White,Billed Wt,18.642
-T16,Ground,Volume,5.12
-T16,Ground,Billed Wt,40.535
-T18,Air Red,Volume,2.8
-T18,Air Red,Billed Wt,1.608
-T18,Air White,Volume,22.56
-T18,Air White,Billed Wt,11.072
+T15,Ground,Billed Wt,121.6
+T16,Air Red,Volume,1.12
+T16,Air Red,Billed Wt,0.68
+T16,Air White,Volume,12.2
+T16,Air White,Billed Wt,15.72
+T16,Ground,Volume,5.16
+T16,Ground,Billed Wt,40.6
+T18,Air Red,Volume,1.2
+T18,Air Red,Billed Wt,1.2
+T18,Air White,Volume,9.56
+T18,Air White,Billed Wt,9.04
 T18,Ground,Volume,3.12
-T18,Ground,Billed Wt,39.165
-T26,Air Red,Volume,8.36
-T26,Air Red,Billed Wt,6.943
-T26,Air White,Volume,31.24
-T26,Air White,Billed Wt,24.372
+T18,Ground,Billed Wt,39.32
+T26,Air Red,Volume,3.88
+T26,Air Red,Billed Wt,6.36
+T26,Air White,Volume,14.0
+T26,Air White,Billed Wt,22.24
 T26,Ground,Volume,8.52
-T26,Ground,Billed Wt,102.81
-T32,Air Red,Volume,204.32
-T32,Air Red,Billed Wt,206.699
-T32,Air White,Volume,976.56
-T32,Air White,Billed Wt,519.004
-T32,Ground,Volume,135.4
-T32,Ground,Billed Wt,1561.162
-T34,Air Red,Volume,5.6
-T34,Air Red,Billed Wt,3.376
-T34,Air White,Volume,45.12
-T34,Air White,Billed Wt,17.653
+T26,Ground,Billed Wt,102.76
+T32,Air Red,Volume,99.44
+T32,Air Red,Billed Wt,190.84
+T32,Air White,Volume,344.48
+T32,Air White,Billed Wt,454.24
+T32,Ground,Volume,135.52
+T32,Ground,Billed Wt,1563.12
+T34,Air Red,Volume,3.12
+T34,Air Red,Billed Wt,2.88
+T34,Air White,Volume,13.08
+T34,Air White,Billed Wt,15.28
 T34,Ground,Volume,8.6
-T34,Ground,Billed Wt,123.651
-T36,Air Red,Volume,15.04
-T36,Air Red,Billed Wt,7.412
-T36,Air White,Volume,52.52
-T36,Air White,Billed Wt,21.883
+T34,Ground,Billed Wt,123.8
+T36,Air Red,Volume,7.84
+T36,Air Red,Billed Wt,6.64
+T36,Air White,Volume,22.6
+T36,Air White,Billed Wt,18.8
 T36,Ground,Volume,9.96
-T36,Ground,Billed Wt,75.69
-T38,Air Red,Volume,4.24
-T38,Air Red,Billed Wt,2.238
-T38,Air White,Volume,14.0
-T38,Air White,Billed Wt,11.872
+T36,Ground,Billed Wt,76.04
+T38,Air Red,Volume,2.24
+T38,Air Red,Billed Wt,1.96
+T38,Air White,Volume,5.84
+T38,Air White,Billed Wt,11.08
 T38,Ground,Volume,4.44
-T38,Ground,Billed Wt,32.184
-T39,Air Red,Volume,15.64
-T39,Air Red,Billed Wt,3.742
-T39,Air White,Volume,47.24
-T39,Air White,Billed Wt,16.242
+T38,Ground,Billed Wt,32.12
+T39,Air Red,Volume,6.56
+T39,Air Red,Billed Wt,2.48
+T39,Air White,Volume,11.24
+T39,Air White,Billed Wt,12.32
 T39,Ground,Volume,7.2
-T39,Ground,Billed Wt,69.287
-T40,Air Red,Volume,0.32
-T40,Air Red,Billed Wt,0.196
-T40,Air White,Volume,11.68
-T40,Air White,Billed Wt,7.977
+T39,Ground,Billed Wt,69.52
+T40,Air Red,Volume,0.2
+T40,Air Red,Billed Wt,0.12
+T40,Air White,Volume,4.88
+T40,Air White,Billed Wt,7.2
 T40,Ground,Volume,3.52
-T40,Ground,Billed Wt,32.948
-T42,Air Red,Volume,4.88
-T42,Air Red,Billed Wt,6.94
-T42,Air White,Volume,32.36
-T42,Air White,Billed Wt,14.551
+T40,Ground,Billed Wt,33.08
+T42,Air Red,Volume,3.28
+T42,Air Red,Billed Wt,6.8
+T42,Air White,Volume,10.72
+T42,Air White,Billed Wt,14.04
 T42,Ground,Volume,5.52
-T42,Ground,Billed Wt,44.795
-T85,Air Red,Volume,2.76
-T85,Air Red,Billed Wt,2.302
-T85,Air White,Volume,14.8
-T85,Air White,Billed Wt,9.884
+T42,Ground,Billed Wt,44.96
+T85,Air Red,Volume,2.16
+T85,Air Red,Billed Wt,2.16
+T85,Air White,Volume,9.04
+T85,Air White,Billed Wt,8.72
 T85,Ground,Volume,7.48
-T85,Ground,Billed Wt,81.94
-T86,Air Red,Volume,3.68
-T86,Air Red,Billed Wt,1.387
-T86,Air White,Volume,12.56
-T86,Air White,Billed Wt,11.078
+T85,Ground,Billed Wt,82.08
+T86,Air Red,Volume,1.76
+T86,Air Red,Billed Wt,1.12
+T86,Air White,Volume,8.6
+T86,Air White,Billed Wt,10.72
 T86,Ground,Volume,3.32
-T86,Ground,Billed Wt,16.78
-T87,Air Red,Volume,1.4
-T87,Air Red,Billed Wt,0.481
-T87,Air White,Volume,14.76
-T87,Air White,Billed Wt,9.865
+T86,Ground,Billed Wt,16.8
+T87,Air Red,Volume,0.6
+T87,Air Red,Billed Wt,0.32
+T87,Air White,Volume,5.76
+T87,Air White,Billed Wt,9.12
 T87,Ground,Volume,3.04
-T87,Ground,Billed Wt,13.15
-T88,Air Red,Volume,1.64
-T88,Air Red,Billed Wt,1.505
-T88,Air White,Volume,2.96
-T88,Air White,Billed Wt,0.782
+T87,Ground,Billed Wt,13.28
+T88,Air Red,Volume,1.36
+T88,Air Red,Billed Wt,1.36
+T88,Air White,Volume,0.56
+T88,Air White,Billed Wt,0.56
 T88,Ground,Volume,0.72
-T88,Ground,Billed Wt,6.386
-T89,Air Red,Volume,3.56
-T89,Air Red,Billed Wt,1.073
-T89,Air White,Volume,27.4
-T89,Air White,Billed Wt,12.51
+T88,Ground,Billed Wt,6.4
+T89,Air Red,Volume,0.8
+T89,Air Red,Billed Wt,0.76
+T89,Air White,Volume,9.08
+T89,Air White,Billed Wt,9.68
 T89,Ground,Volume,2.68
-T89,Ground,Billed Wt,14.172
-U01,Air Red,Volume,130.52
-U01,Air Red,Billed Wt,134.032
-U01,Air White,Volume,1308.68
-U01,Air White,Billed Wt,731.535
-U01,Ground,Volume,131.84
-U01,Ground,Billed Wt,1325.266
-U02,Air Red,Volume,69.72
-U02,Air Red,Billed Wt,86.292
-U02,Air White,Volume,710.04
-U02,Air White,Billed Wt,322.352
-U02,Ground,Volume,89.68
-U02,Ground,Billed Wt,702.599
-U03,Air Red,Volume,213.92
-U03,Air Red,Billed Wt,181.625
-U03,Air White,Volume,2022.8
-U03,Air White,Billed Wt,1034.916
-U03,Ground,Volume,227.2
-U03,Ground,Billed Wt,1875.758
-U06,Air Red,Volume,91.72
-U06,Air Red,Billed Wt,63.168
-U06,Air White,Volume,787.36
-U06,Air White,Billed Wt,307.303
-U06,Ground,Volume,98.84
-U06,Ground,Billed Wt,937.178
-U07,Air Red,Volume,55.36
-U07,Air Red,Billed Wt,36.214
-U07,Air White,Volume,719.84
-U07,Air White,Billed Wt,330.14
-U07,Ground,Volume,57.72
-U07,Ground,Billed Wt,560.898
-U09,Air Red,Volume,153.16
-U09,Air Red,Billed Wt,164.735
-U09,Air White,Volume,3129.84
-U09,Air White,Billed Wt,2343.146
-U09,Ground,Volume,924.96
-U09,Ground,Billed Wt,2619.262
-U10,Air Red,Volume,219.48
-U10,Air Red,Billed Wt,186.662
-U10,Air White,Volume,880.0
-U10,Air White,Billed Wt,508.192
-U10,Ground,Volume,117.56
-U10,Ground,Billed Wt,1005.703
-U110,Air Red,Volume,0.88
-U110,Air Red,Billed Wt,0.514
-U110,Air White,Volume,1.52
-U110,Air White,Billed Wt,0.802
-U110,Ground,Volume,0.72
-U110,Ground,Billed Wt,7.633
-U12,Air Red,Volume,115.8
-U12,Air Red,Billed Wt,71.526
-U12,Air White,Volume,269.32
-U12,Air White,Billed Wt,126.63
+T89,Ground,Billed Wt,14.12
+U01,Air Red,Volume,91.56
+U01,Air Red,Billed Wt,127.28
+U01,Air White,Volume,663.16
+U01,Air White,Billed Wt,668.68
+U01,Ground,Volume,131.88
+U01,Ground,Billed Wt,1325.52
+U02,Air Red,Volume,40.08
+U02,Air Red,Billed Wt,80.12
+U02,Air White,Volume,258.48
+U02,Air White,Billed Wt,241.84
+U02,Ground,Volume,89.84
+U02,Ground,Billed Wt,704.04
+U03,Air Red,Volume,144.4
+U03,Air Red,Billed Wt,171.8
+U03,Air White,Volume,735.8
+U03,Air White,Billed Wt,877.84
+U03,Ground,Volume,227.32
+U03,Ground,Billed Wt,1876.08
+U06,Air Red,Volume,32.52
+U06,Air Red,Billed Wt,53.28
+U06,Air White,Volume,236.84
+U06,Air White,Billed Wt,232.2
+U06,Ground,Volume,98.96
+U06,Ground,Billed Wt,938.08
+U07,Air Red,Volume,41.48
+U07,Air Red,Billed Wt,33.92
+U07,Air White,Volume,291.36
+U07,Air White,Billed Wt,303.12
+U07,Ground,Volume,57.76
+U07,Ground,Billed Wt,565.2
+U09,Air Red,Volume,109.72
+U09,Air Red,Billed Wt,157.4
+U09,Air White,Volume,2137.32
+U09,Air White,Billed Wt,2203.52
+U09,Ground,Volume,924.8
+U09,Ground,Billed Wt,2620.32
+U10,Air Red,Volume,158.44
+U10,Air Red,Billed Wt,177.12
+U10,Air White,Volume,360.2
+U10,Air White,Billed Wt,452.0
+U10,Ground,Volume,117.6
+U10,Ground,Billed Wt,1006.0
+U110,Air Red,Volume,0.44
+U110,Air Red,Billed Wt,0.48
+U110,Air White,Volume,0.16
+U110,Air White,Billed Wt,0.68
+U110,Ground,Volume,0.68
+U110,Ground,Billed Wt,6.76
+U12,Air Red,Volume,97.84
+U12,Air Red,Billed Wt,66.96
+U12,Air White,Volume,80.96
+U12,Air White,Billed Wt,93.76
 U12,Ground,Volume,24.64
-U12,Ground,Billed Wt,196.159
-U13,Air Red,Volume,167.92
-U13,Air Red,Billed Wt,229.358
-U13,Air White,Volume,1208.24
-U13,Air White,Billed Wt,1242.548
-U13,Ground,Volume,306.44
-U13,Ground,Billed Wt,3487.985
+U12,Ground,Billed Wt,196.24
+U13,Air Red,Volume,139.68
+U13,Air Red,Billed Wt,224.0
+U13,Air White,Volume,650.28
+U13,Air White,Billed Wt,1187.48
+U13,Ground,Volume,306.48
+U13,Ground,Billed Wt,3490.08
 U130,Air Red,Volume,0.08
-U130,Air Red,Billed Wt,0.018
-U130,Air White,Volume,1.04
-U130,Air White,Billed Wt,0.406
+U130,Air Red,Billed Wt,0.0
+U130,Air White,Volume,0.52
+U130,Air White,Billed Wt,0.4
 U130,Ground,Volume,4.96
-U130,Ground,Billed Wt,74.99
-U133,Air Red,Volume,11.92
-U133,Air Red,Billed Wt,15.901
-U133,Air White,Volume,123.68
-U133,Air White,Billed Wt,117.194
+U130,Ground,Billed Wt,75.08
+U133,Air Red,Volume,8.44
+U133,Air Red,Billed Wt,15.12
+U133,Air White,Volume,84.88
+U133,Air White,Billed Wt,112.56
 U133,Ground,Volume,13.2
-U133,Ground,Billed Wt,100.825
-U135,Air Red,Volume,3.0
-U135,Air Red,Billed Wt,1.804
-U135,Air White,Volume,11.44
-U135,Air White,Billed Wt,4.965
+U133,Ground,Billed Wt,100.76
+U135,Air Red,Volume,1.88
+U135,Air Red,Billed Wt,1.4
+U135,Air White,Volume,3.64
+U135,Air White,Billed Wt,3.92
 U135,Ground,Volume,3.76
-U135,Ground,Billed Wt,25.516
-U139,Air Red,Volume,135.96
-U139,Air Red,Billed Wt,141.267
-U139,Air White,Volume,862.56
-U139,Air White,Billed Wt,496.991
+U135,Ground,Billed Wt,25.44
+U139,Air Red,Volume,104.12
+U139,Air Red,Billed Wt,136.48
+U139,Air White,Volume,390.76
+U139,Air White,Billed Wt,435.32
 U139,Ground,Volume,402.12
-U139,Ground,Billed Wt,4229.582
-U14,Air Red,Volume,101.2
-U14,Air Red,Billed Wt,89.368
-U14,Air White,Volume,1014.4
-U14,Air White,Billed Wt,1113.442
-U14,Ground,Volume,163.8
-U14,Ground,Billed Wt,1982.364
-U140,Air Red,Volume,2.24
-U140,Air Red,Billed Wt,3.029
-U140,Air White,Volume,9.88
-U140,Air White,Billed Wt,8.936
+U139,Ground,Billed Wt,4229.44
+U14,Air Red,Volume,43.2
+U14,Air Red,Billed Wt,73.28
+U14,Air White,Volume,475.64
+U14,Air White,Billed Wt,1057.92
+U14,Ground,Volume,163.92
+U14,Ground,Billed Wt,1983.56
+U140,Air Red,Volume,1.6
+U140,Air Red,Billed Wt,2.76
+U140,Air White,Volume,5.16
+U140,Air White,Billed Wt,8.32
 U140,Ground,Volume,2.12
-U140,Ground,Billed Wt,19.717
+U140,Ground,Billed Wt,19.84
 U141,Air Red,Volume,0.04
 U141,Air Red,Billed Wt,0.12
-U141,Air White,Volume,0.04
-U141,Air White,Billed Wt,0.001
-U142,Air Red,Volume,5.84
-U142,Air Red,Billed Wt,7.702
-U142,Air White,Volume,92.16
-U142,Air White,Billed Wt,28.468
+U142,Air Red,Volume,3.0
+U142,Air Red,Billed Wt,7.44
+U142,Air White,Volume,20.76
+U142,Air White,Billed Wt,23.12
 U142,Ground,Volume,8.48
-U142,Ground,Billed Wt,55.006
-U143,Air Red,Volume,127.76
-U143,Air Red,Billed Wt,145.059
-U143,Air White,Volume,653.0
-U143,Air White,Billed Wt,315.198
-U143,Ground,Volume,76.24
-U143,Ground,Billed Wt,622.571
-U145,Air Red,Volume,10.24
-U145,Air Red,Billed Wt,5.946
-U145,Air White,Volume,199.24
-U145,Air White,Billed Wt,116.212
-U145,Ground,Volume,29.16
-U145,Ground,Billed Wt,280.017
-U146,Air White,Volume,0.04
-U146,Air White,Billed Wt,0.004
-U15,Air Red,Volume,43.4
-U15,Air Red,Billed Wt,37.448
-U15,Air White,Volume,645.52
-U15,Air White,Billed Wt,369.471
+U142,Ground,Billed Wt,54.96
+U143,Air Red,Volume,81.08
+U143,Air Red,Billed Wt,138.2
+U143,Air White,Volume,256.08
+U143,Air White,Billed Wt,283.76
+U143,Ground,Volume,76.4
+U143,Ground,Billed Wt,623.24
+U145,Air Red,Volume,4.76
+U145,Air Red,Billed Wt,4.76
+U145,Air White,Volume,69.48
+U145,Air White,Billed Wt,91.68
+U145,Ground,Volume,29.24
+U145,Ground,Billed Wt,280.36
+U15,Air Red,Volume,27.24
+U15,Air Red,Billed Wt,35.0
+U15,Air White,Volume,249.2
+U15,Air White,Billed Wt,351.24
 U15,Ground,Volume,92.44
-U15,Ground,Billed Wt,804.089
-U16,Air Red,Volume,35.48
-U16,Air Red,Billed Wt,38.326
-U16,Air White,Volume,695.64
-U16,Air White,Billed Wt,493.632
-U16,Ground,Volume,117.64
-U16,Ground,Billed Wt,745.249
-U17,Air Red,Volume,39.32
-U17,Air Red,Billed Wt,51.24
-U17,Air White,Volume,166.88
-U17,Air White,Billed Wt,104.74
+U15,Ground,Billed Wt,803.44
+U16,Air Red,Volume,21.68
+U16,Air Red,Billed Wt,35.48
+U16,Air White,Volume,348.0
+U16,Air White,Billed Wt,459.88
+U16,Ground,Volume,117.68
+U16,Ground,Billed Wt,745.64
+U17,Air Red,Volume,13.8
+U17,Air Red,Billed Wt,44.76
+U17,Air White,Volume,68.28
+U17,Air White,Billed Wt,88.2
 U17,Ground,Volume,24.2
-U17,Ground,Billed Wt,187.499
-U18,Air Red,Volume,107.2
-U18,Air Red,Billed Wt,131.349
-U18,Air White,Volume,1046.4
-U18,Air White,Billed Wt,1404.962
-U18,Ground,Volume,132.4
-U18,Ground,Billed Wt,1875.057
-U19,Air Red,Volume,71.52
-U19,Air Red,Billed Wt,31.446
-U19,Air White,Volume,548.44
-U19,Air White,Billed Wt,290.23
-U19,Ground,Volume,90.24
-U19,Ground,Billed Wt,486.008
-U20,Air Red,Volume,21.28
-U20,Air Red,Billed Wt,17.364
-U20,Air White,Volume,425.32
-U20,Air White,Billed Wt,1451.904
-U20,Ground,Volume,259.56
-U20,Ground,Billed Wt,1395.543
-U21,Air Red,Volume,32.2
-U21,Air Red,Billed Wt,31.876
-U21,Air White,Volume,658.72
-U21,Air White,Billed Wt,179.921
-U21,Ground,Volume,35.32
-U21,Ground,Billed Wt,339.952
-U22,Air Red,Volume,53.04
-U22,Air Red,Billed Wt,76.101
-U22,Air White,Volume,522.6
-U22,Air White,Billed Wt,284.331
-U22,Ground,Volume,95.16
-U22,Ground,Billed Wt,820.984
-U23,Air Red,Volume,56.64
-U23,Air Red,Billed Wt,68.244
-U23,Air White,Volume,514.2
-U23,Air White,Billed Wt,272.251
+U17,Ground,Billed Wt,187.68
+U18,Air Red,Volume,73.04
+U18,Air Red,Billed Wt,125.76
+U18,Air White,Volume,721.2
+U18,Air White,Billed Wt,1371.44
+U18,Ground,Volume,132.36
+U18,Ground,Billed Wt,1875.2
+U19,Air Red,Volume,56.64
+U19,Air Red,Billed Wt,28.32
+U19,Air White,Volume,290.36
+U19,Air White,Billed Wt,264.4
+U19,Ground,Volume,90.36
+U19,Ground,Billed Wt,486.72
+U20,Air Red,Volume,15.4
+U20,Air Red,Billed Wt,16.12
+U20,Air White,Volume,283.52
+U20,Air White,Billed Wt,1433.36
+U20,Ground,Volume,259.36
+U20,Ground,Billed Wt,1395.44
+U21,Air Red,Volume,11.72
+U21,Air Red,Billed Wt,28.4
+U21,Air White,Volume,65.28
+U21,Air White,Billed Wt,136.64
+U21,Ground,Volume,35.4
+U21,Ground,Billed Wt,339.84
+U22,Air Red,Volume,40.08
+U22,Air Red,Billed Wt,72.68
+U22,Air White,Volume,303.92
+U22,Air White,Billed Wt,257.92
+U22,Ground,Volume,95.24
+U22,Ground,Billed Wt,821.64
+U23,Air Red,Volume,17.28
+U23,Air Red,Billed Wt,60.2
+U23,Air White,Volume,171.52
+U23,Air White,Billed Wt,225.4
 U23,Ground,Volume,69.72
-U23,Ground,Billed Wt,1398.874
-U24,Air Red,Volume,20.0
-U24,Air Red,Billed Wt,13.522
-U24,Air White,Volume,223.56
-U24,Air White,Billed Wt,103.309
+U23,Ground,Billed Wt,1398.84
+U24,Air Red,Volume,8.88
+U24,Air Red,Billed Wt,10.84
+U24,Air White,Volume,75.64
+U24,Air White,Billed Wt,86.04
 U24,Ground,Volume,29.48
-U24,Ground,Billed Wt,216.622
-U25,Air Red,Volume,30.08
-U25,Air Red,Billed Wt,46.556
-U25,Air White,Volume,413.76
-U25,Air White,Billed Wt,221.504
-U25,Ground,Volume,57.88
-U25,Ground,Billed Wt,367.794
-U26,Air Red,Volume,20.72
-U26,Air Red,Billed Wt,16.134
-U26,Air White,Volume,192.6
-U26,Air White,Billed Wt,77.741
-U26,Ground,Volume,27.64
-U26,Ground,Billed Wt,255.233
-U27,Air Red,Volume,18.16
-U27,Air Red,Billed Wt,10.353
-U27,Air White,Volume,255.64
-U27,Air White,Billed Wt,130.812
-U27,Ground,Volume,36.88
-U27,Ground,Billed Wt,417.332
-U28,Air Red,Volume,25.36
-U28,Air Red,Billed Wt,39.59
-U28,Air White,Volume,238.92
-U28,Air White,Billed Wt,306.063
-U28,Ground,Volume,63.44
-U28,Ground,Billed Wt,963.809
-U30,Air Red,Volume,167.28
-U30,Air Red,Billed Wt,162.76
-U30,Air White,Volume,1502.52
-U30,Air White,Billed Wt,1419.216
-U30,Ground,Volume,781.24
-U30,Ground,Billed Wt,3572.346
-U31,Air Red,Volume,18.6
-U31,Air Red,Billed Wt,9.642
-U31,Air White,Volume,271.96
-U31,Air White,Billed Wt,147.775
+U24,Ground,Billed Wt,216.84
+U25,Air Red,Volume,17.8
+U25,Air Red,Billed Wt,44.56
+U25,Air White,Volume,184.44
+U25,Air White,Billed Wt,202.36
+U25,Ground,Volume,57.84
+U25,Ground,Billed Wt,367.88
+U26,Air Red,Volume,6.76
+U26,Air Red,Billed Wt,13.84
+U26,Air White,Volume,55.92
+U26,Air White,Billed Wt,61.36
+U26,Ground,Volume,27.68
+U26,Ground,Billed Wt,255.24
+U27,Air Red,Volume,2.68
+U27,Air Red,Billed Wt,6.88
+U27,Air White,Volume,91.24
+U27,Air White,Billed Wt,108.28
+U27,Ground,Volume,36.92
+U27,Ground,Billed Wt,417.8
+U28,Air Red,Volume,12.12
+U28,Air Red,Billed Wt,37.56
+U28,Air White,Volume,150.36
+U28,Air White,Billed Wt,295.32
+U28,Ground,Volume,63.52
+U28,Ground,Billed Wt,986.96
+U30,Air Red,Volume,129.08
+U30,Air Red,Billed Wt,154.36
+U30,Air White,Volume,761.96
+U30,Air White,Billed Wt,1335.6
+U30,Ground,Volume,780.52
+U30,Ground,Billed Wt,3572.92
+U31,Air Red,Volume,7.0
+U31,Air Red,Billed Wt,7.44
+U31,Air White,Volume,121.52
+U31,Air White,Billed Wt,137.68
 U31,Ground,Volume,28.04
-U31,Ground,Billed Wt,292.058
-U44,Air Red,Volume,4.36
-U44,Air Red,Billed Wt,2.234
-U44,Air White,Volume,88.12
-U44,Air White,Billed Wt,28.554
-U44,Ground,Volume,5.8
-U44,Ground,Billed Wt,57.762
-U45,Air Red,Volume,13.76
-U45,Air Red,Billed Wt,7.625
-U45,Air White,Volume,100.48
-U45,Air White,Billed Wt,34.309
+U31,Ground,Billed Wt,292.4
+U44,Air Red,Volume,0.6
+U44,Air Red,Billed Wt,1.68
+U44,Air White,Volume,13.6
+U44,Air White,Billed Wt,20.2
+U44,Ground,Volume,5.84
+U44,Ground,Billed Wt,57.92
+U45,Air Red,Volume,4.24
+U45,Air Red,Billed Wt,5.28
+U45,Air White,Volume,20.48
+U45,Air White,Billed Wt,26.32
 U45,Ground,Volume,20.52
-U45,Ground,Billed Wt,234.984
-U48,Air Red,Volume,86.8
-U48,Air Red,Billed Wt,81.66
-U48,Air White,Volume,846.12
-U48,Air White,Billed Wt,449.756
-U48,Ground,Volume,137.4
-U48,Ground,Billed Wt,1097.174
-U77,Air Red,Volume,6.36
-U77,Air Red,Billed Wt,4.546
-U77,Air White,Volume,88.76
-U77,Air White,Billed Wt,33.666
+U45,Ground,Billed Wt,234.96
+U48,Air Red,Volume,55.52
+U48,Air Red,Billed Wt,77.08
+U48,Air White,Volume,418.0
+U48,Air White,Billed Wt,410.88
+U48,Ground,Volume,137.36
+U48,Ground,Billed Wt,1097.04
+U77,Air Red,Volume,2.12
+U77,Air Red,Billed Wt,3.52
+U77,Air White,Volume,35.92
+U77,Air White,Billed Wt,31.44
 U77,Ground,Volume,10.16
-U77,Ground,Billed Wt,101.624
-U78,Air Red,Volume,6.72
-U78,Air Red,Billed Wt,3.116
-U78,Air White,Volume,91.6
-U78,Air White,Billed Wt,27.548
+U77,Ground,Billed Wt,101.56
+U78,Air Red,Volume,2.16
+U78,Air Red,Billed Wt,2.44
+U78,Air White,Volume,24.76
+U78,Air White,Billed Wt,20.4
 U78,Ground,Volume,15.2
-U78,Ground,Billed Wt,205.809
-U79,Air Red,Volume,11.0
-U79,Air Red,Billed Wt,5.129
-U79,Air White,Volume,113.48
-U79,Air White,Billed Wt,39.24
-U79,Ground,Volume,15.6
-U79,Ground,Billed Wt,135.649
-U83,Air Red,Volume,2.08
-U83,Air Red,Billed Wt,1.087
-U83,Air White,Volume,1.84
-U83,Air White,Billed Wt,0.834
+U78,Ground,Billed Wt,206.0
+U79,Air Red,Volume,1.84
+U79,Air Red,Billed Wt,3.44
+U79,Air White,Volume,37.32
+U79,Air White,Billed Wt,31.72
+U79,Ground,Volume,15.64
+U79,Ground,Billed Wt,136.2
+U83,Air Red,Volume,1.12
+U83,Air Red,Billed Wt,0.8
+U83,Air White,Volume,0.64
+U83,Air White,Billed Wt,0.76
 U83,Ground,Volume,0.76
-U83,Ground,Billed Wt,6.718
-U95,Air Red,Volume,6.36
-U95,Air Red,Billed Wt,3.643
-U95,Air White,Volume,52.72
-U95,Air White,Billed Wt,27.195
+U83,Ground,Billed Wt,6.68
+U95,Air Red,Volume,4.56
+U95,Air Red,Billed Wt,3.44
+U95,Air White,Volume,22.08
+U95,Air White,Billed Wt,23.8
 U95,Ground,Volume,8.44
-U95,Ground,Billed Wt,37.74
-V01,Air Red,Volume,65.8
-V01,Air Red,Billed Wt,50.582
-V01,Air White,Volume,1039.64
-V01,Air White,Billed Wt,580.164
-V01,Ground,Volume,59.48
-V01,Ground,Billed Wt,691.466
-V04,Air Red,Volume,62.08
-V04,Air Red,Billed Wt,21.267
-V04,Air White,Volume,1134.2
-V04,Air White,Billed Wt,513.878
-V04,Ground,Volume,87.32
-V04,Ground,Billed Wt,679.63
-V05,Air Red,Volume,196.28
-V05,Air Red,Billed Wt,175.481
-V05,Air White,Volume,1393.16
-V05,Air White,Billed Wt,717.738
-V05,Ground,Volume,140.32
-V05,Ground,Billed Wt,883.514
-V07,Air Red,Volume,30.2
-V07,Air Red,Billed Wt,14.292
-V07,Air White,Volume,1048.72
-V07,Air White,Billed Wt,711.794
-V07,Ground,Volume,57.68
-V07,Ground,Billed Wt,360.488
-V08,Air Red,Volume,149.84
-V08,Air Red,Billed Wt,148.391
-V08,Air White,Volume,3289.92
-V08,Air White,Billed Wt,1972.62
-V08,Ground,Volume,292.48
-V08,Ground,Billed Wt,1787.503
-V09,Air Red,Volume,48.12
-V09,Air Red,Billed Wt,21.173
-V09,Air White,Volume,1203.36
-V09,Air White,Billed Wt,637.806
-V09,Ground,Volume,63.84
-V09,Ground,Billed Wt,654.735
-V10,Air Red,Volume,46.72
-V10,Air Red,Billed Wt,19.629
-V10,Air White,Volume,1447.6
-V10,Air White,Billed Wt,802.644
-V10,Ground,Volume,53.04
-V10,Ground,Billed Wt,379.859
-V11,Air Red,Volume,29.8
-V11,Air Red,Billed Wt,18.467
-V11,Air White,Volume,331.64
-V11,Air White,Billed Wt,158.444
-V11,Ground,Volume,41.8
-V11,Ground,Billed Wt,331.574
-V12,Air Red,Volume,36.68
-V12,Air Red,Billed Wt,12.138
-V12,Air White,Volume,312.64
-V12,Air White,Billed Wt,138.007
-V12,Ground,Volume,36.4
-V12,Ground,Billed Wt,254.051
-V13,Air Red,Volume,43.96
-V13,Air Red,Billed Wt,15.584
-V13,Air White,Volume,889.4
-V13,Air White,Billed Wt,582.134
-V13,Ground,Volume,31.6
-V13,Ground,Billed Wt,247.374
-V15,Air Red,Volume,104.08
-V15,Air Red,Billed Wt,109.127
-V15,Air White,Volume,728.12
-V15,Air White,Billed Wt,373.299
-V15,Ground,Volume,30.96
-V15,Ground,Billed Wt,190.452
-V16,Air Red,Volume,121.72
-V16,Air Red,Billed Wt,70.73
-V16,Air White,Volume,839.04
-V16,Air White,Billed Wt,369.982
-V16,Ground,Volume,75.32
-V16,Ground,Billed Wt,710.103
-V21,Air Red,Volume,7.96
-V21,Air Red,Billed Wt,5.907
-V21,Air White,Volume,266.12
-V21,Air White,Billed Wt,154.864
+U95,Ground,Billed Wt,37.68
+V01,Air Red,Volume,36.08
+V01,Air Red,Billed Wt,46.4
+V01,Air White,Volume,408.72
+V01,Air White,Billed Wt,506.68
+V01,Ground,Volume,59.4
+V01,Ground,Billed Wt,692.32
+V04,Air Red,Volume,8.8
+V04,Air Red,Billed Wt,16.0
+V04,Air White,Volume,441.36
+V04,Air White,Billed Wt,492.68
+V04,Ground,Volume,87.12
+V04,Ground,Billed Wt,680.8
+V05,Air Red,Volume,146.84
+V05,Air Red,Billed Wt,171.6
+V05,Air White,Volume,746.88
+V05,Air White,Billed Wt,698.72
+V05,Ground,Volume,140.52
+V05,Ground,Billed Wt,884.76
+V07,Air Red,Volume,2.4
+V07,Air Red,Billed Wt,5.88
+V07,Air White,Volume,532.28
+V07,Air White,Billed Wt,666.8
+V07,Ground,Volume,57.76
+V07,Ground,Billed Wt,361.64
+V08,Air Red,Volume,46.28
+V08,Air Red,Billed Wt,125.44
+V08,Air White,Volume,1974.44
+V08,Air White,Billed Wt,1854.84
+V08,Ground,Volume,292.72
+V08,Ground,Billed Wt,1789.4
+V09,Air Red,Volume,16.84
+V09,Air Red,Billed Wt,16.16
+V09,Air White,Volume,532.16
+V09,Air White,Billed Wt,551.48
+V09,Ground,Volume,63.6
+V09,Ground,Billed Wt,660.28
+V10,Air Red,Volume,13.88
+V10,Air Red,Billed Wt,16.36
+V10,Air White,Volume,777.68
+V10,Air White,Billed Wt,760.24
+V10,Ground,Volume,53.08
+V10,Ground,Billed Wt,380.52
+V11,Air Red,Volume,9.6
+V11,Air Red,Billed Wt,15.2
+V11,Air White,Volume,103.6
+V11,Air White,Billed Wt,128.64
+V11,Ground,Volume,41.88
+V11,Ground,Billed Wt,332.56
+V12,Air Red,Volume,8.2
+V12,Air Red,Billed Wt,8.44
+V12,Air White,Volume,102.4
+V12,Air White,Billed Wt,113.56
+V12,Ground,Volume,36.32
+V12,Ground,Billed Wt,253.88
+V13,Air Red,Volume,9.36
+V13,Air Red,Billed Wt,11.56
+V13,Air White,Volume,446.92
+V13,Air White,Billed Wt,540.52
+V13,Ground,Volume,31.32
+V13,Ground,Billed Wt,247.32
+V15,Air Red,Volume,78.28
+V15,Air Red,Billed Wt,104.48
+V15,Air White,Volume,289.64
+V15,Air White,Billed Wt,336.0
+V15,Ground,Volume,31.04
+V15,Ground,Billed Wt,190.92
+V16,Air Red,Volume,30.2
+V16,Air Red,Billed Wt,54.4
+V16,Air White,Volume,272.16
+V16,Air White,Billed Wt,335.6
+V16,Ground,Volume,75.52
+V16,Ground,Billed Wt,711.16
+V21,Air Red,Volume,3.84
+V21,Air Red,Billed Wt,5.48
+V21,Air White,Volume,129.68
+V21,Air White,Billed Wt,140.96
 V21,Ground,Volume,15.16
-V21,Ground,Billed Wt,122.943
-V22,Air Red,Volume,17.6
-V22,Air Red,Billed Wt,9.167
-V22,Air White,Volume,242.28
-V22,Air White,Billed Wt,129.74
+V21,Ground,Billed Wt,122.96
+V22,Air Red,Volume,7.8
+V22,Air Red,Billed Wt,7.76
+V22,Air White,Volume,92.84
+V22,Air White,Billed Wt,111.56
 V22,Ground,Volume,9.44
-V22,Ground,Billed Wt,67.198
-V24,Air Red,Volume,7.08
-V24,Air Red,Billed Wt,3.836
-V24,Air White,Volume,172.56
-V24,Air White,Billed Wt,83.494
+V22,Ground,Billed Wt,67.2
+V24,Air Red,Volume,2.28
+V24,Air Red,Billed Wt,3.28
+V24,Air White,Volume,58.44
+V24,Air White,Billed Wt,70.84
 V24,Ground,Volume,17.92
-V24,Ground,Billed Wt,148.076
-V32,Air Red,Volume,7.24
-V32,Air Red,Billed Wt,3.913
-V32,Air White,Volume,189.72
-V32,Air White,Billed Wt,99.632
+V24,Ground,Billed Wt,148.32
+V32,Air Red,Volume,1.72
+V32,Air Red,Billed Wt,2.4
+V32,Air White,Volume,78.6
+V32,Air White,Billed Wt,84.68
 V32,Ground,Volume,13.04
-V32,Ground,Billed Wt,225.222
-V57,Air Red,Volume,47.24
-V57,Air Red,Billed Wt,19.08
-V57,Air White,Volume,703.08
-V57,Air White,Billed Wt,417.108
-V57,Ground,Volume,31.32
-V57,Ground,Billed Wt,213.563
-V58,Air Red,Volume,438.92
-V58,Air Red,Billed Wt,422.308
-V58,Air White,Volume,5842.92
-V58,Air White,Billed Wt,4198.023
-V58,Ground,Volume,671.76
-V58,Ground,Billed Wt,5982.487
-W02,Air Red,Volume,96.8
-W02,Air Red,Billed Wt,73.69
-W02,Air White,Volume,515.36
-W02,Air White,Billed Wt,258.223
+V32,Ground,Billed Wt,225.12
+V57,Air Red,Volume,11.56
+V57,Air Red,Billed Wt,17.52
+V57,Air White,Volume,327.28
+V57,Air White,Billed Wt,406.12
+V57,Ground,Volume,31.36
+V57,Ground,Billed Wt,214.16
+V58,Air Red,Volume,320.0
+V58,Air Red,Billed Wt,404.8
+V58,Air White,Volume,3398.4
+V58,Air White,Billed Wt,4046.2
+V58,Ground,Volume,672.4
+V58,Ground,Billed Wt,5993.0
+W02,Air Red,Volume,45.56
+W02,Air Red,Billed Wt,63.36
+W02,Air White,Volume,155.88
+W02,Air White,Billed Wt,214.24
 W02,Ground,Volume,136.64
-W02,Ground,Billed Wt,3668.682
-W03,Air Red,Volume,35.4
-W03,Air Red,Billed Wt,36.442
-W03,Air White,Volume,149.88
-W03,Air White,Billed Wt,57.694
+W02,Ground,Billed Wt,3669.0
+W03,Air Red,Volume,20.84
+W03,Air Red,Billed Wt,33.8
+W03,Air White,Volume,40.96
+W03,Air White,Billed Wt,41.92
 W03,Ground,Volume,17.04
-W03,Ground,Billed Wt,200.286
-W04,Air Red,Volume,26.2
-W04,Air Red,Billed Wt,19.672
-W04,Air White,Volume,160.32
-W04,Air White,Billed Wt,56.42
-W04,Ground,Volume,32.36
-W04,Ground,Billed Wt,900.524
-W05,Air Red,Volume,17.6
-W05,Air Red,Billed Wt,8.181
-W05,Air White,Volume,230.16
-W05,Air White,Billed Wt,77.711
+W03,Ground,Billed Wt,200.04
+W04,Air Red,Volume,12.8
+W04,Air Red,Billed Wt,17.28
+W04,Air White,Volume,58.96
+W04,Air White,Billed Wt,47.04
+W04,Ground,Volume,32.4
+W04,Ground,Billed Wt,900.56
+W05,Air Red,Volume,4.56
+W05,Air Red,Billed Wt,5.8
+W05,Air White,Volume,49.4
+W05,Air White,Billed Wt,54.08
 W05,Ground,Volume,16.96
-W05,Ground,Billed Wt,169.914
-W06,Air Red,Volume,22.64
-W06,Air Red,Billed Wt,14.463
-W06,Air White,Volume,197.72
-W06,Air White,Billed Wt,116.343
-W06,Ground,Volume,22.64
-W06,Ground,Billed Wt,211.976
-W07,Air Red,Volume,30.92
-W07,Air Red,Billed Wt,28.856
-W07,Air White,Volume,251.28
-W07,Air White,Billed Wt,123.561
+W05,Ground,Billed Wt,169.96
+W06,Air Red,Volume,7.08
+W06,Air Red,Billed Wt,11.56
+W06,Air White,Volume,73.12
+W06,Air White,Billed Wt,101.92
+W06,Ground,Volume,22.6
+W06,Ground,Billed Wt,211.8
+W07,Air Red,Volume,10.28
+W07,Air Red,Billed Wt,23.6
+W07,Air White,Volume,86.08
+W07,Air White,Billed Wt,94.72
 W07,Ground,Volume,32.64
-W07,Ground,Billed Wt,1052.23
-W08,Air Red,Volume,4.6
-W08,Air Red,Billed Wt,1.846
-W08,Air White,Volume,40.08
-W08,Air White,Billed Wt,15.067
+W07,Ground,Billed Wt,1052.28
+W08,Air Red,Volume,0.84
+W08,Air Red,Billed Wt,0.96
+W08,Air White,Volume,7.24
+W08,Air White,Billed Wt,9.96
 W08,Ground,Volume,6.96
-W08,Ground,Billed Wt,76.032
-W09,Air Red,Volume,15.2
-W09,Air Red,Billed Wt,7.536
-W09,Air White,Volume,163.84
-W09,Air White,Billed Wt,59.891
-W09,Ground,Volume,26.44
-W09,Ground,Billed Wt,322.603
-W12,Air Red,Volume,22.64
-W12,Air Red,Billed Wt,57.546
-W12,Air White,Volume,144.36
-W12,Air White,Billed Wt,50.62
+W08,Ground,Billed Wt,76.04
+W09,Air Red,Volume,3.52
+W09,Air Red,Billed Wt,5.64
+W09,Air White,Volume,37.64
+W09,Air White,Billed Wt,41.72
+W09,Ground,Volume,26.4
+W09,Ground,Billed Wt,322.56
+W12,Air Red,Volume,6.44
+W12,Air Red,Billed Wt,54.64
+W12,Air White,Volume,39.8
+W12,Air White,Billed Wt,38.84
 W12,Ground,Volume,26.2
-W12,Ground,Billed Wt,430.641
-W14,Air Red,Volume,9.84
-W14,Air Red,Billed Wt,3.268
-W14,Air White,Volume,66.2
-W14,Air White,Billed Wt,23.78
-W14,Ground,Volume,9.28
-W14,Ground,Billed Wt,94.698
-W15,Air Red,Volume,5.36
-W15,Air Red,Billed Wt,4.667
-W15,Air White,Volume,57.24
-W15,Air White,Billed Wt,39.457
+W12,Ground,Billed Wt,430.76
+W14,Air Red,Volume,1.64
+W14,Air Red,Billed Wt,1.6
+W14,Air White,Volume,22.4
+W14,Air White,Billed Wt,16.76
+W14,Ground,Volume,9.24
+W14,Ground,Billed Wt,94.72
+W15,Air Red,Volume,4.2
+W15,Air Red,Billed Wt,4.28
+W15,Air White,Volume,48.2
+W15,Air White,Billed Wt,37.8
 W15,Ground,Volume,5.96
-W15,Ground,Billed Wt,140.109
-W21,Air Red,Volume,84.8
-W21,Air Red,Billed Wt,58.373
-W21,Air White,Volume,255.4
-W21,Air White,Billed Wt,133.275
+W15,Ground,Billed Wt,140.04
+W21,Air Red,Volume,62.48
+W21,Air Red,Billed Wt,54.92
+W21,Air White,Volume,89.0
+W21,Air White,Billed Wt,106.92
 W21,Ground,Volume,21.76
-W21,Ground,Billed Wt,195.233
-W22,Air Red,Volume,6.68
-W22,Air Red,Billed Wt,7.776
-W22,Air White,Volume,66.56
-W22,Air White,Billed Wt,30.692
+W21,Ground,Billed Wt,195.52
+W22,Air Red,Volume,4.04
+W22,Air Red,Billed Wt,7.2
+W22,Air White,Volume,17.96
+W22,Air White,Billed Wt,22.4
 W22,Ground,Volume,13.16
-W22,Ground,Billed Wt,204.241
-W23,Air Red,Volume,12.8
-W23,Air Red,Billed Wt,9.46
-W23,Air White,Volume,127.92
-W23,Air White,Billed Wt,70.572
+W22,Ground,Billed Wt,204.24
+W23,Air Red,Volume,2.84
+W23,Air Red,Billed Wt,7.4
+W23,Air White,Volume,77.4
+W23,Air White,Billed Wt,61.92
 W23,Ground,Volume,14.72
-W23,Ground,Billed Wt,246.913
-W40,Air Red,Volume,22.16
-W40,Air Red,Billed Wt,20.349
-W40,Air White,Volume,93.32
-W40,Air White,Billed Wt,51.366
+W23,Ground,Billed Wt,247.12
+W40,Air Red,Volume,17.92
+W40,Air Red,Billed Wt,19.6
+W40,Air White,Volume,53.6
+W40,Air White,Billed Wt,46.56
 W40,Ground,Volume,11.24
-W40,Ground,Billed Wt,205.361
-W52,Air Red,Volume,329.48
-W52,Air Red,Billed Wt,459.948
-W52,Air White,Volume,1067.88
-W52,Air White,Billed Wt,669.478
-W52,Ground,Volume,230.44
-W52,Ground,Billed Wt,2703.04
-X02,Air Red,Volume,85.48
-X02,Air Red,Billed Wt,32.145
-X02,Air White,Volume,60.12
-X02,Air White,Billed Wt,50.157
-X02,Ground,Volume,11.72
-X02,Ground,Billed Wt,233.481
-X05,Air Red,Volume,13.8
-X05,Air Red,Billed Wt,4.589
-X05,Air White,Volume,121.04
-X05,Air White,Billed Wt,69.731
-X05,Ground,Volume,7.16
-X05,Ground,Billed Wt,101.978
-X06,Air Red,Volume,35.52
-X06,Air Red,Billed Wt,28.201
-X06,Air White,Volume,62.48
-X06,Air White,Billed Wt,70.53
-X06,Ground,Volume,8.84
-X06,Ground,Billed Wt,142.326
-X07,Air White,Volume,0.12
-X07,Air White,Billed Wt,0.528
+W40,Ground,Billed Wt,205.6
+W52,Air Red,Volume,181.88
+W52,Air Red,Billed Wt,420.2
+W52,Air White,Volume,303.16
+W52,Air White,Billed Wt,531.76
+W52,Ground,Volume,230.52
+W52,Ground,Billed Wt,2703.52
+X02,Air Red,Volume,23.68
+X02,Air Red,Billed Wt,28.28
+X02,Air White,Volume,25.44
+X02,Air White,Billed Wt,48.6
+X02,Ground,Volume,11.52
+X02,Ground,Billed Wt,233.32
+X05,Air Red,Volume,2.0
+X05,Air Red,Billed Wt,3.2
+X05,Air White,Volume,63.12
+X05,Air White,Billed Wt,64.16
+X05,Ground,Volume,7.12
+X05,Ground,Billed Wt,101.96
+X06,Air Red,Volume,13.8
+X06,Air Red,Billed Wt,24.36
+X06,Air White,Volume,30.6
+X06,Air White,Billed Wt,65.12
+X06,Ground,Volume,8.8
+X06,Ground,Billed Wt,142.16
+X07,Air White,Volume,0.04
+X07,Air White,Billed Wt,0.52
 X07,Ground,Volume,0.04
 X07,Ground,Billed Wt,0.08
-X10,Air White,Volume,0.24
-X10,Air White,Billed Wt,0.308
+X10,Air White,Volume,0.16
+X10,Air White,Billed Wt,0.28
 X10,Ground,Volume,0.24
-X10,Ground,Billed Wt,5.404
+X10,Ground,Billed Wt,5.4
 X12,Air Red,Volume,0.0
 X12,Air Red,Billed Wt,0.0
-X12,Air White,Volume,1.04
-X12,Air White,Billed Wt,2.448
+X12,Air White,Volume,0.84
+X12,Air White,Billed Wt,2.44
 X12,Ground,Volume,0.8
-X12,Ground,Billed Wt,12.824
-X13,Air Red,Volume,2.48
-X13,Air Red,Billed Wt,0.66
-X13,Air White,Volume,4.72
-X13,Air White,Billed Wt,5.76
-X13,Ground,Volume,1.36
-X13,Ground,Billed Wt,14.308
+X12,Ground,Billed Wt,12.84
+X13,Air Red,Volume,1.4
+X13,Air Red,Billed Wt,0.44
+X13,Air White,Volume,1.6
+X13,Air White,Billed Wt,5.4
+X13,Ground,Volume,1.32
+X13,Ground,Billed Wt,14.28
 X14,Air White,Volume,0.04
 X14,Air White,Billed Wt,1.56
 X14,Ground,Volume,0.24
 X14,Ground,Billed Wt,5.64
-X15,Air Red,Volume,1.92
-X15,Air Red,Billed Wt,2.932
-X15,Air White,Volume,10.84
-X15,Air White,Billed Wt,8.839
+X15,Air Red,Volume,0.56
+X15,Air Red,Billed Wt,2.56
+X15,Air White,Volume,10.04
+X15,Air White,Billed Wt,8.6
 X15,Ground,Volume,2.84
-X15,Ground,Billed Wt,20.793
-X17,Air Red,Volume,2.72
-X17,Air Red,Billed Wt,1.122
-X17,Air White,Volume,8.76
-X17,Air White,Billed Wt,14.24
-X17,Ground,Volume,3.52
-X17,Ground,Billed Wt,115.766
-X18,Air Red,Volume,1.48
-X18,Air Red,Billed Wt,0.555
-X18,Air White,Volume,2.24
-X18,Air White,Billed Wt,0.537
+X15,Ground,Billed Wt,20.84
+X17,Air Red,Volume,0.32
+X17,Air Red,Billed Wt,0.72
+X17,Air White,Volume,5.64
+X17,Air White,Billed Wt,13.68
+X17,Ground,Volume,3.56
+X17,Ground,Billed Wt,118.96
+X18,Air White,Volume,0.24
+X18,Air White,Billed Wt,0.28
 X18,Ground,Volume,0.32
-X18,Ground,Billed Wt,3.772
-X19,Air Red,Volume,1.88
-X19,Air Red,Billed Wt,0.57
-X19,Air White,Volume,18.68
-X19,Air White,Billed Wt,20.651
+X18,Ground,Billed Wt,3.8
+X19,Air Red,Volume,0.48
+X19,Air Red,Billed Wt,0.28
+X19,Air White,Volume,12.68
+X19,Air White,Billed Wt,20.0
 X19,Ground,Volume,3.72
-X19,Ground,Billed Wt,47.421
-X22,Air Red,Volume,352.84
-X22,Air Red,Billed Wt,214.044
-X22,Air White,Volume,2613.08
-X22,Air White,Billed Wt,1750.439
-X22,Ground,Volume,273.88
-X22,Ground,Billed Wt,3397.102
-X25,Air Red,Volume,2.88
-X25,Air Red,Billed Wt,1.141
-X25,Air White,Volume,29.76
-X25,Air White,Billed Wt,24.624
+X19,Ground,Billed Wt,47.48
+X22,Air Red,Volume,114.36
+X22,Air Red,Billed Wt,179.76
+X22,Air White,Volume,1225.92
+X22,Air White,Billed Wt,1552.72
+X22,Ground,Volume,273.92
+X22,Ground,Billed Wt,3397.96
+X25,Air Red,Volume,0.52
+X25,Air Red,Billed Wt,0.6
+X25,Air White,Volume,8.48
+X25,Air White,Billed Wt,20.52
 X25,Ground,Volume,1.48
-X25,Ground,Billed Wt,20.776
+X25,Ground,Billed Wt,20.72
 X26,Air Red,Volume,0.84
 X26,Air Red,Billed Wt,7.56
-X26,Air White,Volume,26.36
-X26,Air White,Billed Wt,15.632
+X26,Air White,Volume,9.56
+X26,Air White,Billed Wt,11.64
 X26,Ground,Volume,0.68
-X26,Ground,Billed Wt,10.381
-X27,Air Red,Volume,0.12
-X27,Air Red,Billed Wt,0.194
-X27,Air White,Volume,1.48
-X27,Air White,Billed Wt,2.851
+X26,Ground,Billed Wt,10.36
+X27,Air Red,Volume,0.08
+X27,Air Red,Billed Wt,0.2
+X27,Air White,Volume,0.84
+X27,Air White,Billed Wt,2.8
 X27,Ground,Volume,1.64
-X27,Ground,Billed Wt,36.034
-X28,Air Red,Volume,0.2
-X28,Air Red,Billed Wt,0.083
-X28,Air White,Volume,0.76
-X28,Air White,Billed Wt,1.166
+X27,Ground,Billed Wt,36.08
+X28,Air Red,Volume,0.08
+X28,Air Red,Billed Wt,0.08
+X28,Air White,Volume,0.2
+X28,Air White,Billed Wt,1.12
 X28,Ground,Volume,1.36
-X28,Ground,Billed Wt,9.92
-X29,Air Red,Volume,0.04
-X29,Air Red,Billed Wt,0.004
-X29,Air White,Volume,0.52
-X29,Air White,Billed Wt,0.175
+X28,Ground,Billed Wt,9.88
 X29,Ground,Volume,0.08
-X29,Ground,Billed Wt,34.408
-X30,Air Red,Volume,10.68
-X30,Air Red,Billed Wt,7.137
-X30,Air White,Volume,23.12
-X30,Air White,Billed Wt,26.807
+X29,Ground,Billed Wt,34.4
+X30,Air Red,Volume,2.36
+X30,Air Red,Billed Wt,5.92
+X30,Air White,Volume,6.04
+X30,Air White,Billed Wt,24.44
 X30,Ground,Volume,3.44
-X30,Ground,Billed Wt,57.542
-X32,Air Red,Volume,0.32
-X32,Air Red,Billed Wt,5.566
-X32,Air White,Volume,4.32
-X32,Air White,Billed Wt,4.96
-X32,Ground,Volume,0.68
-X32,Ground,Billed Wt,4.084
-X34,Air Red,Volume,4.56
-X34,Air Red,Billed Wt,1.837
-X34,Air White,Volume,26.84
-X34,Air White,Billed Wt,11.284
+X30,Ground,Billed Wt,57.64
+X32,Air Red,Volume,0.24
+X32,Air Red,Billed Wt,5.56
+X32,Air White,Volume,2.6
+X32,Air White,Billed Wt,4.76
+X32,Ground,Volume,0.72
+X32,Ground,Billed Wt,4.72
+X34,Air Red,Volume,1.44
+X34,Air Red,Billed Wt,1.36
+X34,Air White,Volume,9.0
+X34,Air White,Billed Wt,9.28
 X34,Ground,Volume,3.2
-X34,Ground,Billed Wt,43.113
-X36,Air White,Volume,0.04
-X36,Air White,Billed Wt,0.08
+X34,Ground,Billed Wt,43.2
 X37,Ground,Volume,0.24
-X37,Ground,Billed Wt,0.265
-X38,Air Red,Volume,0.52
-X38,Air Red,Billed Wt,0.226
-X38,Air White,Volume,0.76
-X38,Air White,Billed Wt,0.5
+X37,Ground,Billed Wt,0.28
+X38,Air Red,Volume,0.48
+X38,Air Red,Billed Wt,0.24
+X38,Air White,Volume,0.24
+X38,Air White,Billed Wt,0.44
 X38,Ground,Volume,0.36
 X38,Ground,Billed Wt,0.4
-X39,Air Red,Volume,2.04
-X39,Air Red,Billed Wt,0.534
-X39,Air White,Volume,8.56
-X39,Air White,Billed Wt,3.028
+X39,Air Red,Volume,0.56
+X39,Air Red,Billed Wt,0.36
+X39,Air White,Volume,3.56
+X39,Air White,Billed Wt,2.52
 X39,Ground,Volume,2.76
-X39,Ground,Billed Wt,26.518
-X41,Air White,Volume,0.04
-X41,Air White,Billed Wt,0.004
+X39,Ground,Billed Wt,26.52

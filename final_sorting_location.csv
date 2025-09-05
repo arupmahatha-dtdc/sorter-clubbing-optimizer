@@ -1,39 +1,38 @@
 Region,Type,Sorting_Locations_for_Optimal_Branches,Self_Branches,Sorting_Location_Needed
 AMD,Billed Wt,242,20,342
-AMD,Volume,130,20,230
-BBI,Billed Wt,24,18,120
-BBI,Volume,15,18,111
+AMD,Volume,109,20,209
+BBI,Billed Wt,22,18,118
+BBI,Volume,4,18,100
 BLR,Billed Wt,232,35,362
-BLR,Volume,142,35,272
-CCU,Billed Wt,184,38,320
-CCU,Volume,110,38,246
-CHE,Billed Wt,129,19,227
-CHE,Volume,79,19,177
-CJB,Billed Wt,90,13,176
-CJB,Volume,50,13,136
+BLR,Volume,106,35,236
+CCU,Billed Wt,179,38,315
+CCU,Volume,70,38,206
+CHE,Billed Wt,125,19,223
+CHE,Volume,51,19,149
+CJB,Billed Wt,87,13,173
+CJB,Volume,43,13,129
 COK,Billed Wt,55,21,157
-COK,Volume,45,21,147
-DDL,Billed Wt,384,29,502
-DDL,Volume,366,29,484
-GAU,Billed Wt,9,29,127
-GAU,Volume,6,29,124
-HHPT,Billed Wt,201,27,315
-HHPT,Volume,94,27,208
-HYD,Billed Wt,90,20,190
-HYD,Volume,77,20,177
+COK,Volume,33,21,135
+DDL,Billed Wt,383,29,501
+DDL,Volume,329,29,447
+GAU,Billed Wt,8,29,126
+HHPT,Billed Wt,196,27,310
+HHPT,Volume,77,27,191
+HYD,Billed Wt,87,20,187
+HYD,Volume,43,20,143
 IDR,Billed Wt,47,20,147
-IDR,Volume,36,20,136
-JAI,Billed Wt,178,22,282
-JAI,Volume,136,22,240
-MUM,Billed Wt,300,25,410
-MUM,Volume,227,25,337
-NGP,Billed Wt,14,12,98
-NGP,Volume,17,12,101
+IDR,Volume,15,20,115
+JAI,Billed Wt,177,22,281
+JAI,Volume,110,22,214
+MUM,Billed Wt,299,25,409
+MUM,Volume,202,25,312
+NGP,Billed Wt,13,12,97
+NGP,Volume,2,12,86
 PAT,Billed Wt,25,25,135
-PAT,Volume,17,25,127
-PNQ,Billed Wt,175,36,307
-PNQ,Volume,85,36,217
-UPT,Billed Wt,166,44,314
-UPT,Volume,109,44,257
-VJA,Billed Wt,46,18,142
-VJA,Volume,40,18,136
+PAT,Volume,4,25,114
+PNQ,Billed Wt,173,36,305
+PNQ,Volume,55,36,187
+UPT,Billed Wt,165,44,313
+UPT,Volume,94,44,242
+VJA,Billed Wt,44,18,140
+VJA,Volume,28,18,124

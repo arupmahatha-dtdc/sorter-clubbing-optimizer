@@ -164,8 +164,7 @@
             },
             "GUWAHATI": {
                 "X10": "LANUNG GAON BRANCH",
-                "X22": "DISPUR BRANCH",
-                "X36": "AMINGAON BRANCH"
+                "X22": "DISPUR BRANCH"
             },
             "IMPHAL": {
                 "X12": "IMPHAL SORTING OFFICE"
@@ -176,9 +175,6 @@
             "JORHAT": {
                 "X15": "JORHAT SORTING OFFICE",
                 "X32": "DIMAPUR BRANCH"
-            },
-            "KALIABOR": {
-                "X41": "KOLIABOR SORTING OFFICE"
             },
             "MORANHAT": {
                 "X37": "MORAN BRANCH"
@@ -369,9 +365,6 @@
                 "U10": "DEHRADUN BRANCH",
                 "U28": "SELAQUI BRANCH"
             },
-            "GHAZIABAD": {
-                "U146": "GHAZIABAD BRANCH"
-            },
             "GWALIOR": {
                 "U07": "GWALIOR BRANCH"
             },
@@ -438,7 +431,6 @@
                 "N09": "WAZIRPUR BRANCH",
                 "N10": "JHANDEWALAN BRANCH",
                 "N11": "MEERBAGH BRANCH",
-                "N12": "NARAINA MASS MAIL PROCESSING OUTSOURCED BRANCH",
                 "N15": "DURGAPURI BRANCH",
                 "N17": "ROHINI BRANCH",
                 "N33": "DARYGANJ BRANCH",
@@ -582,8 +574,7 @@
                 "Q06": "JAIPUR VAISHALINAGAR BRANCH",
                 "Q17": "MANSAROVAR BRANCH",
                 "Q35": "JAIPUR VKI BRANCH",
-                "Q41": "BAGRU SERVICE CENTER",
-                "Q48": "IP DISPATCH JAIPUR BRANCH"
+                "Q41": "BAGRU SERVICE CENTER"
             },
             "JODHPUR": {
                 "Q02": "JODHPUR BRANCH"
@@ -1033,9 +1024,6 @@
             },
             "SATNA": {
                 "I44": "SATNA SORTING OFFICE"
-            },
-            "UJJAIN": {
-                "I40": "UJJAIN SORTING OFFICE"
             }
         },
         "MUM": {
@@ -1064,7 +1052,6 @@
                 "M59": "BHANDUP BRANCH",
                 "M61": "DAHISAR BRANCH",
                 "M66": "MAHAPE BRANCH",
-                "M68": "BANDRA SORTING OFFICE",
                 "M78": "ANDHERI WEST BRANCH",
                 "M87": "MALAD SERVICE CENTER"
             },
