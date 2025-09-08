@@ -173,9 +173,9 @@ if region_sel == "All India" and not df_optimal.empty:
     # Calculate total units - sum of all service types across all regions for selected type
     total_units_all = df_abs[df_abs["Type"] == type_sel]["Total"].sum()
     
-    # Calculate total units through optimal branches
+    # Calculate total units through optimal branches for the selected type only
     total_units_through_optimal = 0
-    for _, row in df_optimal.iterrows():
+    for _, row in df_optimal[df_optimal["Type"] == type_sel].iterrows():
         # Get total units for this service type
         total_process = df_abs[
             (df_abs["Region"] == row["Region"]) &
