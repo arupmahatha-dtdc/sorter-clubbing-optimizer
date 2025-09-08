@@ -57,7 +57,6 @@ else:
 st.markdown("---")
 
 # ---------- Determine the column to use for total process ----------
-# You may have a mapping of Type -> column name
 type_total_column_map = {
     "Volume": "Total",           # example: change if actual column names differ
     "Billed Wt": "Total",        # add more Type -> column mappings if needed
@@ -93,9 +92,11 @@ for i, stype in enumerate(service_types):
 
         sum_optimal_process += optimal_total_process
 
-        # Map branch codes to names for display
-        branch_codes = row_bag.get("Branches", "").split(",") if pd.notna(row_bag.get("Branches")) else []
-        df_br_names = df_mapping[df_mapping["BranchCode"].isin([b.strip() for b in branch_codes])]
+        # ---------- Show Optimal Branches ----------
+        branch_codes = row_opt.get("Branches", "").split(",") if pd.notna(row_opt.get("Branches")) else []
+        branch_codes = [b.strip() for b in branch_codes if b.strip()]
+
+        df_br_names = df_mapping[df_mapping["BranchCode"].isin(branch_codes)]
         branch_display = df_br_names[["BranchCode", "BranchName"]]
 
         # Display header + plot
@@ -119,8 +120,11 @@ for i, stype in enumerate(service_types):
         """)
 
         # Collapsible branch list
-        with st.expander("Show Branches Above Threshold"):
-            st.dataframe(branch_display, use_container_width=True)
+        with st.expander("Show Optimal Branches"):
+            if branch_display.empty:
+                st.info("No optimal branches found for this service type")
+            else:
+                st.dataframe(branch_display, use_container_width=True)
 
 # ---------- Region × Type Overall ----------
 overall_optimal_pct = (sum_optimal_process / sum_total_process * 100) if sum_total_process > 0 else 0
