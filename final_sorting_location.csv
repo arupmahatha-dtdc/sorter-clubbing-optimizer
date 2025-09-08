@@ -1,38 +1,36 @@
 Region,Type,Sorting_Locations_for_Optimal_Branches,Self_Branches,Sorting_Location_Needed
-AMD,Billed Wt,242,20,342
-AMD,Volume,109,20,209
-BBI,Billed Wt,22,18,118
-BBI,Volume,4,18,100
-BLR,Billed Wt,232,35,362
-BLR,Volume,106,35,236
-CCU,Billed Wt,179,38,315
-CCU,Volume,70,38,206
-CHE,Billed Wt,125,19,223
-CHE,Volume,51,19,149
-CJB,Billed Wt,87,13,173
-CJB,Volume,43,13,129
-COK,Billed Wt,55,21,157
-COK,Volume,33,21,135
-DDL,Billed Wt,383,29,501
-DDL,Volume,329,29,447
-GAU,Billed Wt,8,29,126
-HHPT,Billed Wt,196,27,310
-HHPT,Volume,77,27,191
-HYD,Billed Wt,87,20,187
-HYD,Volume,43,20,143
-IDR,Billed Wt,47,20,147
-IDR,Volume,15,20,115
-JAI,Billed Wt,177,22,281
-JAI,Volume,110,22,214
-MUM,Billed Wt,299,25,409
-MUM,Volume,202,25,312
-NGP,Billed Wt,13,12,97
-NGP,Volume,2,12,86
-PAT,Billed Wt,25,25,135
-PAT,Volume,4,25,114
-PNQ,Billed Wt,173,36,305
-PNQ,Volume,55,36,187
-UPT,Billed Wt,165,44,313
-UPT,Volume,94,44,242
-VJA,Billed Wt,44,18,140
-VJA,Volume,28,18,124
+AMD,Billed Wt,156,20,256
+AMD,Volume,50,20,150
+BBI,Billed Wt,10,18,106
+BLR,Billed Wt,155,35,285
+BLR,Volume,63,35,193
+CCU,Billed Wt,99,38,235
+CCU,Volume,28,38,164
+CHE,Billed Wt,83,19,181
+CHE,Volume,28,19,126
+CJB,Billed Wt,63,13,149
+CJB,Volume,24,13,110
+COK,Billed Wt,43,21,145
+COK,Volume,16,21,118
+DDL,Billed Wt,329,29,447
+DDL,Volume,247,29,365
+GAU,Billed Wt,2,29,120
+HHPT,Billed Wt,136,27,250
+HHPT,Volume,42,27,156
+HYD,Billed Wt,58,20,158
+HYD,Volume,21,20,121
+IDR,Billed Wt,16,20,116
+IDR,Volume,4,20,104
+JAI,Billed Wt,97,22,201
+JAI,Volume,55,22,159
+MUM,Billed Wt,235,25,345
+MUM,Volume,116,25,226
+NGP,Billed Wt,3,12,87
+PAT,Billed Wt,14,25,124
+PAT,Volume,2,25,112
+PNQ,Billed Wt,105,36,237
+PNQ,Volume,26,36,158
+UPT,Billed Wt,112,44,260
+UPT,Volume,51,44,199
+VJA,Billed Wt,30,18,126
+VJA,Volume,20,18,116
