@@ -187,18 +187,24 @@ if region_sel == "All India" and not df_optimal.empty:
     
     # Calculate percentage
     pct_through_optimal_all = (total_units_through_optimal / total_units_all * 100) if total_units_all > 0 else 0
+    units_not_through_optimal = total_units_all - total_units_through_optimal
+    pct_not_through_optimal = 100 - pct_through_optimal_all
     
     # Create summary data with only the 3 requested metrics
     india_summary = {
         "Metric": [
             "Total Units (All Regions)",
             "Units Through Optimal",
-            "% Through Optimal"
+            "% Through Optimal",
+            "Units Not Through Optimal",
+            "% Not Through Optimal",
         ],
         "Value": [
             f"{total_units_all:,.0f}",
             f"{total_units_through_optimal:,.0f}",
-            f"{pct_through_optimal_all:.2f}%"
+            f"{pct_through_optimal_all:.2f}%",
+            f"{units_not_through_optimal:,.0f}",
+            f"{pct_not_through_optimal:.2f}%",
         ]
     }
     
@@ -214,6 +220,28 @@ if region_sel == "All India":
     # Get total units for regions that exist in df_display
     region_totals = df_abs[df_abs["Type"] == type_sel].groupby("Region")["Total"].sum()
     df_display["Total_Units"] = df_display["Region"].map(region_totals).fillna(0)
+
+    # Compute Optimal Units per region for the selected type
+    region_opt_units = {}
+    for _, row in df_optimal[df_optimal["Type"] == type_sel].iterrows():
+        total_process = df_abs[
+            (df_abs["Region"] == row["Region"]) &
+            (df_abs["Type"] == row["Type"]) &
+            (df_abs["Service_Type"] == row["Service_Type"])
+        ]["Total"].iloc[0]
+        region_opt_units[row["Region"]] = region_opt_units.get(row["Region"], 0) + (
+            total_process * row["Optimal_Cumulative_Percentage"] / 100
+        )
+
+    df_display["Optimal_Units"] = df_display["Region"].map(region_opt_units).fillna(0)
+    df_display["Optimal_%"] = np.where(
+        df_display["Total_Units"] > 0,
+        df_display["Optimal_Units"] / df_display["Total_Units"] * 100,
+        0,
+    )
+    # Add not-through-optimal metrics
+    df_display["Units_Not_Through_Optimal"] = df_display["Total_Units"] - df_display["Optimal_Units"]
+    df_display["Pct_Not_Through_Optimal"] = 100 - df_display["Optimal_%"]
     
     # Remove Type column since it's already selected
     df_display = df_display.drop(columns=["Type"])
@@ -234,6 +262,9 @@ else:
         df_display["Total_Units"] = total_units
         df_display["Optimal_Units"] = opt_units
         df_display["Optimal_%"] = overall_pct
+        # Add not-through-optimal metrics
+        df_display["Units_Not_Through_Optimal"] = df_display["Total_Units"] - df_display["Optimal_Units"]
+        df_display["Pct_Not_Through_Optimal"] = 100 - df_display["Optimal_%"]
         # Remove Type column since it's already selected
         df_display = df_display.drop(columns=["Type"])
         st.dataframe(df_display, use_container_width=True)
