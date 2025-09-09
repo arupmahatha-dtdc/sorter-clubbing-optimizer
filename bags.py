@@ -200,10 +200,10 @@ if region_sel == "All India" and not df_optimal.empty:
             "% Not Through Optimal",
         ],
         "Value": [
-            f"{total_units_all:,.0f}",
-            f"{total_units_through_optimal:,.0f}",
+            f"{total_units_all:,.2f}",
+            f"{total_units_through_optimal:,.2f}",
             f"{pct_through_optimal_all:.2f}%",
-            f"{units_not_through_optimal:,.0f}",
+            f"{units_not_through_optimal:,.2f}",
             f"{pct_not_through_optimal:.2f}%",
         ]
     }
@@ -245,6 +245,9 @@ if region_sel == "All India":
     
     # Remove Type column since it's already selected
     df_display = df_display.drop(columns=["Type"])
+    # Round numeric columns to 2 decimals for display
+    numeric_cols = df_display.select_dtypes(include=[np.number]).columns
+    df_display[numeric_cols] = df_display[numeric_cols].astype(float).round(2)
     st.dataframe(df_display, use_container_width=True)
 else:
     df_display = df_fd[(df_fd["Region"] == region_sel) & (df_fd["Type"] == type_sel)].copy()
@@ -267,6 +270,9 @@ else:
         df_display["Pct_Not_Through_Optimal"] = 100 - df_display["Optimal_%"]
         # Remove Type column since it's already selected
         df_display = df_display.drop(columns=["Type"])
+        # Round numeric columns to 2 decimals for display
+        numeric_cols = df_display.select_dtypes(include=[np.number]).columns
+        df_display[numeric_cols] = df_display[numeric_cols].astype(float).round(2)
         st.dataframe(df_display, use_container_width=True)
     else:
         st.info("No sorting data for this Region × Type")
@@ -328,7 +334,10 @@ if not df_comprehensive.empty:
     if region_sel == "All India":
         display_cols = ["Region"] + display_cols
     
-    st.dataframe(df_comprehensive[display_cols], use_container_width=True)
+    df_comp_view = df_comprehensive[display_cols].copy()
+    comp_numeric_cols = df_comp_view.select_dtypes(include=[np.number]).columns
+    df_comp_view[comp_numeric_cols] = df_comp_view[comp_numeric_cols].astype(float).round(2)
+    st.dataframe(df_comp_view, use_container_width=True)
     
     # Add download button for the comprehensive table
     csv = df_comprehensive[display_cols].to_csv(index=False)
@@ -351,7 +360,10 @@ else:
     summary_display = df_summary[(df_summary["Region"] == region_sel) & (df_summary["Type"] == type_sel)][["Service_Type", "Num_Branches", "Cumulative_Percentage", "Branch_Names"]].copy()
 
 if not summary_display.empty:
-    st.dataframe(summary_display, use_container_width=True)
+    sum_view = summary_display.copy()
+    sum_numeric_cols = sum_view.select_dtypes(include=[np.number]).columns
+    sum_view[sum_numeric_cols] = sum_view[sum_numeric_cols].astype(float).round(2)
+    st.dataframe(sum_view, use_container_width=True)
 else:
     st.info("No branch data available for the selected filters")
 
@@ -364,7 +376,10 @@ else:
     optimal_display = df_optimal[(df_optimal["Region"] == region_sel) & (df_optimal["Type"] == type_sel)][["Service_Type", "Optimal_Num_Branches", "Optimal_Cumulative_Percentage", "Branch_Names"]].copy()
 
 if not optimal_display.empty:
-    st.dataframe(optimal_display, use_container_width=True)
+    opt_view_tbl = optimal_display.copy()
+    opt_numeric_cols = opt_view_tbl.select_dtypes(include=[np.number]).columns
+    opt_view_tbl[opt_numeric_cols] = opt_view_tbl[opt_numeric_cols].astype(float).round(2)
+    st.dataframe(opt_view_tbl, use_container_width=True)
 else:
     st.info("No optimal branch data available for the selected filters")
 
