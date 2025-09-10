@@ -608,13 +608,31 @@ else:
                         branch_codes_str = opt_subset.iloc[0]["Branches"]
                         branch_names_str = get_branch_names(branch_codes_str)
                         if branch_names_str:
-                            # Create a DataFrame with both codes and names
+                            # Create a DataFrame with code, name, and amount for selected type
                             branch_codes = [b.strip() for b in branch_codes_str.split(",") if b.strip()]
                             branch_data = []
+                            # Get the source row for amounts for this Region × Service_Type × Type
+                            src_rows = df_abs[
+                                (df_abs["Region"] == region_sel) &
+                                (df_abs["Service_Type"] == stype) &
+                                (df_abs["Type"] == type_sel)
+                            ]
+                            src_row = src_rows.iloc[0] if not src_rows.empty else None
                             for code in branch_codes:
                                 name = branch_name_mapping.get(code, "Name not found")
-                                branch_data.append({"Branch Code": code, "Branch Name": name})
-                            st.table(pd.DataFrame(branch_data))
+                                amount = 0.0
+                                if src_row is not None and code in src_row.index:
+                                    try:
+                                        amount = float(src_row[code])
+                                    except Exception:
+                                        amount = 0.0
+                                branch_data.append({
+                                    "Branch Code": code,
+                                    "Branch Name": name,
+                                    f"{type_sel} Amount": round(amount, 2)
+                                })
+                            df_branch_table = pd.DataFrame(branch_data)
+                            st.table(df_branch_table)
                         else:
                             st.write("No optimal branches found")
 
