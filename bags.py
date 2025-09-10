@@ -29,6 +29,164 @@ df_abs = pd.read_csv("all_data.csv")
 df_pct = pd.read_csv("all_data_percentage.csv")
 df_office = pd.read_csv("office_location.csv")
 
+# Import flow analysis functions from processing
+from processing import (
+    load_flow_analysis_data, 
+    get_region_flow_summary, 
+    get_region_receiving_summary, 
+    get_all_india_flow_summary
+)
+
+# ---------- Dynamic Flow Analysis Functions ----------
+def calculate_dynamic_flow_analysis(df_abs, df_optimal, type_name):
+    """Calculate flow analysis dynamically based on current optimal branches"""
+    
+    # Create region mapping from branch codes to regions
+    region_mapping = {
+        'A': 'AMD', 'B': 'BLR', 'C': 'CHE', 'E': 'CJB', 'H': 'HYD', 
+        'I': 'IDR', 'J': 'HHPT', 'K': 'CCU', 'M': 'MUM', 'N': 'DDL',
+        'O': 'COK', 'P': 'PNQ', 'Q': 'JAI', 'R': 'NGP', 'T': 'PAT',
+        'U': 'UPT', 'V': 'VJA', 'W': 'BBI', 'X': 'GAU'
+    }
+    
+    # Get all unique regions
+    regions = df_abs['Region'].unique()
+    
+    # Create a dictionary to store optimal branches for each combination
+    optimal_branches_dict = {}
+    for _, row in df_optimal.iterrows():
+        key = (row['Region'], row['Service_Type'], row['Type'])
+        branches = [b.strip() for b in str(row['Branches']).split(',') if b.strip()]
+        optimal_branches_dict[key] = set(branches)
+    
+    # Initialize flow matrices
+    flow_matrix = pd.DataFrame(0, index=regions, columns=regions)
+    optimal_matrix = pd.DataFrame(0, index=regions, columns=regions)
+    non_optimal_matrix = pd.DataFrame(0, index=regions, columns=regions)
+    
+    # Process each row (origin region)
+    for _, row in df_abs.iterrows():
+        if row['Type'] != type_name:
+            continue
+            
+        origin_region = row['Region']
+        service_type = row['Service_Type']
+        
+        # Get optimal branches for this combination
+        key = (origin_region, service_type, type_name)
+        optimal_branches = optimal_branches_dict.get(key, set())
+        
+        # Get branch columns (exclude Region, Type, Service_Type, Total)
+        branch_cols = [col for col in df_abs.columns if col not in ['Region', 'Type', 'Service_Type', 'Total']]
+        
+        for branch in branch_cols:
+            flow_value = row[branch]
+            if pd.isna(flow_value) or flow_value == 0:
+                continue
+                
+            # Determine destination region from branch code
+            dest_region = None
+            if branch and len(branch) > 0:
+                first_letter = branch[0]
+                dest_region = region_mapping.get(first_letter)
+            
+            if dest_region and dest_region in regions:
+                # Add to total flow matrix
+                flow_matrix.loc[origin_region, dest_region] += flow_value
+                
+                # Determine if this is optimal or non-optimal based on optimal_branches
+                if branch in optimal_branches:
+                    optimal_matrix.loc[origin_region, dest_region] += flow_value
+                else:
+                    non_optimal_matrix.loc[origin_region, dest_region] += flow_value
+    
+    # Calculate percentages correctly (optimal/total * 100 for each origin-destination pair)
+    optimal_pct_matrix = pd.DataFrame(0.0, index=regions, columns=regions)
+    non_optimal_pct_matrix = pd.DataFrame(0.0, index=regions, columns=regions)
+    
+    for origin in regions:
+        for dest in regions:
+            total_flow = flow_matrix.loc[origin, dest]
+            if total_flow > 0:
+                optimal_pct_matrix.loc[origin, dest] = (optimal_matrix.loc[origin, dest] / total_flow * 100).round(2)
+                non_optimal_pct_matrix.loc[origin, dest] = (non_optimal_matrix.loc[origin, dest] / total_flow * 100).round(2)
+    
+    return flow_matrix, optimal_matrix, non_optimal_matrix, optimal_pct_matrix, non_optimal_pct_matrix
+
+
+def calculate_dynamic_receiving_analysis(df_abs, df_optimal, type_name):
+    """Calculate receiving analysis dynamically based on current optimal branches"""
+    
+    # Create region mapping from branch codes to regions
+    region_mapping = {
+        'A': 'AMD', 'B': 'BLR', 'C': 'CHE', 'E': 'CJB', 'H': 'HYD', 
+        'I': 'IDR', 'J': 'HHPT', 'K': 'CCU', 'M': 'MUM', 'N': 'DDL',
+        'O': 'COK', 'P': 'PNQ', 'Q': 'JAI', 'R': 'NGP', 'T': 'PAT',
+        'U': 'UPT', 'V': 'VJA', 'W': 'BBI', 'X': 'GAU'
+    }
+    
+    # Get all unique regions
+    regions = df_abs['Region'].unique()
+    
+    # Create a dictionary to store optimal branches for each combination
+    optimal_branches_dict = {}
+    for _, row in df_optimal.iterrows():
+        key = (row['Region'], row['Service_Type'], row['Type'])
+        branches = [b.strip() for b in str(row['Branches']).split(',') if b.strip()]
+        optimal_branches_dict[key] = set(branches)
+    
+    # Initialize receiving matrices
+    total_receiving = pd.Series(0, index=regions)
+    optimal_receiving = pd.Series(0, index=regions)
+    non_optimal_receiving = pd.Series(0, index=regions)
+    
+    # Process each row (origin region)
+    for _, row in df_abs.iterrows():
+        if row['Type'] != type_name:
+            continue
+            
+        origin_region = row['Region']
+        service_type = row['Service_Type']
+        
+        # Get optimal branches for this origin region combination
+        key = (origin_region, service_type, type_name)
+        optimal_branches = optimal_branches_dict.get(key, set())
+        
+        # Get branch columns (exclude Region, Type, Service_Type, Total)
+        branch_cols = [col for col in df_abs.columns if col not in ['Region', 'Type', 'Service_Type', 'Total']]
+        
+        for branch in branch_cols:
+            flow_value = row[branch]
+            if pd.isna(flow_value) or flow_value == 0:
+                continue
+                
+            # Determine destination region from branch code
+            dest_region = None
+            if branch and len(branch) > 0:
+                first_letter = branch[0]
+                dest_region = region_mapping.get(first_letter)
+            
+            if dest_region and dest_region in regions:
+                # Add to total receiving
+                total_receiving[dest_region] += flow_value
+                
+                # Determine if this is optimal or non-optimal based on optimal_branches
+                if branch in optimal_branches:
+                    optimal_receiving[dest_region] += flow_value
+                else:
+                    non_optimal_receiving[dest_region] += flow_value
+    
+    # Calculate percentages correctly (optimal/total * 100 for each region)
+    optimal_pct = pd.Series(0.0, index=regions)
+    non_optimal_pct = pd.Series(0.0, index=regions)
+    
+    for region in regions:
+        if total_receiving[region] > 0:
+            optimal_pct[region] = (optimal_receiving[region] / total_receiving[region] * 100).round(2)
+            non_optimal_pct[region] = (non_optimal_receiving[region] / total_receiving[region] * 100).round(2)
+    
+    return total_receiving, optimal_receiving, non_optimal_receiving, optimal_pct, non_optimal_pct
+
 # Melt wide → long
 df_abs_long = df_abs.melt(
     id_vars=["Region", "Type", "Service_Type", "Total"],
@@ -302,7 +460,6 @@ for (region, stype, type_), group in df_merge.groupby(["Region", "Service_Type",
     opt_row = df_optimal[(df_optimal["Region"] == region) & 
                         (df_optimal["Service_Type"] == stype) & 
                         (df_optimal["Type"] == type_)]
-    
     if not opt_row.empty:
         opt_num_branches = opt_row.iloc[0]["Optimal_Num_Branches"]
         opt_pct = opt_row.iloc[0]["Optimal_Cumulative_Percentage"]
@@ -460,3 +617,163 @@ else:
                             st.table(pd.DataFrame(branch_data))
                         else:
                             st.write("No optimal branches found")
+
+
+# ---------- Flow Analysis Section ----------
+st.subheader("🔄 Flow Analysis")
+
+# Calculate dynamic flow analysis based on current thresholds and optimal branches
+flow_matrix, optimal_matrix, non_optimal_matrix, optimal_pct_matrix, non_optimal_pct_matrix = calculate_dynamic_flow_analysis(df_abs, df_optimal, type_sel)
+total_receiving, optimal_receiving, non_optimal_receiving, optimal_pct, non_optimal_pct = calculate_dynamic_receiving_analysis(df_abs, df_optimal, type_sel)
+
+if region_sel == "All India":
+    # All India Flow Analysis
+    st.write("**All India Flow Summary**")
+    
+    # Calculate All India sending summary
+    all_india_sending = {
+        'Total_Units_Sent': flow_matrix.sum().sum(),
+        'Optimal_Units_Sent': optimal_matrix.sum().sum(),
+        'Non_Optimal_Units_Sent': non_optimal_matrix.sum().sum(),
+        'Optimal_Percentage_Sent': (optimal_matrix.sum().sum() / flow_matrix.sum().sum() * 100) if flow_matrix.sum().sum() > 0 else 0,
+        'Non_Optimal_Percentage_Sent': (non_optimal_matrix.sum().sum() / flow_matrix.sum().sum() * 100) if flow_matrix.sum().sum() > 0 else 0
+    }
+    
+    # Calculate All India receiving summary
+    all_india_receiving = {
+        'Total_Units_Received': total_receiving.sum(),
+        'Optimal_Units_Received': optimal_receiving.sum(),
+        'Non_Optimal_Units_Received': non_optimal_receiving.sum(),
+        'Optimal_Percentage_Received': (optimal_receiving.sum() / total_receiving.sum() * 100) if total_receiving.sum() > 0 else 0,
+        'Non_Optimal_Percentage_Received': (non_optimal_receiving.sum() / total_receiving.sum() * 100) if total_receiving.sum() > 0 else 0
+    }
+    
+    # Display sending summary
+    col1, col2 = st.columns(2)
+    with col1:
+        st.write("**📤 Sending Summary**")
+        sending_df = pd.DataFrame([
+            {"Metric": "Total Units Sent", "Value": f"{all_india_sending['Total_Units_Sent']:,.2f}"},
+            {"Metric": "Optimal Units Sent", "Value": f"{all_india_sending['Optimal_Units_Sent']:,.2f}"},
+            {"Metric": "Non-Optimal Units Sent", "Value": f"{all_india_sending['Non_Optimal_Units_Sent']:,.2f}"},
+            {"Metric": "Optimal % Sent", "Value": f"{all_india_sending['Optimal_Percentage_Sent']:.2f}%"},
+            {"Metric": "Non-Optimal % Sent", "Value": f"{all_india_sending['Non_Optimal_Percentage_Sent']:.2f}%"}
+        ])
+        st.dataframe(sending_df, use_container_width=True, hide_index=True)
+    
+    with col2:
+        st.write("**📥 Receiving Summary**")
+        receiving_df = pd.DataFrame([
+            {"Metric": "Total Units Received", "Value": f"{all_india_receiving['Total_Units_Received']:,.2f}"},
+            {"Metric": "Optimal Units Received", "Value": f"{all_india_receiving['Optimal_Units_Received']:,.2f}"},
+            {"Metric": "Non-Optimal Units Received", "Value": f"{all_india_receiving['Non_Optimal_Units_Received']:,.2f}"},
+            {"Metric": "Optimal % Received", "Value": f"{all_india_receiving['Optimal_Percentage_Received']:.2f}%"},
+            {"Metric": "Non-Optimal % Received", "Value": f"{all_india_receiving['Non_Optimal_Percentage_Received']:.2f}%"}
+        ])
+        st.dataframe(receiving_df, use_container_width=True, hide_index=True)
+    
+    # Top destinations
+    st.write("**🎯 Top Destinations (All India)**")
+    top_destinations = flow_matrix.sum().sort_values(ascending=False).reset_index()
+    top_destinations.columns = ['Destination Region', 'Total Units']
+    top_destinations['Optimal Units'] = [optimal_matrix[region].sum() for region in top_destinations['Destination Region']]
+    top_destinations['Non-Optimal Units'] = [non_optimal_matrix[region].sum() for region in top_destinations['Destination Region']]
+    top_destinations['Optimal %'] = (top_destinations['Optimal Units'] / top_destinations['Total Units'] * 100).round(2)
+    top_destinations['Non-Optimal %'] = (top_destinations['Non-Optimal Units'] / top_destinations['Total Units'] * 100).round(2)
+    st.dataframe(top_destinations, use_container_width=True)
+
+else:
+    # Specific Region Flow Analysis
+    st.write(f"**Flow Analysis for {region_sel}**")
+    
+    # Calculate sending summary for the selected region
+    sending_summary = {
+        'Total_Units_Sent': flow_matrix.loc[region_sel].sum(),
+        'Optimal_Units_Sent': optimal_matrix.loc[region_sel].sum(),
+        'Non_Optimal_Units_Sent': non_optimal_matrix.loc[region_sel].sum(),
+        'Optimal_Percentage_Sent': (optimal_matrix.loc[region_sel].sum() / flow_matrix.loc[region_sel].sum() * 100) if flow_matrix.loc[region_sel].sum() > 0 else 0,
+        'Non_Optimal_Percentage_Sent': (non_optimal_matrix.loc[region_sel].sum() / flow_matrix.loc[region_sel].sum() * 100) if flow_matrix.loc[region_sel].sum() > 0 else 0
+    }
+    
+    # Get receiving summary for the selected region
+    receiving_summary = {
+        'Total_Units_Received': total_receiving[region_sel],
+        'Optimal_Units_Received': optimal_receiving[region_sel],
+        'Non_Optimal_Units_Received': non_optimal_receiving[region_sel],
+        'Optimal_Percentage_Received': optimal_pct[region_sel],
+        'Non_Optimal_Percentage_Received': non_optimal_pct[region_sel]
+    }
+    
+    # Display sending summary
+    col1, col2 = st.columns(2)
+    with col1:
+        st.write("**📤 Sending Summary**")
+        sending_df = pd.DataFrame([
+            {"Metric": "Total Units Sent", "Value": f"{sending_summary['Total_Units_Sent']:,.2f}"},
+            {"Metric": "Optimal Units Sent", "Value": f"{sending_summary['Optimal_Units_Sent']:,.2f}"},
+            {"Metric": "Non-Optimal Units Sent", "Value": f"{sending_summary['Non_Optimal_Units_Sent']:,.2f}"},
+            {"Metric": "Optimal % Sent", "Value": f"{sending_summary['Optimal_Percentage_Sent']:.2f}%"},
+            {"Metric": "Non-Optimal % Sent", "Value": f"{sending_summary['Non_Optimal_Percentage_Sent']:.2f}%"}
+        ])
+        st.dataframe(sending_df, use_container_width=True, hide_index=True)
+    
+    with col2:
+        st.write("**📥 Receiving Summary**")
+        receiving_df = pd.DataFrame([
+            {"Metric": "Total Units Received", "Value": f"{receiving_summary['Total_Units_Received']:,.2f}"},
+            {"Metric": "Optimal Units Received", "Value": f"{receiving_summary['Optimal_Units_Received']:,.2f}"},
+            {"Metric": "Non-Optimal Units Received", "Value": f"{receiving_summary['Non_Optimal_Units_Received']:,.2f}"},
+            {"Metric": "Optimal % Received", "Value": f"{receiving_summary['Optimal_Percentage_Received']:.2f}%"},
+            {"Metric": "Non-Optimal % Received", "Value": f"{receiving_summary['Non_Optimal_Percentage_Received']:.2f}%"}
+        ])
+        st.dataframe(receiving_df, use_container_width=True, hide_index=True)
+    
+    # Detailed sending matrix (where it sends)
+    st.write("**🎯 Where It Sends (Top Destinations)**")
+    sending_data = []
+    for dest in flow_matrix.columns:
+        total_flow = flow_matrix.loc[region_sel, dest]
+        if total_flow > 0:
+            optimal_flow = optimal_matrix.loc[region_sel, dest]
+            non_optimal_flow = non_optimal_matrix.loc[region_sel, dest]
+            optimal_pct = optimal_pct_matrix.loc[region_sel, dest]
+            non_optimal_pct = non_optimal_pct_matrix.loc[region_sel, dest]
+            
+            sending_data.append({
+                'Destination': dest,
+                'Total Units': total_flow,
+                'Optimal Units': optimal_flow,
+                'Non-Optimal Units': non_optimal_flow,
+                'Optimal %': optimal_pct,
+                'Non-Optimal %': non_optimal_pct
+            })
+    
+    sending_df = pd.DataFrame(sending_data)
+    sending_df = sending_df.sort_values('Total Units', ascending=False)
+    st.dataframe(sending_df, use_container_width=True)
+    
+    # Detailed receiving matrix (from where it gets)
+    st.write("**📥 From Where It Receives**")
+    incoming_data = []
+    for origin in flow_matrix.index:
+        total_flow = flow_matrix.loc[origin, region_sel]
+        if total_flow > 0:
+            optimal_flow = optimal_matrix.loc[origin, region_sel]
+            non_optimal_flow = non_optimal_matrix.loc[origin, region_sel]
+            optimal_pct = optimal_pct_matrix.loc[origin, region_sel]
+            
+            incoming_data.append({
+                'Origin Region': origin,
+                'Total Units': total_flow,
+                'Optimal Units': optimal_flow,
+                'Non-Optimal Units': non_optimal_flow,
+                'Optimal %': optimal_pct,
+                'Non-Optimal %': non_optimal_pct_matrix.loc[origin, region_sel]
+            })
+    
+    if incoming_data:
+        incoming_df = pd.DataFrame(incoming_data)
+        incoming_df = incoming_df.sort_values('Total Units', ascending=False)
+        st.dataframe(incoming_df, use_container_width=True)
+    else:
+        st.info("No incoming flow data available for this region.")

@@ -146,3 +146,100 @@ def build_final_sorting(df_optimal):
         df_fd["Sorting_Locations_for_Optimal_Branches"] + 60 + 2 * df_fd["Self_Branches"]
     )
     return df_fd
+
+
+# =========================
+# Flow Analysis Functions
+# =========================
+def load_flow_analysis_data():
+    """Load the flow analysis CSV files"""
+    try:
+        df_flow = pd.read_csv("region_to_region_flow_analysis.csv")
+        df_receiving = pd.read_csv("region_receiving_analysis.csv")
+        return df_flow, df_receiving
+    except FileNotFoundError:
+        print("Flow analysis CSV files not found. Please run the flow analysis code blocks first.")
+        return None, None
+
+
+def get_region_flow_summary(df_flow, region, type_name):
+    """Get flow summary for a specific region and type"""
+    if df_flow is None:
+        return None, None
+    
+    # Filter data for the region and type
+    region_data = df_flow[(df_flow['Origin_Region'] == region) & (df_flow['Type'] == type_name)]
+    
+    if region_data.empty:
+        return None, None
+    
+    # Calculate sending summary
+    sending_summary = {
+        'Total_Units_Sent': region_data['Total_Flow_Units'].sum(),
+        'Optimal_Units_Sent': region_data['Optimal_Flow_Units'].sum(),
+        'Non_Optimal_Units_Sent': region_data['Non_Optimal_Flow_Units'].sum(),
+        'Optimal_Percentage_Sent': (region_data['Optimal_Flow_Units'].sum() / region_data['Total_Flow_Units'].sum() * 100) if region_data['Total_Flow_Units'].sum() > 0 else 0,
+        'Non_Optimal_Percentage_Sent': (region_data['Non_Optimal_Flow_Units'].sum() / region_data['Total_Flow_Units'].sum() * 100) if region_data['Total_Flow_Units'].sum() > 0 else 0
+    }
+    
+    # Get detailed sending matrix (where it sends)
+    sending_matrix = region_data[region_data['Total_Flow_Units'] > 0].copy()
+    sending_matrix = sending_matrix.sort_values('Total_Flow_Units', ascending=False)
+    
+    return sending_summary, sending_matrix
+
+
+def get_region_receiving_summary(df_receiving, region, type_name):
+    """Get receiving summary for a specific region and type"""
+    if df_receiving is None:
+        return None
+    
+    # Filter data for the region and type
+    region_data = df_receiving[(df_receiving['Region'] == region) & (df_receiving['Type'] == type_name)]
+    
+    if region_data.empty:
+        return None
+    
+    return region_data.iloc[0].to_dict()
+
+
+def get_all_india_flow_summary(df_flow, df_receiving, type_name):
+    """Get flow summary for All India"""
+    if df_flow is None or df_receiving is None:
+        return None, None, None
+    
+    # Filter data for the type
+    flow_data = df_flow[df_flow['Type'] == type_name]
+    receiving_data = df_receiving[df_receiving['Type'] == type_name]
+    
+    if flow_data.empty or receiving_data.empty:
+        return None, None, None
+    
+    # Calculate All India sending summary
+    all_india_sending = {
+        'Total_Units_Sent': flow_data['Total_Flow_Units'].sum(),
+        'Optimal_Units_Sent': flow_data['Optimal_Flow_Units'].sum(),
+        'Non_Optimal_Units_Sent': flow_data['Non_Optimal_Flow_Units'].sum(),
+        'Optimal_Percentage_Sent': (flow_data['Optimal_Flow_Units'].sum() / flow_data['Total_Flow_Units'].sum() * 100) if flow_data['Total_Flow_Units'].sum() > 0 else 0,
+        'Non_Optimal_Percentage_Sent': (flow_data['Non_Optimal_Flow_Units'].sum() / flow_data['Total_Flow_Units'].sum() * 100) if flow_data['Total_Flow_Units'].sum() > 0 else 0
+    }
+    
+    # Calculate All India receiving summary
+    all_india_receiving = {
+        'Total_Units_Received': receiving_data['Total_Units_Received'].sum(),
+        'Optimal_Units_Received': receiving_data['Optimal_Units_Received'].sum(),
+        'Non_Optimal_Units_Received': receiving_data['Non_Optimal_Units_Received'].sum(),
+        'Optimal_Percentage_Received': (receiving_data['Optimal_Units_Received'].sum() / receiving_data['Total_Units_Received'].sum() * 100) if receiving_data['Total_Units_Received'].sum() > 0 else 0,
+        'Non_Optimal_Percentage_Received': (receiving_data['Non_Optimal_Units_Received'].sum() / receiving_data['Total_Units_Received'].sum() * 100) if receiving_data['Total_Units_Received'].sum() > 0 else 0
+    }
+    
+    # Get top sending destinations
+    top_destinations = flow_data.groupby('Destination_Region').agg({
+        'Total_Flow_Units': 'sum',
+        'Optimal_Flow_Units': 'sum',
+        'Non_Optimal_Flow_Units': 'sum'
+    }).reset_index()
+    top_destinations['Optimal_Percentage'] = (top_destinations['Optimal_Flow_Units'] / top_destinations['Total_Flow_Units'] * 100).round(2)
+    top_destinations = top_destinations.sort_values('Total_Flow_Units', ascending=False)
+    
+    return all_india_sending, all_india_receiving, top_destinations
